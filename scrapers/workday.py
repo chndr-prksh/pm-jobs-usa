@@ -16,9 +16,10 @@ def fetch(company: dict) -> list[dict]:
 
     url = f"https://{tenant}.{server}.myworkdayjobs.com/wday/cxs/{tenant}/{site}/jobs"
 
+    location_facet = cfg.get("location_facet", "locationCountry")
     applied_facets = {}
     if location_id:
-        applied_facets["locationCountry"] = [location_id]
+        applied_facets[location_facet] = [location_id]
 
     jobs = []
     offset = 0

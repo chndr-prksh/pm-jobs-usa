@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from db import get_conn, get_active_companies, upsert_jobs, log_scrape
-from scrapers import greenhouse, ashby, workday, lever
+from scrapers import greenhouse, ashby, workday, lever, uber
+from scrapers import playwright_base
 from generate_readme import generate
 
 SCRAPERS = {
@@ -13,6 +14,7 @@ SCRAPERS = {
     "ashby": ashby.fetch,
     "workday": workday.fetch,
     "lever": lever.fetch,
+    "uber": uber.fetch,
 }
 
 def run():
@@ -41,6 +43,9 @@ def run():
         except Exception as e:
             log_scrape(conn, company["id"], started_at, status="failed", error_message=str(e))
             print(f"[{name}] FAILED — {e}")
+
+    # Clean up Playwright browser if it was used
+    playwright_base.close()
 
     conn.close()
 
