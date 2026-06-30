@@ -1,0 +1,842 @@
+company_name,industry,status
+Notion,SaaS - Productivity,done
+Slack,SaaS - Productivity,pending
+Atlassian,SaaS - Productivity,pending
+Monday.com,SaaS - Productivity,pending
+ClickUp,SaaS - Productivity,pending
+Coda,SaaS - Productivity,pending
+Dropbox,SaaS - Productivity,pending
+Box,SaaS - Productivity,pending
+Zoom,SaaS - Productivity,done
+Calendly,SaaS - Productivity,pending
+Superhuman,SaaS - Productivity,pending
+Webflow,SaaS - Productivity,pending
+Canva,SaaS - Productivity,pending
+Figma,SaaS - Productivity,done
+Airtable,SaaS - Productivity,done
+Smartsheet,SaaS - Productivity,pending
+Confluence,SaaS - Productivity,pending
+Trello,SaaS - Productivity,pending
+Asana,SaaS - Productivity,done
+Linear,SaaS - Productivity,done
+Height,SaaS - Productivity,pending
+Miro,SaaS - Productivity,done
+Loom,SaaS - Productivity,done
+Grammarly,SaaS - Productivity,pending
+Otter.ai,SaaS - Productivity,pending
+DocuSign,SaaS - Enterprise,pending
+PandaDoc,SaaS - Enterprise,pending
+Zendesk,SaaS - Enterprise,pending
+Intercom,SaaS - Enterprise,pending
+Freshworks,SaaS - Enterprise,pending
+Salesforce,SaaS - Enterprise,pending
+HubSpot,SaaS - Enterprise,pending
+ServiceNow,SaaS - Enterprise,pending
+Workday,SaaS - Enterprise,pending
+SAP,SaaS - Enterprise,pending
+Oracle,SaaS - Enterprise,pending
+Okta,SaaS - Enterprise,pending
+Ping Identity,SaaS - Enterprise,pending
+OneLogin,SaaS - Enterprise,pending
+Zscaler,SaaS - Enterprise,pending
+Palo Alto Networks,Cybersecurity,pending
+CrowdStrike,Cybersecurity,done
+SentinelOne,Cybersecurity,pending
+Cloudflare,Cybersecurity,pending
+Fortinet,Cybersecurity,pending
+Tenable,Cybersecurity,pending
+Rapid7,Cybersecurity,pending
+Wiz,Cybersecurity,pending
+Snyk,Cybersecurity,pending
+1Password,Cybersecurity,pending
+Datadog,Dev Tools / Infra,pending
+New Relic,Dev Tools / Infra,pending
+PagerDuty,Dev Tools / Infra,pending
+GitLab,Dev Tools / Infra,pending
+GitHub,Dev Tools / Infra,pending
+HashiCorp,Dev Tools / Infra,pending
+MongoDB,Dev Tools / Infra,pending
+Elastic,Dev Tools / Infra,pending
+Confluent,Dev Tools / Infra,pending
+Snowflake,Dev Tools / Infra,pending
+Databricks,Dev Tools / Infra,pending
+Twilio,Dev Tools / Infra,pending
+SendGrid,Dev Tools / Infra,pending
+Segment,Dev Tools / Infra,pending
+Vercel,Dev Tools / Infra,pending
+Netlify,Dev Tools / Infra,pending
+Postman,Dev Tools / Infra,pending
+JFrog,Dev Tools / Infra,pending
+CircleCI,Dev Tools / Infra,pending
+Render,Dev Tools / Infra,pending
+Supabase,Dev Tools / Infra,pending
+PlanetScale,Dev Tools / Infra,pending
+Retool,Dev Tools / Infra,pending
+OpenAI,AI / Dev Tools,done
+Anthropic,AI / Dev Tools,done
+Cursor,AI / Dev Tools,done
+Perplexity,AI / Dev Tools,done
+Scale AI,AI / Dev Tools,done
+Hugging Face,AI / Dev Tools,pending
+Cohere,AI / Dev Tools,pending
+Mistral AI,AI / Dev Tools,pending
+Runway,AI / Dev Tools,pending
+Stability AI,AI / Dev Tools,pending
+Character.AI,AI / Dev Tools,pending
+Inflection AI,AI / Dev Tools,pending
+Adept AI,AI / Dev Tools,pending
+Glean,AI / Dev Tools,pending
+Weights & Biases,AI / Dev Tools,pending
+Pinecone,AI / Dev Tools,pending
+LangChain,AI / Dev Tools,pending
+Replit,AI / Dev Tools,pending
+Together AI,AI / Dev Tools,pending
+Harvey AI,AI / Dev Tools,pending
+Sierra,AI / Dev Tools,pending
+Stripe,Fintech,done
+Ramp,Fintech,done
+Brex,Fintech,done
+Mercury,Fintech,done
+Robinhood,Fintech,done
+Chime,Fintech,done
+Affirm,Fintech,done
+Carta,Fintech,done
+Plaid,Fintech,pending
+Square (Block),Fintech,pending
+PayPal,Fintech,pending
+Coinbase,Fintech,pending
+Kraken,Fintech,pending
+Wise,Fintech,pending
+Wealthfront,Fintech,pending
+Betterment,Fintech,pending
+SoFi,Fintech,pending
+Klarna,Fintech,pending
+Marqeta,Fintech,pending
+Bill.com,Fintech,pending
+Avant,Fintech,pending
+Upstart,Fintech,pending
+Toast,Fintech,pending
+Gusto,Fintech,pending
+Rippling,Fintech,pending
+Deel,Fintech,pending
+Remote.com,Fintech,pending
+Navan,Fintech,pending
+Ramp Financial,Fintech,pending
+Current,Fintech,pending
+Varo Bank,Fintech,pending
+N26,Fintech,pending
+Revolut,Fintech,pending
+MoneyLion,Fintech,pending
+Airbnb,Consumer Apps,done
+Uber,Consumer Apps,pending
+Lyft,Consumer Apps,done
+DoorDash,Consumer Apps,pending
+Instacart,Consumer Apps,pending
+Spotify,Consumer Apps,done
+Pinterest,Consumer Apps,pending
+Reddit,Consumer Apps,done
+Snap,Consumer Apps,pending
+Bumble,Consumer Apps,pending
+Match Group,Consumer Apps,pending
+Hinge,Consumer Apps,pending
+Duolingo,Consumer Apps,done
+Calm,Consumer Apps,done
+Headspace,Consumer Apps,pending
+Strava,Consumer Apps,pending
+Peloton,Consumer Apps,pending
+Nextdoor,Consumer Apps,pending
+Yelp,Consumer Apps,pending
+TripAdvisor,Consumer Apps,pending
+Expedia,Consumer Apps,pending
+Booking.com,Consumer Apps,pending
+Etsy,Consumer Apps,pending
+Wayfair,Consumer Apps,pending
+Chewy,Consumer Apps,pending
+Thumbtack,Consumer Apps,pending
+Angi,Consumer Apps,pending
+Houzz,Consumer Apps,pending
+Faire,Consumer Apps,pending
+Whatnot,Consumer Apps,pending
+StockX,Consumer Apps,pending
+GOAT,Consumer Apps,pending
+Poshmark,Consumer Apps,pending
+ThredUp,Consumer Apps,pending
+Hims & Hers,Healthcare,done
+Oscar Health,Healthcare,pending
+Ro,Healthcare,pending
+Carbon Health,Healthcare,pending
+Cerebral,Healthcare,pending
+Talkspace,Healthcare,pending
+BetterHelp,Healthcare,pending
+GoodRx,Healthcare,pending
+Devoted Health,Healthcare,pending
+Included Health,Healthcare,pending
+Maven Clinic,Healthcare,pending
+Tia,Healthcare,pending
+Forward,Healthcare,pending
+One Medical,Healthcare,pending
+Cityblock Health,Healthcare,pending
+Clover Health,Healthcare,pending
+Bright Health,Healthcare,pending
+Coursera,Edtech,pending
+Udemy,Edtech,pending
+Khan Academy,Edtech,pending
+MasterClass,Edtech,pending
+Outschool,Edtech,pending
+Chegg,Edtech,pending
+2U,Edtech,pending
+Guild Education,Edtech,pending
+Degreed,Edtech,pending
+Codecademy,Edtech,pending
+Skillsoft,Edtech,pending
+LeetCode,Edtech,pending
+Quizlet,Edtech,pending
+Shopify,E-commerce,pending
+BigCommerce,E-commerce,pending
+Squarespace,E-commerce,pending
+Wix,E-commerce,pending
+Klaviyo,E-commerce,pending
+Recharge,E-commerce,pending
+ShipBob,E-commerce,pending
+Flexport,E-commerce,pending
+Bolt,E-commerce,pending
+Afterpay,E-commerce,pending
+Rakuten,E-commerce,pending
+Mercado Libre,E-commerce,pending
+Indeed,Marketplaces,pending
+LinkedIn,Marketplaces,pending
+ZipRecruiter,Marketplaces,pending
+Glassdoor,Marketplaces,pending
+Upwork,Marketplaces,pending
+Fiverr,Marketplaces,pending
+TaskRabbit,Marketplaces,pending
+Rover,Marketplaces,pending
+Care.com,Marketplaces,pending
+Turo,Marketplaces,pending
+Getaround,Marketplaces,pending
+VRBO,Marketplaces,pending
+OpenTable,Marketplaces,pending
+Resy,Marketplaces,pending
+Grubhub,Marketplaces,pending
+Postmates,Marketplaces,pending
+Gopuff,Marketplaces,pending
+Affinity,Marketplaces,pending
+Compass,Real Estate,pending
+Zillow,Real Estate,pending
+Redfin,Real Estate,pending
+Opendoor,Real Estate,pending
+Offerpad,Real Estate,pending
+HomeLight,Real Estate,pending
+Better.com,Real Estate,pending
+Procore,Construction Tech,pending
+Samsara,IoT / Logistics,pending
+Motive,IoT / Logistics,pending
+Convoy,Logistics,pending
+project44,Logistics,pending
+FourKites,Logistics,pending
+ClickHouse,Dev Tools / Infra,pending
+Temporal,Dev Tools / Infra,pending
+Vanta,SaaS - Enterprise,pending
+Drata,SaaS - Enterprise,pending
+Secureframe,SaaS - Enterprise,pending
+Lattice,SaaS - HR Tech,pending
+Culture Amp,SaaS - HR Tech,pending
+BambooHR,SaaS - HR Tech,pending
+Greenhouse,SaaS - HR Tech,pending
+Lever,SaaS - HR Tech,pending
+Workato,SaaS - Enterprise,pending
+Zapier,SaaS - Enterprise,pending
+Make (Integromat),SaaS - Enterprise,pending
+Airbyte,Dev Tools / Infra,pending
+Fivetran,Dev Tools / Infra,pending
+dbt Labs,Dev Tools / Infra,pending
+Sigma Computing,Data / Analytics,pending
+Mode Analytics,Data / Analytics,pending
+Looker,Data / Analytics,pending
+Tableau,Data / Analytics,pending
+Amplitude,Data / Analytics,pending
+Mixpanel,Data / Analytics,pending
+Heap,Data / Analytics,pending
+Pendo,Data / Analytics,pending
+FullStory,Data / Analytics,pending
+LaunchDarkly,Dev Tools / Infra,pending
+Split,Dev Tools / Infra,pending
+Statsig,Dev Tools / Infra,pending
+Optimizely,Data / Analytics,pending
+Braze,Marketing Tech,pending
+Iterable,Marketing Tech,pending
+Customer.io,Marketing Tech,pending
+Mailchimp,Marketing Tech,pending
+Constant Contact,Marketing Tech,pending
+ActiveCampaign,Marketing Tech,pending
+Attentive,Marketing Tech,pending
+Postscript,Marketing Tech,pending
+Drift,Marketing Tech,pending
+Outreach,Sales Tech,pending
+Gong,Sales Tech,pending
+Chorus.ai,Sales Tech,pending
+Clari,Sales Tech,pending
+ZoomInfo,Sales Tech,pending
+Apollo.io,Sales Tech,pending
+Clay,Sales Tech,pending
+Highspot,Sales Tech,pending
+Seismic,Sales Tech,pending
+DocSend,Sales Tech,pending
+Chili Piper,Sales Tech,pending
+Front,Customer Support,pending
+Help Scout,Customer Support,pending
+Kustomer,Customer Support,pending
+Gladly,Customer Support,pending
+Aircall,Customer Support,pending
+Dialpad,Communications,pending
+RingCentral,Communications,pending
+Vonage,Communications,pending
+8x8,Communications,pending
+Discord,Consumer Apps,pending
+Roblox,Gaming,pending
+Unity,Gaming,pending
+Epic Games,Gaming,pending
+Riot Games,Gaming,pending
+Niantic,Gaming,pending
+Zynga,Gaming,pending
+King (Activision),Gaming,pending
+Scopely,Gaming,pending
+AppLovin,AdTech / Gaming,pending
+Twitch,Gaming / Streaming,pending
+ironSource,AdTech,pending
+The Trade Desk,AdTech,pending
+Criteo,AdTech,pending
+AppNexus,AdTech,pending
+DoubleVerify,AdTech,pending
+Integral Ad Science,AdTech,pending
+Tubi,Streaming,pending
+Roku,Streaming,pending
+Disney Streaming,Streaming,pending
+Peacock,Streaming,pending
+Paramount+,Streaming,pending
+HBO Max,Streaming,pending
+SoundCloud,Streaming,pending
+Tidal,Streaming,pending
+Patreon,Creator Economy,pending
+Substack,Creator Economy,pending
+OnlyFans,Creator Economy,pending
+Linktree,Creator Economy,pending
+Kajabi,Creator Economy,pending
+Teachable,Creator Economy,pending
+Podium,SMB SaaS,pending
+Square,SMB SaaS,pending
+Mindbody,SMB SaaS,pending
+ClassPass,SMB SaaS,pending
+Vagaro,SMB SaaS,pending
+Fresha,SMB SaaS,pending
+Clio,Legal Tech,pending
+Ironclad,Legal Tech,pending
+DoNotPay,Legal Tech,pending
+LegalZoom,Legal Tech,pending
+Rocket Lawyer,Legal Tech,pending
+Onfido,Identity / Compliance,pending
+Persona,Identity / Compliance,pending
+Alloy,Identity / Compliance,pending
+Socure,Identity / Compliance,pending
+Sift,Fraud / Risk,pending
+Forter,Fraud / Risk,pending
+Riskified,Fraud / Risk,pending
+Sardine,Fraud / Risk,pending
+Unit21,Fraud / Risk,pending
+Chainalysis,Crypto,pending
+Circle,Crypto,pending
+Anchorage Digital,Crypto,pending
+Fireblocks,Crypto,pending
+OpenSea,Crypto,pending
+Magic Eden,Crypto,pending
+Uniswap Labs,Crypto,pending
+Consensys,Crypto,pending
+Gemini,Crypto,pending
+Tesla,Automotive / Energy,pending
+Rivian,Automotive / Energy,pending
+Lucid Motors,Automotive / Energy,pending
+Waymo,Automotive / AI,pending
+Cruise,Automotive / AI,pending
+Aurora Innovation,Automotive / AI,pending
+Zoox,Automotive / AI,pending
+ChargePoint,Energy,pending
+Sunrun,Energy,pending
+Tesla Energy,Energy,pending
+Arcadia,Energy,pending
+Span,Energy,pending
+SpaceX,Aerospace,pending
+Relativity Space,Aerospace,pending
+Anduril,Defense Tech,pending
+Palantir,Data / Defense,pending
+Shield AI,Defense Tech,pending
+Boom Supersonic,Aerospace,pending
+Joby Aviation,Aerospace,pending
+Archer Aviation,Aerospace,pending
+23andMe,Healthtech,pending
+Color Health,Healthtech,pending
+Tempus,Healthtech,pending
+Komodo Health,Healthtech,pending
+Flatiron Health,Healthtech,pending
+Datavant,Healthtech,pending
+Notable Health,Healthtech,pending
+Abridge,Healthtech,pending
+Nuance,Healthtech,pending
+Welltok,Healthtech,pending
+Whoop,Wearables,pending
+Oura,Wearables,pending
+Garmin,Wearables,pending
+Fitbit,Wearables,pending
+Levels,Health,pending
+Noom,Health,pending
+WeightWatchers,Health,pending
+ClassDojo,Edtech,pending
+Newsela,Edtech,pending
+IXL Learning,Edtech,pending
+Photomath,Edtech,pending
+Brainly,Edtech,pending
+Articulate,Edtech,pending
+Handshake,Edtech / Recruiting,pending
+Wonderschool,Edtech,pending
+Age of Learning,Edtech,pending
+Course Hero,Edtech,pending
+Numerade,Edtech,pending
+Synthesis,Edtech,pending
+Lambda School (BloomTech),Edtech,pending
+Springboard,Edtech,pending
+General Assembly,Edtech,pending
+Pluralsight,Edtech,pending
+A Cloud Guru,Edtech,pending
+DataCamp,Edtech,pending
+Notion Press,Edtech,pending
+Rho,Fintech,pending
+Increase,Fintech,pending
+Modern Treasury,Fintech,pending
+Column,Fintech,pending
+Synctera,Fintech,pending
+Highnote,Fintech,pending
+Unit,Fintech,pending
+Lithic,Fintech,pending
+Stytch,Dev Tools / Infra,pending
+WorkOS,Dev Tools / Infra,pending
+Clerk,Dev Tools / Infra,pending
+Resend,Dev Tools / Infra,pending
+Knock,Dev Tools / Infra,pending
+Trigger.dev,Dev Tools / Infra,pending
+Inngest,Dev Tools / Infra,pending
+Modal,Dev Tools / Infra,pending
+Baseten,AI / Dev Tools,pending
+Fireworks AI,AI / Dev Tools,pending
+Groq,AI / Dev Tools,pending
+Cerebras,AI / Dev Tools,pending
+Lambda Labs,AI / Dev Tools,pending
+CoreWeave,AI / Dev Tools,pending
+Anyscale,AI / Dev Tools,pending
+Voltage Park,AI / Dev Tools,pending
+Railway,Dev Tools / Infra,pending
+Fly.io,Dev Tools / Infra,pending
+Northflank,Dev Tools / Infra,pending
+Neon,Dev Tools / Infra,pending
+Turso,Dev Tools / Infra,pending
+Convex,Dev Tools / Infra,pending
+Xata,Dev Tools / Infra,pending
+EdgeDB,Dev Tools / Infra,pending
+Warp,Dev Tools / Infra,pending
+Raycast,SaaS - Productivity,pending
+Arc (Browser Company),Consumer Apps,pending
+Cron,SaaS - Productivity,pending
+Motion,SaaS - Productivity,pending
+Reclaim.ai,SaaS - Productivity,pending
+Akiflow,SaaS - Productivity,pending
+Fellow.app,SaaS - Productivity,pending
+Range,SaaS - Productivity,pending
+Tability,SaaS - Productivity,pending
+Productboard,SaaS - Productivity,pending
+Aha!,SaaS - Productivity,pending
+Roadmunk,SaaS - Productivity,pending
+Craft.io,SaaS - Productivity,pending
+ProdPad,SaaS - Productivity,pending
+Airfocus,SaaS - Productivity,pending
+Frame.io,Creator Tools,pending
+Descript,Creator Tools,pending
+Kapwing,Creator Tools,pending
+Riverside.fm,Creator Tools,pending
+Synthesia,AI / Creator Tools,pending
+ElevenLabs,AI / Creator Tools,pending
+Tavus,AI / Creator Tools,pending
+HeyGen,AI / Creator Tools,pending
+Pika Labs,AI / Creator Tools,pending
+Luma AI,AI / Creator Tools,pending
+Suno,AI / Creator Tools,pending
+Udio,AI / Creator Tools,pending
+Midjourney,AI / Creator Tools,pending
+Ideogram,AI / Creator Tools,pending
+Lex,AI / Creator Tools,pending
+Jasper,AI / Marketing,pending
+Copy.ai,AI / Marketing,pending
+Writer,AI / Marketing,pending
+Typeface,AI / Marketing,pending
+Persado,AI / Marketing,pending
+Mutiny,Marketing Tech,pending
+Clearbit,Marketing Tech,pending
+6sense,Marketing Tech,pending
+Demandbase,Marketing Tech,pending
+Madkudu,Marketing Tech,pending
+Endgame,Marketing Tech,pending
+Common Room,Marketing Tech,pending
+Warmly,Marketing Tech,pending
+Smartlead,Marketing Tech,pending
+Instantly,Marketing Tech,pending
+Vendr,SaaS - Procurement,pending
+Tropic,SaaS - Procurement,pending
+Zip,SaaS - Procurement,pending
+Levelpath,SaaS - Procurement,pending
+Sastrify,SaaS - Procurement,pending
+Spendesk,Fintech,pending
+Pleo,Fintech,pending
+Payhawk,Fintech,pending
+Soldo,Fintech,pending
+Yokoy,Fintech,pending
+Ramp Business,Fintech,pending
+Capchase,Fintech,pending
+Pipe,Fintech,pending
+Settle,Fintech,pending
+Parafin,Fintech,pending
+Mercoa,Fintech,pending
+Method Financial,Fintech,pending
+Array,Fintech,pending
+Belvo,Fintech,pending
+Synapse,Fintech,pending
+Middesk,Identity / Compliance,pending
+Footprint,Identity / Compliance,pending
+Truework,Identity / Compliance,pending
+Argyle,Identity / Compliance,pending
+Pinwheel,Fintech,pending
+Atomic,Fintech,pending
+MX,Fintech,pending
+Finicity,Fintech,pending
+Yodlee,Fintech,pending
+Codat,Fintech,pending
+Vopay,Fintech,pending
+Trupay,Fintech,pending
+Brigit,Fintech,pending
+Dave,Fintech,pending
+Earnin,Fintech,pending
+Possible Finance,Fintech,pending
+Albert,Fintech,pending
+Cleo,Fintech,pending
+Copilot Money,Fintech,pending
+Monarch Money,Fintech,pending
+YNAB,Fintech,pending
+Origin,Fintech,pending
+Domain Money,Fintech,pending
+Facet,Fintech,pending
+Range (Wealth),Fintech,pending
+Empower,Fintech,pending
+Public.com,Fintech,pending
+M1 Finance,Fintech,pending
+Webull,Fintech,pending
+Titan,Fintech,pending
+Composer,Fintech,pending
+Alpaca,Fintech,pending
+Tastytrade,Fintech,pending
+Tradier,Fintech,pending
+Moomoo,Fintech,pending
+Side,Real Estate,pending
+Pacaso,Real Estate,pending
+Doma,Real Estate,pending
+Orchard,Real Estate,pending
+Flyhomes,Real Estate,pending
+Homeward,Real Estate,pending
+Ribbon,Real Estate,pending
+Divvy Homes,Real Estate,pending
+Roofstock,Real Estate,pending
+Mynd,Real Estate,pending
+Steadily,Real Estate,pending
+Hippo,Insurtech,pending
+Lemonade,Insurtech,pending
+Root Insurance,Insurtech,pending
+Metromile,Insurtech,pending
+Next Insurance,Insurtech,pending
+Branch Insurance,Insurtech,pending
+Kin Insurance,Insurtech,pending
+Bestow,Insurtech,pending
+Ethos Life,Insurtech,pending
+Ladder,Insurtech,pending
+Policygenius,Insurtech,pending
+CoverWallet,Insurtech,pending
+Pie Insurance,Insurtech,pending
+Coalition,Insurtech,pending
+At-Bay,Insurtech,pending
+Vouch Insurance,Insurtech,pending
+Newfront,Insurtech,pending
+Layr,Insurtech,pending
+Embroker,Insurtech,pending
+Clearcover,Insurtech,pending
+Tempo (Fitness),Consumer Apps,pending
+Tonal,Consumer Apps,pending
+Mirror,Consumer Apps,pending
+Future Fit,Consumer Apps,pending
+Caliber,Consumer Apps,pending
+Gympass,Consumer Apps,pending
+Wellhub,Consumer Apps,pending
+Aaptiv,Consumer Apps,pending
+AllTrails,Consumer Apps,pending
+Komoot,Consumer Apps,pending
+Citymapper,Consumer Apps,pending
+Transit App,Consumer Apps,pending
+Bird,Mobility,pending
+Lime,Mobility,pending
+Spin,Mobility,pending
+Veo,Mobility,pending
+Zipcar,Mobility,pending
+Cargurus,Marketplaces,pending
+Carvana,Marketplaces,pending
+Vroom,Marketplaces,pending
+Shift Technologies,Marketplaces,pending
+CarMax,Marketplaces,pending
+Tred,Marketplaces,pending
+EasyPost,Logistics,pending
+Shippo,Logistics,pending
+ShipHero,Logistics,pending
+Loop Returns,Logistics,pending
+Narvar,Logistics,pending
+AfterShip,Logistics,pending
+Stord,Logistics,pending
+Flexe,Logistics,pending
+Deliverr,Logistics,pending
+Veho,Logistics,pending
+Bringg,Logistics,pending
+Onfleet,Logistics,pending
+Routific,Logistics,pending
+Curri,Logistics,pending
+Nuvocargo,Logistics,pending
+Forto,Logistics,pending
+Zencargo,Logistics,pending
+Flock Freight,Logistics,pending
+Loadsmart,Logistics,pending
+Uber Freight,Logistics,pending
+KeepTruckin (Motive),Logistics,pending
+Verkada,IoT / Security,pending
+Arlo,IoT / Security,pending
+Ring,IoT / Security,pending
+SimpliSafe,IoT / Security,pending
+Wyze,IoT / Security,pending
+Eufy,IoT / Security,pending
+Nest,IoT / Smart Home,pending
+Ecobee,IoT / Smart Home,pending
+August Home,IoT / Smart Home,pending
+Latch,IoT / Smart Home,pending
+Brivo,IoT / Security,pending
+Density,IoT / Real Estate,pending
+VTS,Real Estate Tech,pending
+Hightower,Real Estate Tech,pending
+Measurabl,Real Estate Tech,pending
+Building Engines,Real Estate Tech,pending
+PlanGrid,Construction Tech,pending
+Fieldwire,Construction Tech,pending
+Buildertrend,Construction Tech,pending
+CompanyCam,Construction Tech,pending
+Hover,Construction Tech,pending
+HoneyBook,SMB SaaS,pending
+Dubsado,SMB SaaS,pending
+Bonsai,SMB SaaS,pending
+Found,SMB SaaS,pending
+Lili,SMB SaaS,pending
+Found Banking,SMB SaaS,pending
+Novo,SMB SaaS,pending
+Relay Financial,SMB SaaS,pending
+Mercury Banking,SMB SaaS,pending
+Brex Empower,SMB SaaS,pending
+Ramp Procurement,SMB SaaS,pending
+Pilot.com,SMB SaaS,pending
+Bench Accounting,SMB SaaS,pending
+Puzzle,SMB SaaS,pending
+Truebill (Rocket Money),Consumer Fintech,pending
+Rocket Money,Consumer Fintech,pending
+Trim,Consumer Fintech,pending
+Tally,Consumer Fintech,pending
+Credit Karma,Consumer Fintech,pending
+Experian Boost,Consumer Fintech,pending
+Self Financial,Consumer Fintech,pending
+Chime Financial,Consumer Fintech,pending
+Step,Consumer Fintech,pending
+Greenlight,Consumer Fintech,pending
+GoHenry,Consumer Fintech,pending
+Current Banking,Consumer Fintech,pending
+Acorns,Consumer Fintech,pending
+Stash,Consumer Fintech,pending
+Qapital,Consumer Fintech,pending
+Digit,Consumer Fintech,pending
+Simple,Consumer Fintech,pending
+Aspiration,Consumer Fintech,pending
+Daylight,Consumer Fintech,pending
+Greenwood,Consumer Fintech,pending
+Cheese,Consumer Fintech,pending
+First Boulevard,Consumer Fintech,pending
+Majority,Consumer Fintech,pending
+Remitly,Consumer Fintech,pending
+WorldRemit,Consumer Fintech,pending
+Wise Transfer,Consumer Fintech,pending
+Xoom,Consumer Fintech,pending
+Sendwave,Consumer Fintech,pending
+Felix Pago,Consumer Fintech,pending
+DolarApp,Consumer Fintech,pending
+Notco,Foodtech,pending
+Impossible Foods,Foodtech,pending
+Beyond Meat,Foodtech,pending
+Perfect Day,Foodtech,pending
+Eat Just,Foodtech,pending
+Aleph Farms,Foodtech,pending
+ImpactVision,Foodtech,pending
+Misfits Market,Foodtech,pending
+Imperfect Foods,Foodtech,pending
+Thrive Market,Foodtech,pending
+Brandless,Foodtech,pending
+Daily Harvest,Foodtech,pending
+Sakara Life,Foodtech,pending
+HelloFresh,Foodtech,pending
+Blue Apron,Foodtech,pending
+Home Chef,Foodtech,pending
+Gobble,Foodtech,pending
+EveryPlate,Foodtech,pending
+Sunbasket,Foodtech,pending
+Splendid Spoon,Foodtech,pending
+ezCater,Foodtech,pending
+Wonder,Foodtech,pending
+Sweetgreen,Foodtech,pending
+CAVA,Foodtech,pending
+Clutch Kitchen,Foodtech,pending
+Kitchen United,Foodtech,pending
+Reef Technology,Foodtech,pending
+DoorDash Storefront,Foodtech,pending
+ChowNow,Foodtech,pending
+Slice,Foodtech,pending
+Owner.com,Foodtech,pending
+BentoBox,Foodtech,pending
+Toast POS,Foodtech,pending
+SpotOn,Foodtech,pending
+TouchBistro,Foodtech,pending
+Lightspeed,Foodtech,pending
+Square POS,Foodtech,pending
+Clover,Foodtech,pending
+Block (Square),Fintech,pending
+Affirm Inc,Fintech,pending
+Sezzle,Fintech,pending
+Zip Co,Fintech,pending
+Splitit,Fintech,pending
+Scalapay,Fintech,pending
+Tabby,Fintech,pending
+Tamara,Fintech,pending
+Postpay,Fintech,pending
+Spotii,Fintech,pending
+Snap Finance,Fintech,pending
+Katapult,Fintech,pending
+Bread Financial,Fintech,pending
+Synchrony,Fintech,pending
+Marcus by Goldman Sachs,Fintech,pending
+Greenlight Financial,Fintech,pending
+EarnUp,Fintech,pending
+Tally Technologies,Fintech,pending
+Even Financial,Fintech,pending
+Even (Earnin),Fintech,pending
+Payactiv,Fintech,pending
+DailyPay,Fintech,pending
+Branch (Earned Wage),Fintech,pending
+Clair,Fintech,pending
+Wagestream,Fintech,pending
+ZayZoon,Fintech,pending
+Instant Financial,Fintech,pending
+FlexWage,Fintech,pending
+Gusto Wallet,SaaS - HR Tech,pending
+Justworks,SaaS - HR Tech,pending
+TriNet,SaaS - HR Tech,pending
+Sequoia Consulting,SaaS - HR Tech,pending
+Rippling HR,SaaS - HR Tech,pending
+Deel HR,SaaS - HR Tech,pending
+Remote OAB,SaaS - HR Tech,pending
+Oyster HR,SaaS - HR Tech,pending
+Papaya Global,SaaS - HR Tech,pending
+Velocity Global,SaaS - HR Tech,pending
+Multiplier,SaaS - HR Tech,pending
+Globalization Partners,SaaS - HR Tech,pending
+Personio,SaaS - HR Tech,pending
+Factorial,SaaS - HR Tech,pending
+HiBob,SaaS - HR Tech,pending
+Namely,SaaS - HR Tech,pending
+Zenefits,SaaS - HR Tech,pending
+Paycor,SaaS - HR Tech,pending
+Paylocity,SaaS - HR Tech,pending
+ADP,SaaS - HR Tech,pending
+Insperity,SaaS - HR Tech,pending
+15Five,SaaS - HR Tech,pending
+Lattice HR,SaaS - HR Tech,pending
+Leapsome,SaaS - HR Tech,pending
+Culture Amp HR,SaaS - HR Tech,pending
+Reflektive,SaaS - HR Tech,pending
+Betterworks,SaaS - HR Tech,pending
+Bonusly,SaaS - HR Tech,pending
+Motivosity,SaaS - HR Tech,pending
+Nectar,SaaS - HR Tech,pending
+Achievers,SaaS - HR Tech,pending
+WorkTango,SaaS - HR Tech,pending
+Greenhouse Software,SaaS - HR Tech,pending
+Lever TA,SaaS - HR Tech,pending
+SmartRecruiters,SaaS - HR Tech,pending
+iCIMS,SaaS - HR Tech,pending
+Workable,SaaS - HR Tech,pending
+JazzHR,SaaS - HR Tech,pending
+Breezy HR,SaaS - HR Tech,pending
+Ashby (ATS),SaaS - HR Tech,pending
+Gem,SaaS - HR Tech,pending
+Beamery,SaaS - HR Tech,pending
+Eightfold AI,SaaS - HR Tech,pending
+HireVue,SaaS - HR Tech,pending
+Pymetrics,SaaS - HR Tech,pending
+Checkr,SaaS - HR Tech,pending
+Sterling,SaaS - HR Tech,pending
+GoodHire,SaaS - HR Tech,pending
+Certn,SaaS - HR Tech,pending
+Fama,SaaS - HR Tech,pending
+Wonderlic,SaaS - HR Tech,pending
+Codility,SaaS - HR Tech,pending
+HackerRank,SaaS - HR Tech,pending
+Karat,SaaS - HR Tech,pending
+CodeSignal,SaaS - HR Tech,pending
+Triplebyte,SaaS - HR Tech,pending
+Otta,SaaS - HR Tech,pending
+Wellfound,SaaS - HR Tech,pending
+Built In,SaaS - HR Tech,pending
+Levels.fyi,SaaS - HR Tech,pending
+Blind,SaaS - HR Tech,pending
+Fishbowl,SaaS - HR Tech,pending
+Teamblind,SaaS - HR Tech,pending
+Honeypot,SaaS - HR Tech,pending
+Hired,SaaS - HR Tech,pending
+Vettery,SaaS - HR Tech,pending
+Toptal,Marketplaces,pending
+Catalant,Marketplaces,pending
+Andela,Marketplaces,pending
+Turing,Marketplaces,pending
+Lemon.io,Marketplaces,pending
+Gun.io,Marketplaces,pending
+X-Team,Marketplaces,pending
+Crossover,Marketplaces,pending
+We Work Remotely,Marketplaces,pending
+Remote OK,Marketplaces,pending
+AngelList,Marketplaces,pending
+Carta Talent,Marketplaces,pending
+Pulley,Fintech,pending
+Vested,Fintech,pending
+Captable.io,Fintech,pending
+Cake Equity,Fintech,pending
+Ledgy,Fintech,pending
+Cap Table,Fintech,pending
+EquityZen,Fintech,pending
+Forge Global,Fintech,pending
+Nasdaq Private Market,Fintech,pending
+Republic,Fintech,pending
+StartEngine,Fintech,pending
+SeedInvest,Fintech,pending
+Wefunder,Fintech,pending
+AngelList Venture,Fintech,pending
+Carta Venture,Fintech,pending
