@@ -42,7 +42,7 @@ def fetch(company: dict) -> list[dict]:
         for job in postings:
             external_path = job.get("externalPath", "")
             job_id = job.get("bulletFields", [""])[0]
-            apply_url = f"https://{tenant}.{server}.myworkdayjobs.com{external_path}"
+            apply_url = f"https://{tenant}.{server}.myworkdayjobs.com/{site}{external_path}"
             jobs.append({
                 "external_job_id": job_id or external_path,
                 "job_title": job["title"],
