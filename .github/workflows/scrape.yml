@@ -1,0 +1,37 @@
+name: Scrape PM Jobs
+
+on:
+  schedule:
+    - cron: "0 6 * * *"  # runs daily at 6AM UTC
+  workflow_dispatch:       # allows manual trigger from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GH_PAT }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run scraper
+        env:
+          SUPABASE_DB_URL: ${{ secrets.SUPABASE_DB_URL }}
+        run: python main.py
+
+      - name: Commit README and CSV
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md jobs.csv
+          git diff --staged --quiet || git commit -m "jobs: refresh $(date +%Y-%m-%d)"
+          git push
