@@ -1,4 +1,7 @@
 import requests
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from utils import is_us_location
 
 BASE_URL = "https://api.ashbyhq.com/posting-api/job-board/{slug}"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
@@ -12,6 +15,8 @@ def fetch(company: dict) -> list[dict]:
     jobs = []
     for job in data.get("jobs", []):
         if not job.get("isListed", True):
+            continue
+        if not is_us_location(job.get("location")):
             continue
         jobs.append({
             "external_job_id": job["id"],

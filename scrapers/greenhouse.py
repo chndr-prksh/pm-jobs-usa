@@ -1,4 +1,7 @@
 import requests
+import sys, os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from utils import is_us_location
 
 BASE_URL = "https://boards-api.greenhouse.io/v1/boards/{slug}/jobs?content=true"
 HEADERS = {"User-Agent": "Mozilla/5.0"}
@@ -11,6 +14,9 @@ def fetch(company: dict) -> list[dict]:
 
     jobs = []
     for job in data.get("jobs", []):
+        location = job.get("location", {}).get("name")
+        if not is_us_location(location):
+            continue
         jobs.append({
             "external_job_id": str(job["id"]),
             "job_title": job["title"],
