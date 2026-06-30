@@ -1,98 +1,98 @@
 company_name,industry,status
 Notion,SaaS - Productivity,done
-Slack,SaaS - Productivity,pending
-Atlassian,SaaS - Productivity,pending
-Monday.com,SaaS - Productivity,pending
-ClickUp,SaaS - Productivity,pending
-Coda,SaaS - Productivity,pending
-Dropbox,SaaS - Productivity,pending
-Box,SaaS - Productivity,pending
+Slack,SaaS - Productivity,custom_ats
+Atlassian,SaaS - Productivity,custom_ats
+Monday.com,SaaS - Productivity,custom_ats
+ClickUp,SaaS - Productivity,done
+Coda,SaaS - Productivity,custom_ats
+Dropbox,SaaS - Productivity,done
+Box,SaaS - Productivity,custom_ats
 Zoom,SaaS - Productivity,done
-Calendly,SaaS - Productivity,pending
-Superhuman,SaaS - Productivity,pending
-Webflow,SaaS - Productivity,pending
-Canva,SaaS - Productivity,pending
+Calendly,SaaS - Productivity,done
+Superhuman,SaaS - Productivity,done
+Webflow,SaaS - Productivity,done
+Canva,SaaS - Productivity,custom_ats
 Figma,SaaS - Productivity,done
 Airtable,SaaS - Productivity,done
-Smartsheet,SaaS - Productivity,pending
-Confluence,SaaS - Productivity,pending
-Trello,SaaS - Productivity,pending
+Smartsheet,SaaS - Productivity,done
+Confluence,SaaS - Productivity,custom_ats
+Trello,SaaS - Productivity,custom_ats
 Asana,SaaS - Productivity,done
 Linear,SaaS - Productivity,done
-Height,SaaS - Productivity,pending
+Height,SaaS - Productivity,custom_ats
 Miro,SaaS - Productivity,done
 Loom,SaaS - Productivity,done
-Grammarly,SaaS - Productivity,pending
-Otter.ai,SaaS - Productivity,pending
-DocuSign,SaaS - Enterprise,pending
-PandaDoc,SaaS - Enterprise,pending
-Zendesk,SaaS - Enterprise,pending
-Intercom,SaaS - Enterprise,pending
-Freshworks,SaaS - Enterprise,pending
-Salesforce,SaaS - Enterprise,pending
-HubSpot,SaaS - Enterprise,pending
-ServiceNow,SaaS - Enterprise,pending
-Workday,SaaS - Enterprise,pending
-SAP,SaaS - Enterprise,pending
-Oracle,SaaS - Enterprise,pending
-Okta,SaaS - Enterprise,pending
-Ping Identity,SaaS - Enterprise,pending
-OneLogin,SaaS - Enterprise,pending
-Zscaler,SaaS - Enterprise,pending
-Palo Alto Networks,Cybersecurity,pending
+Grammarly,SaaS - Productivity,custom_ats
+Otter.ai,SaaS - Productivity,done
+DocuSign,SaaS - Enterprise,custom_ats
+PandaDoc,SaaS - Enterprise,done
+Zendesk,SaaS - Enterprise,done
+Intercom,SaaS - Enterprise,done
+Freshworks,SaaS - Enterprise,custom_ats
+Salesforce,SaaS - Enterprise,custom_ats
+HubSpot,SaaS - Enterprise,done
+ServiceNow,SaaS - Enterprise,custom_ats
+Workday,SaaS - Enterprise,done
+SAP,SaaS - Enterprise,custom_ats
+Oracle,SaaS - Enterprise,custom_ats
+Okta,SaaS - Enterprise,done
+Ping Identity,SaaS - Enterprise,done
+OneLogin,SaaS - Enterprise,custom_ats
+Zscaler,SaaS - Enterprise,done
+Palo Alto Networks,Cybersecurity,custom_ats
 CrowdStrike,Cybersecurity,done
-SentinelOne,Cybersecurity,pending
-Cloudflare,Cybersecurity,pending
-Fortinet,Cybersecurity,pending
-Tenable,Cybersecurity,pending
-Rapid7,Cybersecurity,pending
-Wiz,Cybersecurity,pending
-Snyk,Cybersecurity,pending
-1Password,Cybersecurity,pending
-Datadog,Dev Tools / Infra,pending
-New Relic,Dev Tools / Infra,pending
-PagerDuty,Dev Tools / Infra,pending
-GitLab,Dev Tools / Infra,pending
-GitHub,Dev Tools / Infra,pending
-HashiCorp,Dev Tools / Infra,pending
-MongoDB,Dev Tools / Infra,pending
-Elastic,Dev Tools / Infra,pending
-Confluent,Dev Tools / Infra,pending
-Snowflake,Dev Tools / Infra,pending
-Databricks,Dev Tools / Infra,pending
-Twilio,Dev Tools / Infra,pending
-SendGrid,Dev Tools / Infra,pending
-Segment,Dev Tools / Infra,pending
-Vercel,Dev Tools / Infra,pending
-Netlify,Dev Tools / Infra,pending
-Postman,Dev Tools / Infra,pending
-JFrog,Dev Tools / Infra,pending
-CircleCI,Dev Tools / Infra,pending
-Render,Dev Tools / Infra,pending
-Supabase,Dev Tools / Infra,pending
-PlanetScale,Dev Tools / Infra,pending
-Retool,Dev Tools / Infra,pending
+SentinelOne,Cybersecurity,custom_ats
+Cloudflare,Cybersecurity,done
+Fortinet,Cybersecurity,custom_ats
+Tenable,Cybersecurity,custom_ats
+Rapid7,Cybersecurity,custom_ats
+Wiz,Cybersecurity,done
+Snyk,Cybersecurity,done
+1Password,Cybersecurity,done
+Datadog,Dev Tools / Infra,done
+New Relic,Dev Tools / Infra,done
+PagerDuty,Dev Tools / Infra,done
+GitLab,Dev Tools / Infra,done
+GitHub,Dev Tools / Infra,custom_ats
+HashiCorp,Dev Tools / Infra,custom_ats
+MongoDB,Dev Tools / Infra,done
+Elastic,Dev Tools / Infra,done
+Confluent,Dev Tools / Infra,done
+Snowflake,Dev Tools / Infra,done
+Databricks,Dev Tools / Infra,done
+Twilio,Dev Tools / Infra,done
+SendGrid,Dev Tools / Infra,custom_ats
+Segment,Dev Tools / Infra,custom_ats
+Vercel,Dev Tools / Infra,done
+Netlify,Dev Tools / Infra,done
+Postman,Dev Tools / Infra,done
+JFrog,Dev Tools / Infra,done
+CircleCI,Dev Tools / Infra,done
+Render,Dev Tools / Infra,done
+Supabase,Dev Tools / Infra,done
+PlanetScale,Dev Tools / Infra,done
+Retool,Dev Tools / Infra,custom_ats
 OpenAI,AI / Dev Tools,done
 Anthropic,AI / Dev Tools,done
 Cursor,AI / Dev Tools,done
 Perplexity,AI / Dev Tools,done
 Scale AI,AI / Dev Tools,done
-Hugging Face,AI / Dev Tools,pending
-Cohere,AI / Dev Tools,pending
-Mistral AI,AI / Dev Tools,pending
-Runway,AI / Dev Tools,pending
-Stability AI,AI / Dev Tools,pending
-Character.AI,AI / Dev Tools,pending
-Inflection AI,AI / Dev Tools,pending
-Adept AI,AI / Dev Tools,pending
-Glean,AI / Dev Tools,pending
-Weights & Biases,AI / Dev Tools,pending
-Pinecone,AI / Dev Tools,pending
-LangChain,AI / Dev Tools,pending
-Replit,AI / Dev Tools,pending
-Together AI,AI / Dev Tools,pending
-Harvey AI,AI / Dev Tools,pending
-Sierra,AI / Dev Tools,pending
+Hugging Face,AI / Dev Tools,custom_ats
+Cohere,AI / Dev Tools,done
+Mistral AI,AI / Dev Tools,custom_ats
+Runway,AI / Dev Tools,done
+Stability AI,AI / Dev Tools,done
+Character.AI,AI / Dev Tools,custom_ats
+Inflection AI,AI / Dev Tools,done
+Adept AI,AI / Dev Tools,custom_ats
+Glean,AI / Dev Tools,custom_ats
+Weights & Biases,AI / Dev Tools,custom_ats
+Pinecone,AI / Dev Tools,done
+LangChain,AI / Dev Tools,done
+Replit,AI / Dev Tools,done
+Together AI,AI / Dev Tools,done
+Harvey AI,AI / Dev Tools,done
+Sierra,AI / Dev Tools,done
 Stripe,Fintech,done
 Ramp,Fintech,done
 Brex,Fintech,done
@@ -101,183 +101,183 @@ Robinhood,Fintech,done
 Chime,Fintech,done
 Affirm,Fintech,done
 Carta,Fintech,done
-Plaid,Fintech,pending
-Square (Block),Fintech,pending
-PayPal,Fintech,pending
-Coinbase,Fintech,pending
-Kraken,Fintech,pending
-Wise,Fintech,pending
-Wealthfront,Fintech,pending
-Betterment,Fintech,pending
-SoFi,Fintech,pending
-Klarna,Fintech,pending
-Marqeta,Fintech,pending
-Bill.com,Fintech,pending
-Avant,Fintech,pending
-Upstart,Fintech,pending
-Toast,Fintech,pending
-Gusto,Fintech,pending
-Rippling,Fintech,pending
-Deel,Fintech,pending
-Remote.com,Fintech,pending
-Navan,Fintech,pending
-Ramp Financial,Fintech,pending
-Current,Fintech,pending
-Varo Bank,Fintech,pending
-N26,Fintech,pending
-Revolut,Fintech,pending
-MoneyLion,Fintech,pending
+Plaid,Fintech,done
+Square (Block),Fintech,custom_ats
+PayPal,Fintech,custom_ats
+Coinbase,Fintech,done
+Kraken,Fintech,done
+Wise,Fintech,custom_ats
+Wealthfront,Fintech,done
+Betterment,Fintech,done
+SoFi,Fintech,done
+Klarna,Fintech,custom_ats
+Marqeta,Fintech,done
+Bill.com,Fintech,done
+Avant,Fintech,custom_ats
+Upstart,Fintech,done
+Toast,Fintech,done
+Gusto,Fintech,done
+Rippling,Fintech,custom_ats
+Deel,Fintech,done
+Remote.com,Fintech,done
+Navan,Fintech,done
+Ramp Financial,Fintech,custom_ats
+Current,Fintech,done
+Varo Bank,Fintech,custom_ats
+N26,Fintech,done
+Revolut,Fintech,custom_ats
+MoneyLion,Fintech,custom_ats
 Airbnb,Consumer Apps,done
-Uber,Consumer Apps,pending
+Uber,Consumer Apps,custom_ats
 Lyft,Consumer Apps,done
-DoorDash,Consumer Apps,pending
-Instacart,Consumer Apps,pending
+DoorDash,Consumer Apps,custom_ats
+Instacart,Consumer Apps,done
 Spotify,Consumer Apps,done
-Pinterest,Consumer Apps,pending
+Pinterest,Consumer Apps,done
 Reddit,Consumer Apps,done
-Snap,Consumer Apps,pending
-Bumble,Consumer Apps,pending
-Match Group,Consumer Apps,pending
-Hinge,Consumer Apps,pending
+Snap,Consumer Apps,custom_ats
+Bumble,Consumer Apps,done
+Match Group,Consumer Apps,done
+Hinge,Consumer Apps,custom_ats
 Duolingo,Consumer Apps,done
 Calm,Consumer Apps,done
-Headspace,Consumer Apps,pending
-Strava,Consumer Apps,pending
-Peloton,Consumer Apps,pending
-Nextdoor,Consumer Apps,pending
-Yelp,Consumer Apps,pending
-TripAdvisor,Consumer Apps,pending
-Expedia,Consumer Apps,pending
-Booking.com,Consumer Apps,pending
-Etsy,Consumer Apps,pending
-Wayfair,Consumer Apps,pending
-Chewy,Consumer Apps,pending
-Thumbtack,Consumer Apps,pending
-Angi,Consumer Apps,pending
-Houzz,Consumer Apps,pending
-Faire,Consumer Apps,pending
-Whatnot,Consumer Apps,pending
-StockX,Consumer Apps,pending
-GOAT,Consumer Apps,pending
-Poshmark,Consumer Apps,pending
-ThredUp,Consumer Apps,pending
+Headspace,Consumer Apps,custom_ats
+Strava,Consumer Apps,done
+Peloton,Consumer Apps,done
+Nextdoor,Consumer Apps,done
+Yelp,Consumer Apps,custom_ats
+TripAdvisor,Consumer Apps,done
+Expedia,Consumer Apps,custom_ats
+Booking.com,Consumer Apps,custom_ats
+Etsy,Consumer Apps,custom_ats
+Wayfair,Consumer Apps,custom_ats
+Chewy,Consumer Apps,done
+Thumbtack,Consumer Apps,done
+Angi,Consumer Apps,done
+Houzz,Consumer Apps,done
+Faire,Consumer Apps,done
+Whatnot,Consumer Apps,custom_ats
+StockX,Consumer Apps,done
+GOAT,Consumer Apps,custom_ats
+Poshmark,Consumer Apps,done
+ThredUp,Consumer Apps,custom_ats
 Hims & Hers,Healthcare,done
-Oscar Health,Healthcare,pending
-Ro,Healthcare,pending
-Carbon Health,Healthcare,pending
-Cerebral,Healthcare,pending
-Talkspace,Healthcare,pending
-BetterHelp,Healthcare,pending
-GoodRx,Healthcare,pending
-Devoted Health,Healthcare,pending
-Included Health,Healthcare,pending
-Maven Clinic,Healthcare,pending
-Tia,Healthcare,pending
-Forward,Healthcare,pending
-One Medical,Healthcare,pending
-Cityblock Health,Healthcare,pending
-Clover Health,Healthcare,pending
-Bright Health,Healthcare,pending
-Coursera,Edtech,pending
-Udemy,Edtech,pending
-Khan Academy,Edtech,pending
-MasterClass,Edtech,pending
-Outschool,Edtech,pending
-Chegg,Edtech,pending
-2U,Edtech,pending
-Guild Education,Edtech,pending
-Degreed,Edtech,pending
-Codecademy,Edtech,pending
-Skillsoft,Edtech,pending
-LeetCode,Edtech,pending
-Quizlet,Edtech,pending
-Shopify,E-commerce,pending
-BigCommerce,E-commerce,pending
-Squarespace,E-commerce,pending
-Wix,E-commerce,pending
-Klaviyo,E-commerce,pending
-Recharge,E-commerce,pending
-ShipBob,E-commerce,pending
-Flexport,E-commerce,pending
-Bolt,E-commerce,pending
-Afterpay,E-commerce,pending
-Rakuten,E-commerce,pending
-Mercado Libre,E-commerce,pending
-Indeed,Marketplaces,pending
-LinkedIn,Marketplaces,pending
-ZipRecruiter,Marketplaces,pending
-Glassdoor,Marketplaces,pending
-Upwork,Marketplaces,pending
-Fiverr,Marketplaces,pending
-TaskRabbit,Marketplaces,pending
-Rover,Marketplaces,pending
-Care.com,Marketplaces,pending
-Turo,Marketplaces,pending
-Getaround,Marketplaces,pending
-VRBO,Marketplaces,pending
-OpenTable,Marketplaces,pending
-Resy,Marketplaces,pending
-Grubhub,Marketplaces,pending
-Postmates,Marketplaces,pending
-Gopuff,Marketplaces,pending
-Affinity,Marketplaces,pending
-Compass,Real Estate,pending
-Zillow,Real Estate,pending
-Redfin,Real Estate,pending
-Opendoor,Real Estate,pending
-Offerpad,Real Estate,pending
-HomeLight,Real Estate,pending
-Better.com,Real Estate,pending
-Procore,Construction Tech,pending
-Samsara,IoT / Logistics,pending
-Motive,IoT / Logistics,pending
-Convoy,Logistics,pending
-project44,Logistics,pending
-FourKites,Logistics,pending
-ClickHouse,Dev Tools / Infra,pending
-Temporal,Dev Tools / Infra,pending
-Vanta,SaaS - Enterprise,pending
-Drata,SaaS - Enterprise,pending
-Secureframe,SaaS - Enterprise,pending
-Lattice,SaaS - HR Tech,pending
-Culture Amp,SaaS - HR Tech,pending
-BambooHR,SaaS - HR Tech,pending
-Greenhouse,SaaS - HR Tech,pending
-Lever,SaaS - HR Tech,pending
-Workato,SaaS - Enterprise,pending
-Zapier,SaaS - Enterprise,pending
-Make (Integromat),SaaS - Enterprise,pending
-Airbyte,Dev Tools / Infra,pending
-Fivetran,Dev Tools / Infra,pending
-dbt Labs,Dev Tools / Infra,pending
-Sigma Computing,Data / Analytics,pending
-Mode Analytics,Data / Analytics,pending
-Looker,Data / Analytics,pending
-Tableau,Data / Analytics,pending
-Amplitude,Data / Analytics,pending
-Mixpanel,Data / Analytics,pending
-Heap,Data / Analytics,pending
-Pendo,Data / Analytics,pending
-FullStory,Data / Analytics,pending
-LaunchDarkly,Dev Tools / Infra,pending
-Split,Dev Tools / Infra,pending
-Statsig,Dev Tools / Infra,pending
-Optimizely,Data / Analytics,pending
-Braze,Marketing Tech,pending
-Iterable,Marketing Tech,pending
-Customer.io,Marketing Tech,pending
-Mailchimp,Marketing Tech,pending
-Constant Contact,Marketing Tech,pending
-ActiveCampaign,Marketing Tech,pending
-Attentive,Marketing Tech,pending
-Postscript,Marketing Tech,pending
-Drift,Marketing Tech,pending
-Outreach,Sales Tech,pending
-Gong,Sales Tech,pending
-Chorus.ai,Sales Tech,pending
-Clari,Sales Tech,pending
-ZoomInfo,Sales Tech,pending
-Apollo.io,Sales Tech,pending
+Oscar Health,Healthcare,done
+Ro,Healthcare,done
+Carbon Health,Healthcare,done
+Cerebral,Healthcare,done
+Talkspace,Healthcare,done
+BetterHelp,Healthcare,done
+GoodRx,Healthcare,custom_ats
+Devoted Health,Healthcare,custom_ats
+Included Health,Healthcare,done
+Maven Clinic,Healthcare,done
+Tia,Healthcare,done
+Forward,Healthcare,done
+One Medical,Healthcare,done
+Cityblock Health,Healthcare,custom_ats
+Clover Health,Healthcare,done
+Bright Health,Healthcare,custom_ats
+Coursera,Edtech,done
+Udemy,Edtech,done
+Khan Academy,Edtech,done
+MasterClass,Edtech,done
+Outschool,Edtech,done
+Chegg,Edtech,custom_ats
+2U,Edtech,done
+Guild Education,Edtech,custom_ats
+Degreed,Edtech,done
+Codecademy,Edtech,custom_ats
+Skillsoft,Edtech,done
+LeetCode,Edtech,custom_ats
+Quizlet,Edtech,custom_ats
+Shopify,E-commerce,custom_ats
+BigCommerce,E-commerce,custom_ats
+Squarespace,E-commerce,done
+Wix,E-commerce,custom_ats
+Klaviyo,E-commerce,done
+Recharge,E-commerce,done
+ShipBob,E-commerce,custom_ats
+Flexport,E-commerce,done
+Bolt,E-commerce,done
+Afterpay,E-commerce,custom_ats
+Rakuten,E-commerce,custom_ats
+Mercado Libre,E-commerce,custom_ats
+Indeed,Marketplaces,done
+LinkedIn,Marketplaces,done
+ZipRecruiter,Marketplaces,done
+Glassdoor,Marketplaces,done
+Upwork,Marketplaces,done
+Fiverr,Marketplaces,custom_ats
+TaskRabbit,Marketplaces,done
+Rover,Marketplaces,done
+Care.com,Marketplaces,custom_ats
+Turo,Marketplaces,custom_ats
+Getaround,Marketplaces,custom_ats
+VRBO,Marketplaces,custom_ats
+OpenTable,Marketplaces,done
+Resy,Marketplaces,custom_ats
+Grubhub,Marketplaces,custom_ats
+Postmates,Marketplaces,custom_ats
+Gopuff,Marketplaces,done
+Affinity,Marketplaces,done
+Compass,Real Estate,custom_ats
+Zillow,Real Estate,custom_ats
+Redfin,Real Estate,custom_ats
+Opendoor,Real Estate,custom_ats
+Offerpad,Real Estate,custom_ats
+HomeLight,Real Estate,done
+Better.com,Real Estate,custom_ats
+Procore,Construction Tech,custom_ats
+Samsara,IoT / Logistics,done
+Motive,IoT / Logistics,done
+Convoy,Logistics,custom_ats
+project44,Logistics,done
+FourKites,Logistics,done
+ClickHouse,Dev Tools / Infra,done
+Temporal,Dev Tools / Infra,done
+Vanta,SaaS - Enterprise,done
+Drata,SaaS - Enterprise,done
+Secureframe,SaaS - Enterprise,done
+Lattice,SaaS - HR Tech,done
+Culture Amp,SaaS - HR Tech,done
+BambooHR,SaaS - HR Tech,custom_ats
+Greenhouse,SaaS - HR Tech,done
+Lever,SaaS - HR Tech,custom_ats
+Workato,SaaS - Enterprise,done
+Zapier,SaaS - Enterprise,done
+Make (Integromat),SaaS - Enterprise,done
+Airbyte,Dev Tools / Infra,done
+Fivetran,Dev Tools / Infra,done
+dbt Labs,Dev Tools / Infra,custom_ats
+Sigma Computing,Data / Analytics,done
+Mode Analytics,Data / Analytics,custom_ats
+Looker,Data / Analytics,custom_ats
+Tableau,Data / Analytics,custom_ats
+Amplitude,Data / Analytics,done
+Mixpanel,Data / Analytics,done
+Heap,Data / Analytics,custom_ats
+Pendo,Data / Analytics,done
+FullStory,Data / Analytics,done
+LaunchDarkly,Dev Tools / Infra,done
+Split,Dev Tools / Infra,custom_ats
+Statsig,Dev Tools / Infra,done
+Optimizely,Data / Analytics,custom_ats
+Braze,Marketing Tech,done
+Iterable,Marketing Tech,done
+Customer.io,Marketing Tech,done
+Mailchimp,Marketing Tech,custom_ats
+Constant Contact,Marketing Tech,done
+ActiveCampaign,Marketing Tech,done
+Attentive,Marketing Tech,done
+Postscript,Marketing Tech,done
+Drift,Marketing Tech,custom_ats
+Outreach,Sales Tech,done
+Gong,Sales Tech,custom_ats
+Chorus.ai,Sales Tech,custom_ats
+Clari,Sales Tech,custom_ats
+ZoomInfo,Sales Tech,done
+Apollo.io,Sales Tech,done
 Clay,Sales Tech,pending
 Highspot,Sales Tech,pending
 Seismic,Sales Tech,pending
