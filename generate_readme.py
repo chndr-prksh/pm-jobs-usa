@@ -25,8 +25,9 @@ def generate(readme_path="README.md", csv_path="jobs.csv"):
     for job in readme_jobs:
         posted = str(job["posted_date"]) if job["posted_date"] else "—"
         location = job["location"] or "—"
+        title = job['job_title'].replace('|', '–')
         lines.append(
-            f"| {job['company_name']} | {job['job_title']} | {location} | {posted} | [Apply]({job['apply_url']}) |"
+            f"| {job['company_name']} | {title} | {location} | {posted} | [Apply]({job['apply_url']}) |"
         )
 
     lines += [
