@@ -5,13 +5,14 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from db import get_conn, get_active_companies, upsert_jobs, log_scrape
-from scrapers import greenhouse, ashby, workday
+from scrapers import greenhouse, ashby, workday, lever
 from generate_readme import generate
 
 SCRAPERS = {
     "greenhouse": greenhouse.fetch,
     "ashby": ashby.fetch,
     "workday": workday.fetch,
+    "lever": lever.fetch,
 }
 
 def run():
