@@ -36,7 +36,7 @@ def run():
             counts = upsert_jobs(conn, company["id"], jobs)
             log_scrape(conn, company["id"], started_at, status="success",
                        jobs_found=len(jobs), **counts)
-            print(f"[{name}] Done — {len(jobs)} jobs found | new:{counts['new']} updated:{counts['updated']} closed:{counts['closed']}")
+            print(f"[{name}] Done — {len(jobs)} jobs found | new:{counts['new_jobs']} updated:{counts['updated_jobs']} closed:{counts['closed_jobs']}")
         except Exception as e:
             log_scrape(conn, company["id"], started_at, status="failed", error_message=str(e))
             print(f"[{name}] FAILED — {e}")

@@ -65,7 +65,7 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
             closed_jobs = 0
 
     conn.commit()
-    return {"new": new_jobs, "updated": updated_jobs, "closed": closed_jobs}
+    return {"new_jobs": new_jobs, "updated_jobs": updated_jobs, "closed_jobs": closed_jobs}
 
 def log_scrape(conn, company_id, started_at, status, jobs_found=0,
                new_jobs=0, updated_jobs=0, closed_jobs=0, error_message=None):
