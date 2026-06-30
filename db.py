@@ -30,14 +30,15 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
             cur.execute("""
                 INSERT INTO jobs (
                     company_id, external_job_id, job_title, department,
-                    location, apply_url, posted_date, is_active,
+                    location, locations, apply_url, posted_date, is_active,
                     is_pm_role, raw_api_response, last_seen
                 ) VALUES (
-                    %s, %s, %s, %s, %s, %s, %s, true, %s, %s, now()
+                    %s, %s, %s, %s, %s, %s, %s, %s, true, %s, %s, now()
                 )
                 ON CONFLICT (company_id, external_job_id) DO UPDATE SET
                     job_title = EXCLUDED.job_title,
                     location = EXCLUDED.location,
+                    locations = EXCLUDED.locations,
                     apply_url = EXCLUDED.apply_url,
                     posted_date = EXCLUDED.posted_date,
                     is_active = true,
@@ -52,6 +53,7 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
                 job["job_title"],
                 job.get("department"),
                 job.get("location"),
+                job.get("locations", []),
                 job["apply_url"],
                 job.get("posted_date"),
                 is_pm_role(job["job_title"]),
