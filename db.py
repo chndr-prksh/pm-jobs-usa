@@ -3,6 +3,16 @@ import psycopg2
 import psycopg2.extras
 from datetime import datetime
 
+PM_KEYWORDS = [
+    "product manager", "product management", "head of product",
+    "vp of product", "director of product", "chief product officer",
+    "group pm", "principal pm", "staff pm"
+]
+
+def is_pm_role(title: str) -> bool:
+    t = title.lower()
+    return any(kw in t for kw in PM_KEYWORDS)
+
 def get_conn():
     return psycopg2.connect(os.environ["SUPABASE_DB_URL"])
 
@@ -21,9 +31,9 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
                 INSERT INTO jobs (
                     company_id, external_job_id, job_title, department,
                     location, apply_url, posted_date, is_active,
-                    raw_api_response, last_seen
+                    is_pm_role, raw_api_response, last_seen
                 ) VALUES (
-                    %s, %s, %s, %s, %s, %s, %s, true, %s, now()
+                    %s, %s, %s, %s, %s, %s, %s, true, %s, %s, now()
                 )
                 ON CONFLICT (company_id, external_job_id) DO UPDATE SET
                     job_title = EXCLUDED.job_title,
@@ -31,6 +41,7 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
                     apply_url = EXCLUDED.apply_url,
                     posted_date = EXCLUDED.posted_date,
                     is_active = true,
+                    is_pm_role = EXCLUDED.is_pm_role,
                     raw_api_response = EXCLUDED.raw_api_response,
                     last_seen = now(),
                     updated_at = now()
@@ -43,6 +54,7 @@ def upsert_jobs(conn, company_id, jobs: list[dict]) -> dict:
                 job.get("location"),
                 job["apply_url"],
                 job.get("posted_date"),
+                is_pm_role(job["job_title"]),
                 psycopg2.extras.Json(job.get("raw")),
             ))
             row = cur.fetchone()
@@ -111,7 +123,7 @@ def get_active_jobs_for_readme(conn, limit=100):
             SELECT j.job_title, c.company_name, j.location, j.posted_date, j.apply_url
             FROM jobs j
             JOIN companies c ON c.id = j.company_id
-            WHERE j.is_active = true
+            WHERE j.is_active = true AND j.is_pm_role = true
             ORDER BY j.posted_date DESC NULLS LAST, j.first_seen DESC
             LIMIT %s
         """, (limit,))
@@ -125,7 +137,7 @@ def get_all_active_jobs_for_csv(conn):
                    j.external_job_id, j.first_seen
             FROM jobs j
             JOIN companies c ON c.id = j.company_id
-            WHERE j.is_active = true
+            WHERE j.is_active = true AND j.is_pm_role = true
             ORDER BY j.posted_date DESC NULLS LAST
         """)
         return cur.fetchall()
