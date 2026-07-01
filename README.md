@@ -1,6 +1,6 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-07-01 05:30 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-07-01 09:52 UTC · [Full list →](jobs.csv)
 
 Showing top 100 most recently posted Product Management jobs across 37 companies.
 
@@ -11,8 +11,8 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | MoneyLion | Principal Product Manager | USA - Tempe, AZ | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/gen-digital/2d228314-d7ab-451f-8282-f3f9b471a80b) |
 | Character.AI | Technical Product Manager, Product Experience | Redwood City, CA | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/character/56dcfddd-ba6d-48a8-81fb-3332abb1c032) |
 | Snowflake | Product Manager - Traffic & Networking | US-CA-Menlo Park | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/snowflake/e39a441a-07e4-4ea3-a687-b483007deb94) |
-| Plaid | Staff Product Manager, Risk Modeling | San Francisco HQ | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/plaid/313a7c62-23b6-4bf3-b527-fddbeeede183) |
 | Plaid | Staff Product Manager, Risk Platform | San Francisco HQ | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/plaid/e07ca600-5185-4871-85ff-4997540b1781) |
+| Plaid | Staff Product Manager, Risk Modeling | San Francisco HQ | 2026-06-30 | [Apply](https://jobs.ashbyhq.com/plaid/313a7c62-23b6-4bf3-b527-fddbeeede183) |
 | Hims & Hers | Lead Product Manager, Consumer Apps | US Remote | 2026-06-29 | [Apply](https://jobs.ashbyhq.com/hims-and-hers/e809a108-e72b-45c1-b2c4-aad645a00772) |
 | OpenAI | Product Manager, ChatGPT Sites | San Francisco | 2026-06-28 | [Apply](https://jobs.ashbyhq.com/openai/6db2af13-50b2-4fe0-a8df-874e2ba57f71) |
 | Rivian | Product Manager, Facilities Technology | Atlanta, Georgia | 2026-06-26 | [Apply](https://us-careers-rivian.icims.com/jobs/31878/login) |
@@ -30,8 +30,8 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | Snowflake | Senior Product Manager - Applied AI | US-CA-Menlo Park | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/snowflake/5b04d532-df08-4d10-af9b-3028037e7d8b) |
 | Sierra | Product Manager, Agent Development (Brazilian Portuguese speaking) | San Francisco, CA | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/sierra/4f0e65ba-b262-4d79-b926-3988f8eb0c00) |
 | Replit | Enterprise Product Manager | Foster City, CA | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/replit/06cbc016-f931-431a-92cf-29fa74eedbf1) |
-| Novo | Product Manager, Banking | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/43491a68-d17f-4a2e-81be-95c0d5e11221) |
 | Novo | Senior Product Manager, Growth | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/46d9513e-f550-42eb-a133-09f07697a29b) |
+| Novo | Product Manager, Banking | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/43491a68-d17f-4a2e-81be-95c0d5e11221) |
 | MoneyLion | Director of Product Management | USA - New York, NY | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/gen-digital/7263c750-2190-4721-808f-c79e86db871e) |
 | Snowflake | Senior Product Manager - AI Migrations | US-CA-Menlo Park | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef) |
 | Sierra | Product Manager, Agent Development - Flagship Deployment | San Francisco, CA | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/sierra/758beaca-db59-4e46-9867-7a93989735a7) |
@@ -42,8 +42,8 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | MoneyLion | LifeLock Lead Product Manager, Mobile & AI Assistant  | USA - Mountain View, CA | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/gen-digital/689fcffc-4ee6-43f6-a9df-eeb2fe53c2ad) |
 | OpenAI | Product Manager, Shopping | San Francisco | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/openai/df8a1d73-58b9-4571-86f5-da9a12155fbb) |
 | Ramp | Product Manager – Generalist (All Levels) | New York, NY (HQ) | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/ramp/9972df9e-4133-4e2c-9305-49c285b76506) |
-| MoneyLion | Director of Product Management – Consumer Marketplace (MoneyLion) | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/5974f24f-db72-47c3-b9ea-83242078c77b) |
 | MoneyLion | Sr. Principal Product Manager – Ecosystem, Partnerships & Distribution | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/8ac51372-b303-4ff2-84d9-ff8f05851484) |
+| MoneyLion | Director of Product Management – Consumer Marketplace (MoneyLion) | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/5974f24f-db72-47c3-b9ea-83242078c77b) |
 | Snowflake | Principal Product Manager - Zero-Copy Integrations | US-WA-Bellevue | 2026-06-09 | [Apply](https://jobs.ashbyhq.com/snowflake/0131b6dc-50b8-48bc-856a-b797554b484d) |
 | MoneyLion | Sr Principal Product Manager | CZE - Prague | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/gen-digital/5ba7035b-d9b8-4a96-aefe-a09ec3b0afa3) |
 | DailyPay | Senior Product Manager | US-Remote | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/dailypay/efbb4837-e4d9-4d37-aaf4-dac2f75e2c1a) |
@@ -61,8 +61,8 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | Supabase | Product Manager - Infrastructure | Remote | 2026-06-01 | [Apply](https://jobs.ashbyhq.com/supabase/47bcfdb8-b954-423e-8a9e-85256434575c) |
 | Supabase | Product Manager - Multigres | Remote | 2026-06-01 | [Apply](https://jobs.ashbyhq.com/supabase/636481f3-dc9e-4a9d-999f-06f87e173cc9) |
 | Plaid | Senior Product Manager  | San Francisco HQ | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/plaid/aef4ef62-ea67-4c9c-98f4-6a81a4dc1f09) |
-| Harvey AI | Head of Product Operations | New York | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/cf370c84-a157-4ecb-ae57-9a84953e0d96) |
 | Harvey AI | Head of Product Operations | San Francisco | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/e646ca56-2122-4309-b2bb-0be7f26d42cb) |
+| Harvey AI | Head of Product Operations | New York | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/cf370c84-a157-4ecb-ae57-9a84953e0d96) |
 | Angi | Principal Product Manager, Product Platform | Remote - United States | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/angi/39534c6e-ea6b-47ba-9798-07521c2ea394) |
 | Supabase | Product Manager - Interfaces | Remote | 2026-05-28 | [Apply](https://jobs.ashbyhq.com/supabase/184c3ad5-5d5f-44a1-98f7-65ff6f287b2f) |
 | Confluent | Senior Product Manager, Developer Experience | Remote, United States | 2026-05-28 | [Apply](https://jobs.ashbyhq.com/confluent/69b37f70-0978-472e-86a9-2d19ba70820f) |
@@ -92,8 +92,8 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | OpenAI | Product Manager, Cyber Safety | San Francisco | 2026-05-08 | [Apply](https://jobs.ashbyhq.com/openai/f6494cf8-efbc-4dbe-ae76-662088b4f32c) |
 | OpenAI | Product Manager, Sensitive Deployments | San Francisco | 2026-05-07 | [Apply](https://jobs.ashbyhq.com/openai/05a8cae8-81bd-4f7b-bc48-41ef1bd67e5d) |
 | Pinecone | Staff/Principal Product Manager, Database | US Remote | 2026-05-05 | [Apply](https://jobs.ashbyhq.com/pinecone/7261adcb-026d-4552-8f89-7a46156c40c5) |
-| OpenAI | Product Manager, Families | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8) |
 | OpenAI | Product Manager, Financial Engineering | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc) |
+| OpenAI | Product Manager, Families | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8) |
 | Snowflake | Senior Product Manager - Data Observability | US-CA-Menlo Park | 2026-05-01 | [Apply](https://jobs.ashbyhq.com/snowflake/157bd8e6-7201-4d37-96ca-0b76a2bc1446) |
 | Sierra | Product Manager, Infrastructure | San Francisco, CA | 2026-05-01 | [Apply](https://jobs.ashbyhq.com/sierra/1e052261-0c89-4ccb-abfa-3820a1596a6e) |
 | Temporal | Staff Product Manager, Agent Platform | United States | 2026-04-30 | [Apply](https://jobs.ashbyhq.com/temporal/b6f06de9-fc02-493c-8aef-abaf8495572f) |
@@ -108,6 +108,6 @@ Showing top 100 most recently posted Product Management jobs across 37 companies
 | Plaid | Product Manager - Europe | New York City Office | 2026-04-28 | [Apply](https://jobs.ashbyhq.com/plaid/29d1f5fc-d986-4a5d-9c42-0c05d9326f9d) |
 
 ---
-*644 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*645 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
