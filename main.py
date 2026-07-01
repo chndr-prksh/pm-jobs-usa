@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 from db import get_conn, get_active_companies, upsert_jobs, log_scrape
-from scrapers import greenhouse, ashby, workday, lever, uber, icims, workable, smartrecruiters, bamboohr
+from scrapers import greenhouse, ashby, workday, lever, uber, icims, workable, smartrecruiters, bamboohr, eightfold, pinpoint
 from scrapers import playwright_base
 from generate_readme import generate
 
@@ -19,6 +19,8 @@ SCRAPERS = {
     "workable": workable.fetch,
     "smartrecruiters": smartrecruiters.fetch,
     "bamboohr": bamboohr.fetch,
+    "eightfold": eightfold.fetch,
+    "pinpoint": pinpoint.fetch,
 }
 
 def run():
