@@ -1,0 +1,386 @@
+Deep-checking 358 companies with Playwright...
+
+[1/358] 8x8                                 → error
+[2/358] A Cloud Guru                        → error
+[3/358] Affirm Inc                          → error
+[4/358] Afterpay                            → error
+[5/358] Age of Learning                     → error
+[6/358] Anchorage Digital                   → error
+[7/358] Arc (Browser Company)               → error
+[8/358] Archer Aviation                     → error
+[9/358] Ashby (ATS)                         → error
+[10/358] Aspiration                          → unknown
+[11/358] Bench Accounting                    → error
+[12/358] Better.com                          → error
+[13/358] Beyond Meat                         → error
+[14/358] Blind                               → error
+[15/358] Block (Square)                      → error
+[16/358] Box                                 → error
+[17/358] Branch (Earned Wage)                → error
+[18/358] Brandless                           → error
+[19/358] Bread Financial                     → error
+[20/358] Breezy HR                           → error
+[21/358] Brex Empower                        → error
+[22/358] Building Engines                    → error
+[23/358] CAVA                                → error
+[24/358] Captable.io                         → error
+[25/358] Carta Talent                        → error
+[26/358] Carta Venture                       → error
+[27/358] Catalant                            → error
+[28/358] Chime Financial                     → error
+[29/358] Clutch Kitchen                      → error
+[30/358] CodeSignal                          → unknown
+[31/358] Compass                             → error
+[32/358] Copy.ai                             → error
+[33/358] Cron                                → error
+[34/358] Culture Amp HR                      → error
+[35/358] Current Banking                     → error
+[36/358] Deel HR                             → error
+[37/358] Density                             → error
+[38/358] Disney Streaming                    → error
+[39/358] Divvy Homes                         → error
+[40/358] Domain Money                        → error
+[41/358] DoorDash Storefront                 → error
+[42/358] Eat Just                            → error
+[43/358] Eightfold AI                        → error
+[44/358] Even (Earnin)                       → error
+[45/358] Even Financial                      → error
+[46/358] Expedia                             → error
+[47/358] Experian Boost                      → error
+[48/358] Factorial                           → error
+[49/358] Fama                                → error
+[50/358] Felix Pago                          → error
+[51/358] First Boulevard                     → error
+[52/358] Flock Freight                       → error
+[53/358] Found Banking                       → error
+[54/358] Frame.io                            → error
+[55/358] Freshworks                          → smartrecruiters
+[56/358] Front                               → error
+[57/358] Grammarly                           → error
+[58/358] Greenhouse Software                 → error
+[59/358] Greenlight Financial                → error
+[60/358] Greenwood                           → error
+[61/358] Gusto Wallet                        → error
+[62/358] HBO Max                             → error
+[63/358] Heap                                → error
+[64/358] Hightower                           → error
+[65/358] Honeypot                            → error
+[66/358] Imperfect Foods                     → error
+[67/358] Instant Financial                   → error
+[68/358] Instantly                           → error
+[69/358] Integral Ad Science                 → error
+[70/358] Jasper                              → error
+[71/358] Joby Aviation                       → error
+[72/358] KeepTruckin (Motive)                → error
+[73/358] King (Activision)                   → error
+[74/358] Kitchen United                      → error
+[75/358] Lambda School (BloomTech)           → error
+[76/358] Lattice HR                          → error
+[77/358] Lemon.io                            → error
+[78/358] Lever TA                            → error
+[79/358] Lili                                → error
+[80/358] Lime                                → error
+[81/358] M1 Finance                          → error
+[82/358] Mailchimp                           → error
+[83/358] Marcus by Goldman Sachs             → error
+[84/358] Mercury Banking                     → error
+[85/358] Method Financial                    → error
+[86/358] Mirror                              → error
+[87/358] Mode Analytics                      → error
+[88/358] Motion                              → error
+[89/358] Nasdaq Private Market               → error
+[90/358] Notion Press                        → error
+[91/358] OneLogin                            → icims
+[92/358] Onfido                              → unknown
+[93/358] Onfleet                             → unknown
+[94/358] OnlyFans                            → unknown
+[95/358] Opendoor                            → unknown
+[96/358] Origin                              → error
+[97/358] Otta                                → unknown
+[98/358] Oyster HR                           → error
+[99/358] Palo Alto Networks                  → workday
+[100/358] Papaya Global                       → error
+[101/358] Paramount+                          → error
+[102/358] PayPal                              → eightfold
+[103/358] Paycor                              → error
+[104/358] Payhawk                             → greenhouse
+[105/358] Peacock                             → error
+[106/358] Perfect Day                         → error
+[107/358] Pika Labs                           → error
+[108/358] Pilot.com                           → error
+[109/358] Pinwheel                            → unknown
+[110/358] Pipe                                → greenhouse
+[111/358] Pluralsight                         → workday
+[112/358] Policygenius                        → unknown
+[113/358] Postmates                           → unknown
+[114/358] Postpay                             → error
+[115/358] Procore                             → unknown
+[116/358] ProdPad                             → unknown
+[117/358] Productboard                        → unknown
+[118/358] Puzzle                              → error
+[119/358] Pymetrics                           → unknown
+[120/358] Qapital                             → unknown
+[121/358] Quizlet                             → unknown
+[122/358] Rakuten                             → error
+[123/358] Ramp Business                       → error
+[124/358] Ramp Financial                      → error
+[125/358] Ramp Procurement                    → error
+[126/358] Redfin                              → error
+[127/358] Reef Technology                     → unknown
+[128/358] Relativity Space                    → error
+[129/358] Relay Financial                     → error
+[130/358] Remitly                             → workday
+[131/358] Remote OAB                          → error
+[132/358] Remote OK                           → error
+[133/358] Republic                            → error
+[134/358] Resy                                → eightfold
+[135/358] Retool                              → unknown
+[136/358] Revolut                             → unknown
+[137/358] Ribbon                              → error
+[138/358] Ring                                → error
+[139/358] RingCentral                         → error
+[140/358] Rippling                            → error
+[141/358] Rippling HR                         → unknown
+[142/358] Riverside.fm                        → error
+[143/358] Roadmunk                            → unknown
+[144/358] Rocket Money                        → error
+[145/358] Routific                            → unknown
+[146/358] SAP                                 → unknown
+[147/358] Sakara Life                         → error
+[148/358] Salesforce                          → unknown
+[149/358] Sastrify                            → error
+[150/358] SeedInvest                          → unknown
+[151/358] Segment                             → eightfold
+[152/358] Seismic                             → unknown
+[153/358] SendGrid                            → eightfold
+[154/358] Sendwave                            → unknown
+[155/358] SentinelOne                         → greenhouse
+[156/358] Sequoia Consulting                  → error
+[157/358] Settle                              → jazzhr
+[158/358] Shift Technologies                  → unknown
+[159/358] ShipBob                             → unknown
+[160/358] ShipHero                            → unknown
+[161/358] Shippo                              → error
+[162/358] Shopify                             → unknown
+[163/358] Side                                → lever
+[164/358] Simple                              → error
+[165/358] Slack                               → error
+[166/358] Splendid Spoon                      → error
+[167/358] Square                              → error
+[168/358] Square (Block)                      → error
+[169/358] Square POS                          → error
+[170/358] Synchrony                           → error
+[171/358] Tability                            → error
+[172/358] Tally                               → error
+[173/358] Tally Technologies                  → error
+[174/358] Tenable                             → error
+[175/358] Tesla Energy                        → error
+[176/358] Toast POS                           → error
+[177/358] Transit App                         → error
+[178/358] Trim                                → error
+[179/358] Triplebyte                          → error
+[180/358] Tropic                              → error
+[181/358] Truebill (Rocket Money)             → error
+[182/358] Truework                            → error
+[183/358] Varo Bank                           → error
+[184/358] Veho                                → error
+[185/358] Velocity Global                     → error
+[186/358] Voltage Park                        → error
+[187/358] We Work Remotely                    → error
+[188/358] Weights & Biases                    → error
+[189/358] Wise                                → unknown
+[190/358] Wise Transfer                       → error
+[191/358] Wix                                 → error
+[192/358] Wyze                                → error
+[193/358] Xata                                → error
+[194/358] Zip Co                              → error
+[195/358] dbt Labs                            → error
+[196/358] ironSource                          → error
+[197/358] ADP                                 → unknown
+[198/358] Aaptiv                              → error
+[199/358] Adept AI                            → unknown
+[200/358] Akiflow                             → unknown
+[201/358] Albert                              → unknown
+[202/358] Aleph Farms                         → unknown
+[203/358] AllTrails                           → unknown
+[204/358] Argyle                              → unknown
+[205/358] Atlassian                           → unknown
+[206/358] Avant                               → unknown
+[207/358] BentoBox                            → unknown
+[208/358] Betterworks                         → unknown
+[209/358] Blue Apron                          → unknown
+[210/358] Bonsai                              → unknown
+[211/358] Bonusly                             → unknown
+[212/358] Boom Supersonic                     → unknown
+[213/358] Cake Equity                         → unknown
+[214/358] Canva                               → unknown
+[215/358] Cap Table                           → unknown
+[216/358] CarMax                              → unknown
+[217/358] Care.com                            → unknown
+[218/358] Carvana                             → unknown
+[219/358] Chainalysis                         → unknown
+[220/358] Cheese                              → unknown
+[221/358] Chegg                               → unknown
+[222/358] Chorus.ai                           → unknown
+[223/358] Circle                              → unknown
+[224/358] Citymapper                          → unknown
+[225/358] Clari                               → unknown
+[226/358] Clearbit                            → unknown
+[227/358] Clearcover                          → unknown
+[228/358] Clio                                → unknown
+[229/358] Clover                              → unknown
+[230/358] Coda                                → unknown
+[231/358] Codility                            → unknown
+[232/358] Composer                            → unknown
+[233/358] Convex                              → unknown
+[234/358] Convoy                              → unknown
+[235/358] CoverWallet                         → unknown
+[236/358] Craft.io                            → unknown
+[237/358] Crossover                           → unknown
+[238/358] Cruise                              → unknown
+[239/358] Daily Harvest                       → unknown
+[240/358] Datavant                            → unknown
+[241/358] Deliverr                            → unknown
+[242/358] DoNotPay                            → unknown
+[243/358] DocSend                             → unknown
+[244/358] DoorDash                            → unknown
+[245/358] Drift                               → unknown
+[246/358] Dubsado                             → unknown
+[247/358] EarnUp                              → unknown
+[248/358] Ecobee                              → unknown
+[249/358] EdgeDB                              → unknown
+[250/358] Etsy                                → unknown
+[251/358] Eufy                                → unknown
+[252/358] EveryPlate                          → unknown
+[253/358] Fellow.app                          → unknown
+[254/358] Fishbowl                            → unknown
+[255/358] Fiverr                              → unknown
+[256/358] FlexWage                            → unknown
+[257/358] Fly.io                              → unknown
+[258/358] Flyhomes                            → unknown
+[259/358] Gem                                 → unknown
+[260/358] Getaround                           → unknown
+[261/358] Gobble                              → unknown
+[262/358] Gong                                → unknown
+[263/358] GoodHire                            → unknown
+[264/358] GoodRx                              → unknown
+[265/358] Groq                                → unknown
+[266/358] Guild Education                     → unknown
+[267/358] Gun.io                              → unknown
+[268/358] HashiCorp                           → unknown
+[269/358] Height                              → unknown
+[270/358] HiBob                               → unknown
+[271/358] Hired                               → unknown
+[272/358] ImpactVision                        → unknown
+[273/358] Increase                            → unknown
+[274/358] Insperity                           → unknown
+[275/358] Ironclad                            → unknown
+[276/358] Klarna                              → unknown
+[277/358] Komoot                              → unknown
+[278/358] Lambda Labs                         → unknown
+[279/358] Layr                                → unknown
+[280/358] Levels.fyi                          → unknown
+[281/358] Linktree                            → unknown
+[282/358] Madkudu                             → unknown
+[283/358] Majority                            → unknown
+[284/358] Measurabl                           → unknown
+[285/358] Mercoa                              → unknown
+[286/358] Metromile                           → unknown
+[287/358] Monday.com                          → unknown
+[288/358] Moomoo                              → unknown
+[289/358] Motivosity                          → unknown
+[290/358] Multiplier                          → unknown
+[291/358] Mynd                                → unknown
+[292/358] Namely                              → unknown
+[293/358] Next Insurance                      → unknown
+[294/358] Northflank                          → unknown
+[295/358] Notable Health                      → unknown
+[296/358] Notco                               → unknown
+[297/358] Nuvocargo                           → unknown
+[298/358] Offerpad                            → unknown
+[299/358] PlanGrid                            → unknown
+[300/358] Rapid7                              → unknown
+[301/358] Reclaim.ai                          → unknown
+[302/358] ServiceNow                          → unknown
+[303/358] Smartlead                           → unknown
+[304/358] Snap                                → unknown
+[305/358] Snap Finance                        → unknown
+[306/358] Soldo                               → unknown
+[307/358] SoundCloud                          → unknown
+[308/358] SpaceX                              → unknown
+[309/358] Split                               → unknown
+[310/358] Spotii                              → unknown
+[311/358] Step                                → unknown
+[312/358] Sunbasket                           → unknown
+[313/358] Synapse                             → error
+[314/358] Synthesis                           → unknown
+[315/358] Tabby                               → unknown
+[316/358] Tableau                             → unknown
+[317/358] Teamblind                           → error
+[318/358] Tesla                               → unknown
+[319/358] ThredUp                             → unknown
+[320/358] Tidal                               → unknown
+[321/358] Tradier                             → unknown
+[322/358] Tred                                → unknown
+[323/358] Trello                              → unknown
+[324/358] TriNet                              → error
+[325/358] Trupay                              → unknown
+[326/358] Tubi                                → unknown
+[327/358] Turo                                → unknown
+[328/358] Turso                               → unknown
+[329/358] Unit21                              → unknown
+[330/358] Unity                               → unknown
+[331/358] VRBO                                → unknown
+[332/358] Vagaro                              → unknown
+[333/358] Vendr                               → unknown
+[334/358] Vested                              → unknown
+[335/358] Vettery                             → unknown
+[336/358] Vopay                               → unknown
+[337/358] Vouch Insurance                     → unknown
+[338/358] Vroom                               → unknown
+[339/358] Wagestream                          → unknown
+[340/358] Warmly                              → unknown
+[341/358] Wayfair                             → unknown
+[342/358] Webull                              → unknown
+[343/358] Wefunder                            → unknown
+[344/358] Wellfound                           → unknown
+[345/358] Wellhub                             → unknown
+[346/358] Welltok                             → unknown
+[347/358] Whatnot                             → unknown
+[348/358] WorkTango                           → unknown
+[349/358] WorldRemit                          → unknown
+[350/358] X-Team                              → unknown
+[351/358] Xoom                                → error
+[352/358] Yodlee                              → unknown
+[353/358] Yokoy                               → unknown
+[354/358] Zencargo                            → unknown
+[355/358] Zenefits                            → unknown
+[356/358] Zillow                              → unknown
+[357/358] Zynga                               → unknown
+[358/358] ezCater                             → unknown
+
+=== FINAL ATS BREAKDOWN ===
+  unknown                        189 companies
+  error                          155 companies
+  greenhouse                      20 companies
+  workday                         16 companies
+  icims                            8 companies
+  lever                            7 companies
+  eightfold                        5 companies
+  workable                         5 companies
+  ashby                            4 companies
+  google                           4 companies
+  bamboohr                         3 companies
+  pinpoint                         3 companies
+  smartrecruiters                  3 companies
+  jazzhr                           2 companies
+  microsoft                        2 companies
+  jobvite                          1 companies
+  oracle_hcm                       1 companies
+  oracle_jobs                      1 companies
+  paylocity                        1 companies
+  personio                         1 companies
+  successfactors                   1 companies
+  uber                             1 companies
+
+Updated results saved to ats_detection_results.csv

@@ -1,0 +1,59 @@
+Finding slugs for 24 companies...
+
+[1/24] Kajabi               → unknown
+[2/24] Noom                 → unknown
+[3/24] Teachable            → greenhouse:teachablecareers
+[4/24] Numerade             → unknown
+[5/24] Airfocus             → unknown
+[6/24] Codecademy           → unknown
+[7/24] Gladly               → unknown
+[8/24] MX                   → greenhouse:mxtechnologiesinc
+[9/24] Stord                → workday:stord
+[10/24] SentinelOne          → unknown
+[11/24] Payhawk              → unknown
+[12/24] Pipe                 → unknown
+[13/24] Scalapay             → lever:Scalapay
+[14/24] Wonderlic            → unknown
+[15/24] Glean                → greenhouse:gleanwork
+[16/24] EasyPost             → lever:easypost-2
+[17/24] Hinge                → unknown
+[18/24] Reflektive           → lever:reflektive
+[19/24] DolarApp             → ashby:ARQ
+[20/24] Criteo               → workday:criteo
+[21/24] Tempus               → workday:tempus
+[22/24] Buildertrend         → workday:buildertrend
+[23/24] Empower              → ashby:tilthq
+[24/24] Wonder               → workday:wonder
+
+=== RESULTS ===
+Found: 13 | Still unknown: 11
+
+Found slugs:
+  Teachable            greenhouse   teachablecareers
+  MX                   greenhouse   mxtechnologiesinc
+  Stord                workday      stord
+  Scalapay             lever        Scalapay
+  Glean                greenhouse   gleanwork
+  EasyPost             lever        easypost-2
+  Reflektive           lever        reflektive
+  DolarApp             ashby        ARQ
+  Criteo               workday      criteo
+  Tempus               workday      tempus
+  Buildertrend         workday      buildertrend
+  Empower              ashby        tilthq
+  Wonder               workday      wonder
+
+Still unknown:
+  Kajabi               unknown None
+  Noom                 unknown None
+  Numerade             unknown None
+  Airfocus             unknown None
+  Codecademy           unknown None
+  Gladly               unknown None
+  SentinelOne          unknown None
+  Payhawk              unknown None
+  Pipe                 unknown None
+  Wonderlic            unknown None
+  Hinge                unknown None
+
+Results saved to slug_results.csv

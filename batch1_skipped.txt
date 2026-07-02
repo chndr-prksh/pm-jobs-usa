@@ -1,0 +1,105 @@
+Slack
+Atlassian
+Monday.com
+Coda
+Box
+Canva
+Confluence
+Trello
+Height
+Grammarly
+DocuSign
+Zendesk
+Freshworks
+Salesforce
+ServiceNow
+Workday
+SAP
+Oracle
+OneLogin
+Palo Alto Networks
+SentinelOne
+Fortinet
+Tenable
+Rapid7
+GitHub
+HashiCorp
+SendGrid
+Segment
+Retool
+Hugging Face
+Mistral AI
+Character.AI
+Adept AI
+Glean
+Weights & Biases
+Square (Block)
+PayPal
+Wise
+Klarna
+Avant
+Rippling
+Ramp Financial
+Varo Bank
+Revolut
+MoneyLion
+Uber
+DoorDash
+Snap
+Hinge
+Headspace
+Yelp
+Expedia
+Booking.com
+Etsy
+Wayfair
+Chewy
+Whatnot
+GOAT
+ThredUp
+GoodRx
+Devoted Health
+Cityblock Health
+Bright Health
+Chegg
+Guild Education
+Codecademy
+LeetCode
+Quizlet
+Shopify
+BigCommerce
+Wix
+ShipBob
+Afterpay
+Rakuten
+Mercado Libre
+Fiverr
+Care.com
+Turo
+Getaround
+VRBO
+Resy
+Grubhub
+Postmates
+Compass
+Zillow
+Redfin
+Opendoor
+Offerpad
+Better.com
+Procore
+Convoy
+BambooHR
+Lever
+dbt Labs
+Mode Analytics
+Looker
+Tableau
+Heap
+Split
+Optimizely
+Mailchimp
+Drift
+Gong
+Chorus.ai
+Clari

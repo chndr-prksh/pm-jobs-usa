@@ -1,0 +1,743 @@
+company,careers_url,detected_ats,evidence,final_url,error
+Character.AI,https://character.ai/careers,ashby,Ashby — matched: ashbyhq.com,https://character.ai/careers,
+Clay,https://www.clay.com/careers,ashby,Ashby — matched: ashbyhq.com,https://www.clay.com/careers,
+DolarApp,https://www.dolarapp.com/careers,ashby,Network request: https://jobs.ashbyhq.com/ARQ/embed?version=2,https://www.arqfinance.com/en-MX/careers,
+MoneyLion,https://www.moneylion.com/careers/,ashby,Ashby — matched: ashbyhq.com,https://www.moneylion.com/careers/,
+BambooHR,https://www.bamboohr.com/about/careers/,bamboohr,URL redirect → https://www.bamboohr.com/about/careers/,https://www.bamboohr.com/about/careers/,
+Katapult,https://www.katapult.com/careers,bamboohr,URL redirect → https://www.bamboohr.com/,https://www.bamboohr.com/,
+Splitit,https://www.splitit.com/careers,bamboohr,Found in rendered HTML,https://www.splitit.com/business/about/,
+Mercado Libre,https://jobs.mercadolibre.com/,eightfold,Found in rendered HTML,https://careers-meli.mercadolibre.com/,
+PayPal,https://careers.pypl.com/home,eightfold,Found in rendered HTML,https://careers.pypl.com/home/,
+Resy,https://resy.com/careers,eightfold,Found in rendered HTML,https://resy.com/careers?date=2026-06-30&seats=2,
+Segment,https://segment.com/jobs/,eightfold,Found in rendered HTML,https://jobs.twilio.com/careers?start=0&pid=1099554438523&sort_by=timestamp,
+SendGrid,https://sendgrid.com/careers/,eightfold,Found in rendered HTML,https://jobs.twilio.com/careers?start=0&pid=1099554438523&sort_by=timestamp,
+8x8,https://www.8x8.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.8x8.com/careers"", waiting "
+A Cloud Guru,https://www.a-cloud-guru.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.a-cloud-guru.com/careers
+Call log:
+navigating t"
+Aaptiv,https://www.aaptiv.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.aaptiv.com/careers"", waiti"
+Affirm Inc,https://www.affirm-inc.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.affirm-inc.com/careers
+Call log:
+navigating to "
+Afterpay,https://www.afterpay.com/en-US/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.afterpay.com/en-US/careers"
+Age of Learning,https://www.age-of-learning.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.age-of-learning.com/careers
+Call log:
+navigatin"
+Anchorage Digital,https://www.anchorage-digital.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.anchorage-digital.com/careers
+Call log:
+navigat"
+Arc (Browser Company),https://www.arc-browser-company.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.arc-browser-company.com/careers
+Call log:
+navig"
+Archer Aviation,https://www.archer-aviation.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.archer-aviation.com/careers
+Call log:
+navigatin"
+Ashby (ATS),https://www.ashby-ats.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ashby-ats.com/careers
+Call log:
+navigating to """
+Bench Accounting,https://www.bench-accounting.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bench-accounting.com/careers
+Call log:
+navigati"
+Better.com,https://better.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://better.com/careers"", waiting u"
+Beyond Meat,https://www.beyond-meat.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.beyond-meat.com/careers"", "
+Blind,https://www.blind.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.blind.com/careers"", waitin"
+Block (Square),https://www.block-square.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.block-square.com/careers
+Call log:
+navigating t"
+Box,https://www.box.com/en-us/about-us/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.box.com/en-us/about-us/car"
+Branch (Earned Wage),https://www.branch-earned-wage.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.branch-earned-wage.com/careers
+Call log:
+naviga"
+Brandless,https://www.brandless.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.brandless.com/careers
+Call log:
+navigating to """
+Bread Financial,https://www.bread-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bread-financial.com/careers
+Call log:
+navigatin"
+Breezy HR,https://www.breezy-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.breezy-hr.com/careers
+Call log:
+navigating to """
+Brex Empower,https://www.brex-empower.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.brex-empower.com/careers
+Call log:
+navigating t"
+Building Engines,https://www.building-engines.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.building-engines.com/careers
+Call log:
+navigati"
+CAVA,https://www.cava.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.cava.com/careers"", waiting"
+Captable.io,https://www.captableio.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.captableio.com/careers
+Call log:
+navigating to "
+Carta Talent,https://www.carta-talent.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.carta-talent.com/careers
+Call log:
+navigating t"
+Carta Venture,https://www.carta-venture.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.carta-venture.com/careers
+Call log:
+navigating "
+Catalant,https://www.catalant.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.catalant.com/careers"", wai"
+Chime Financial,https://www.chime-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.chime-financial.com/careers
+Call log:
+navigatin"
+Clutch Kitchen,https://www.clutch-kitchen.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.clutch-kitchen.com/careers
+Call log:
+navigating"
+Compass,https://www.compass.com/careers/,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.compass.com/careers/"", wai"
+Copy.ai,https://www.copyai.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.copyai.com/careers"", waiti"
+Cron,https://www.cron.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.cron.com/careers"", waiting"
+Culture Amp HR,https://www.culture-amp-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.culture-amp-hr.com/careers
+Call log:
+navigating"
+Current Banking,https://www.current-banking.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.current-banking.com/careers
+Call log:
+navigatin"
+Deel HR,https://www.deel-hr.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.deel-hr.com/careers"", wait"
+Density,https://www.density.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.density.com/careers
+Call log:
+navigating to ""ht"
+Disney Streaming,https://www.disney-streaming.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.disney-streaming.com/careers
+Call log:
+navigati"
+Divvy Homes,https://www.divvy-homes.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.divvy-homes.com/careers
+Call log:
+navigating to"
+Domain Money,https://www.domain-money.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.domain-money.com/careers
+Call log:
+navigating t"
+DoorDash Storefront,https://www.doordash-storefront.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.doordash-storefront.com/careers
+Call log:
+navig"
+Eat Just,https://www.eat-just.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.eat-just.com/careers"", wai"
+Eightfold AI,https://www.eightfold-ai.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.eightfold-ai.com/careers
+Call log:
+navigating t"
+Even (Earnin),https://www.even-earnin.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.even-earnin.com/careers
+Call log:
+navigating to"
+Even Financial,https://www.even-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.even-financial.com/careers
+Call log:
+navigating"
+Expedia,https://lifeatexpedia.com/,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://lifeatexpedia.com/"", waiting u"
+Experian Boost,https://www.experian-boost.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.experian-boost.com/careers
+Call log:
+navigating"
+Factorial,https://www.factorial.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.factorial.com/careers
+Call log:
+navigati"
+Fama,https://www.fama.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.fama.com/careers"", waiting"
+Felix Pago,https://www.felix-pago.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.felix-pago.com/careers
+Call log:
+navigating to "
+First Boulevard,https://www.first-boulevard.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.first-boulevard.com/careers
+Call log:
+navigatin"
+Flock Freight,https://www.flock-freight.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.flock-freight.com/careers
+Call log:
+navigating "
+Found Banking,https://www.found-banking.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.found-banking.com/careers
+Call log:
+navigating "
+Frame.io,https://www.frameio.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.frameio.com/careers
+Call log:
+navigating"
+Front,https://www.front.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.front.com/careers"", waitin"
+Grammarly,https://www.grammarly.com/jobs,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.grammarly.com/jobs"", waiti"
+Greenhouse Software,https://www.greenhouse-software.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.greenhouse-software.com/careers
+Call log:
+navig"
+Greenlight Financial,https://www.greenlight-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.greenlight-financial.com/careers
+Call log:
+navi"
+Greenwood,https://www.greenwood.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.greenwood.com/careers
+Call log:
+navigati"
+Gusto Wallet,https://www.gusto-wallet.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gusto-wallet.com/careers
+Call log:
+navigating t"
+HBO Max,https://www.hbo-max.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hbo-max.com/careers
+Call log:
+navigating to ""ht"
+Heap,https://www.heap.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.heap.com/careers"", waiting"
+Hightower,https://www.hightower.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.hightower.com/careers
+Call log:
+navigati"
+Honeypot,https://www.honeypot.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.honeypot.com/careers
+Call log:
+navigating to ""h"
+Imperfect Foods,https://www.imperfect-foods.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.imperfect-foods.com/careers
+Call log:
+navigatin"
+Instant Financial,https://www.instant-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.instant-financial.com/careers
+Call log:
+navigat"
+Instantly,https://www.instantly.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.instantly.com/careers
+Call log:
+navigating to """
+Integral Ad Science,https://www.integral-ad-science.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.integral-ad-science.com/careers
+Call log:
+navig"
+Jasper,https://www.jasper.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.jasper.com/careers"", waiti"
+Joby Aviation,https://www.joby-aviation.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.joby-aviation.com/careers
+Call log:
+navigating "
+KeepTruckin (Motive),https://www.keeptruckin-motive.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.keeptruckin-motive.com/careers
+Call log:
+naviga"
+King (Activision),https://www.king-activision.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.king-activision.com/careers
+Call log:
+navigatin"
+Kitchen United,https://www.kitchen-united.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kitchen-united.com/careers
+Call log:
+navigating"
+Lambda School (BloomTech),https://www.lambda-school-bloomtech.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lambda-school-bloomtech.com/careers
+Call log:
+n"
+Lattice HR,https://www.lattice-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lattice-hr.com/careers
+Call log:
+navigating to "
+Lemon.io,https://www.lemonio.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.lemonio.com/careers
+Call log:
+navigating"
+Lever TA,https://www.lever-ta.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lever-ta.com/careers
+Call log:
+navigating to ""h"
+Lili,https://www.lili.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lili.com/careers
+Call log:
+navigating to ""https"
+Lime,https://www.lime.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.lime.com/careers"", waiting"
+M1 Finance,https://www.m1-finance.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.m1-finance.com/careers
+Call log:
+navigating to "
+Mailchimp,https://www.mailchimp.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.mailchimp.com/careers"", wa"
+Marcus by Goldman Sachs,https://www.marcus-by-goldman-sachs.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.marcus-by-goldman-sachs.com/careers
+Call log:
+n"
+Mercury Banking,https://www.mercury-banking.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.mercury-banking.com/careers
+Call log:
+navigatin"
+Method Financial,https://www.method-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.method-financial.com/careers
+Call log:
+navigati"
+Mirror,https://www.mirror.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.mirror.com/careers"", waiti"
+Mode Analytics,https://www.mode-analytics.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mode-analytics.com/careers
+Call log:
+navigating"
+Motion,https://www.motion.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.motion.com/careers"", waiti"
+Nasdaq Private Market,https://www.nasdaq-private-market.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.nasdaq-private-market.com/careers
+Call log:
+nav"
+Notion Press,https://www.notion-press.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.notion-press.com/careers
+Call log:
+navigating t"
+Origin,https://www.origin.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.origin.com/careers
+Call log:
+navigating to """
+Oyster HR,https://www.oyster-hr.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.oyster-hr.com/careers"", wa"
+Papaya Global,https://www.papaya-global.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.papaya-global.com/careers
+Call log:
+navigating "
+Paramount+,https://www.paramount+.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.paramount+.com/careers
+Call log:
+navigating to "
+Paycor,https://www.paycor.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.paycor.com/careers"", waiti"
+Peacock,https://www.peacock.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.peacock.com/careers
+Call log:
+navigating"
+Perfect Day,https://www.perfect-day.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.perfect-day.com/careers
+Call log:
+navigating to"
+Pika Labs,https://www.pika-labs.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.pika-labs.com/careers"", wa"
+Pilot.com,https://www.pilotcom.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.pilotcom.com/careers"", wai"
+Postpay,https://www.postpay.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.postpay.com/careers
+Call log:
+navigating to ""ht"
+Puzzle,https://www.puzzle.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.puzzle.com/careers
+Call log:
+navigating to ""htt"
+Rakuten,https://rakuten.jobs/,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rakuten.jobs/
+Call log:
+navigating to ""https://raku"
+Ramp Business,https://www.ramp-business.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-business.com/careers
+Call log:
+navigating "
+Ramp Financial,https://www.ramp-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-financial.com/careers
+Call log:
+navigating"
+Ramp Procurement,https://www.ramp-procurement.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-procurement.com/careers
+Call log:
+navigati"
+Redfin,https://www.redfin.com/about/jobs,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.redfin.com/about/jobs"", wa"
+Relativity Space,https://www.relativity-space.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.relativity-space.com/careers
+Call log:
+navigati"
+Relay Financial,https://www.relay-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.relay-financial.com/careers
+Call log:
+navigatin"
+Remote OAB,https://www.remote-oab.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.remote-oab.com/careers
+Call log:
+navigating to "
+Remote OK,https://www.remote-ok.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.remote-ok.com/careers"", wa"
+Republic,https://www.republic.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.republic.com/careers"", wai"
+Ribbon,https://www.ribbon.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.ribbon.com/careers"", waiti"
+Ring,https://www.ring.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.ring.com/careers"", waiting"
+RingCentral,https://www.ringcentral.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.ringcentral.com/careers"", "
+Rippling,https://www.rippling.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.rippling.com/careers"", wai"
+Riverside.fm,https://www.riversidefm.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.riversidefm.com/careers"", "
+Rocket Money,https://www.rocket-money.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.rocket-money.com/careers"","
+Sakara Life,https://www.sakara-life.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sakara-life.com/careers
+Call log:
+navigating to"
+Sastrify,https://www.sastrify.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.sastrify.com/careers"", wai"
+Sequoia Consulting,https://www.sequoia-consulting.com/careers,error,,,"Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.sequoia-consulting.com/careers
+Call l"
+Shippo,https://www.shippo.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.shippo.com/careers"", waiti"
+Simple,https://www.simple.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simple.com/careers
+Call log:
+navigating to """
+Slack,https://www.slack.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.slack.com/careers"", waitin"
+Splendid Spoon,https://www.splendid-spoon.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.splendid-spoon.com/careers
+Call log:
+navigating"
+Square,https://www.square.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.square.com/careers"", waiti"
+Square (Block),https://block.xyz/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://block.xyz/careers"", waiting un"
+Square POS,https://www.square-pos.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.square-pos.com/careers"", w"
+Synapse,https://www.synapse.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.synapse.com/careers"", wait"
+Synchrony,https://www.synchrony.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.synchrony.com/careers
+Call log:
+navigating t"
+Tability,https://www.tability.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.tability.com/careers"", wai"
+Tally,https://www.tally.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.tally.com/careers
+Call log:
+navigating t"
+Tally Technologies,https://www.tally-technologies.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tally-technologies.com/careers
+Call log:
+naviga"
+Teamblind,https://www.teamblind.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.teamblind.com/careers"", wa"
+Tenable,https://www.tenable.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.tenable.com/careers"", wait"
+Tesla Energy,https://www.tesla-energy.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.tesla-energy.com/careers"","
+Toast POS,https://www.toast-pos.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.toast-pos.com/careers"", wa"
+Transit App,https://www.transit-app.com/careers,error,,,"Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.transit-app.com/careers
+Call log:
+nav"
+TriNet,https://www.trinet.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.trinet.com/careers"", waiti"
+Trim,https://www.trim.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.trim.com/careers
+Call log:
+navigating to"
+Triplebyte,https://www.triplebyte.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.triplebyte.com/careers
+Call log:
+navigating to "
+Tropic,https://www.tropic.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.tropic.com/careers"", waiti"
+Truebill (Rocket Money),https://www.truebill-rocket-money.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.truebill-rocket-money.com/careers
+Call log:
+nav"
+Truework,https://www.truework.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.truework.com/careers"", wai"
+Varo Bank,https://www.varo-bank.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.varo-bank.com/careers
+Call log:
+navigating to """
+Veho,https://www.veho.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.veho.com/careers
+Call log:
+navigating to ""ht"
+Velocity Global,https://www.velocity-global.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.velocity-global.com/career"
+Voltage Park,https://www.voltage-park.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.voltage-park.com/careers
+Call log:
+navigating t"
+We Work Remotely,https://www.we-work-remotely.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.we-work-remotely.com/careers
+Call log:
+navigati"
+Weights & Biases,https://wandb.ai/site/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://wandb.ai/site/careers"", waitin"
+Wise Transfer,https://www.wise-transfer.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.wise-transfer.com/careers
+Call log:
+navigating "
+Wix,https://www.wix.com/jobs/locations/tel-aviv,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.wix.com/jobs/locations/tel"
+Wyze,https://www.wyze.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.wyze.com/careers"", waiting"
+Xata,https://www.xata.com/careers,error,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.xata.com/careers
+Call log:
+navigat"
+Xoom,https://www.xoom.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.xoom.com/careers"", waiting"
+Zip Co,https://www.zip-co.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.zip-co.com/careers"", waiti"
+dbt Labs,https://www.dbt-labs.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+navigating to ""https://www.dbt-labs.com/careers"", wai"
+ironSource,https://www.ironsource.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ironsource.com/careers
+Call log:
+navigating to "
+Fitbit,https://www.fitbit.com/careers,google,Google Careers — matched: careers.google.com,https://www.google.com:443/about/careers/applications/jobs/results/?company=Fitbit,
+Looker,https://www.looker.com/careers,google,Found in rendered HTML,https://cloud.google.com/looker-bi,
+Nest,https://www.nest.com/careers,google,Google Careers — matched: careers.google.com,https://www.google.com/about/careers/applications/,
+Photomath,https://www.photomath.com/careers,google,Google Careers — matched: careers.google.com,https://www.google.com/about/careers/applications/,
+Airfocus,https://www.airfocus.com/careers,greenhouse,Network request: https://boards-api.greenhouse.io/v1/boards/lucidsoftware/jobs?content=true&v=1,https://airfocus.com/careers/,
+Anduril,https://www.anduril.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.anduril.com/careers,
+Bright Health,https://brighthealthgroup.com/careers/,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.neuehealth.com/careers,
+Codecademy,https://www.codecademy.com/about/careers,greenhouse,Network request: https://api.greenhouse.io/v1/boards/codeacademy/jobs?content=true,https://www.codecademy.com/about/careers,
+GOAT,https://www.goat.com/careers,greenhouse,Final URL: https://job-boards.greenhouse.io/goatgroup,https://job-boards.greenhouse.io/goatgroup,
+Gladly,https://www.gladly.com/careers,greenhouse,Network request: https://api.greenhouse.io/v1/boards/sagansystems/embed/departments,https://www.gladly.ai/careers/,
+Headspace,https://www.headspace.com/careers,greenhouse,Found in rendered HTML,https://www.headspace.com/join-us,
+Hippo,https://www.hippo.com/careers,greenhouse,Found in rendered HTML,https://www.hippo.com/careers,
+Kajabi,https://www.kajabi.com/careers,greenhouse,Network request: https://boards.greenhouse.io/embed/job_board/js?for=kajabi,https://www.kajabi.com/careers,
+MX,https://www.mx.com/careers,greenhouse,Network request: https://boards-api.greenhouse.io/v1/boards/mxtechnologiesinc/jobs?content=true,https://www.mx.com/careers/,
+Noom,https://www.noom.com/careers,greenhouse,Network request: https://boards.greenhouse.io/embed/job_board/js?for=noomgrowth,https://www.noom.com/careers/job-listings/,
+Numerade,https://www.numerade.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.numerade.com:443/careers/,
+Payhawk,https://www.payhawk.com/careers,greenhouse,Found in rendered HTML,https://payhawk.com/careers,
+Pipe,https://www.pipe.com/careers,greenhouse,Network request: https://boards-api.greenhouse.io/v1/boards/pipetechnologies/departments,https://pipe.com/careers,
+Scalapay,https://www.scalapay.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.scalapay.com/careers,
+SentinelOne,https://www.sentinelone.com/jobs/,greenhouse,Network request: https://boards-api.greenhouse.io/v1/boards/sentinellabs/jobs/?content=true,https://www.sentinelone.com/jobs/,
+Stord,https://www.stord.com/careers,greenhouse,Found in rendered HTML,https://www.stord.com/careers,
+Teachable,https://www.teachable.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.teachable.com/careers,
+WeightWatchers,https://www.weightwatchers.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://www.weightwatchers.com/us/ww-corporate-careers,
+Wonderlic,https://www.wonderlic.com/careers,greenhouse,Greenhouse job board — matched: greenhouse.io,https://wonderlic.com/jobs/,
+Booking.com,https://careers.booking.com/,icims,Found in rendered HTML,https://careers.booking.com/,
+DocuSign,https://www.docusign.com/company/careers,icims,iCIMS — matched: icims.com,https://careers.docusign.com/careers-home,
+Garmin,https://www.garmin.com/careers,icims,Network request: https://cdn13.icims.com/icims-translations/latest/locales/en-US/acs.json,https://www.garmin.com/en-US/careers/,
+GitHub,https://github.com/about/careers,icims,iCIMS — matched: icims.com,https://www.github.careers/careers-home,
+OneLogin,https://www.onelogin.com/company/careers,icims,Found in rendered HTML,https://www.oneidentity.com/company/careers.aspx,
+Rivian,https://www.rivian.com/careers,icims,iCIMS — matched: icims.com,https://careers.rivian.com/careers-home/,
+Yelp,https://www.yelp.com/careers,icims,Found in rendered HTML,https://www.yelp.careers/us/en,
+iCIMS,https://www.icims.com/careers,icims,URL redirect → https://careers.icims.com/careers-home/,https://careers.icims.com/careers-home/,
+JazzHR,https://www.jazzhr.com/careers,jazzhr,Network request: https://www.jazzhr.com/careers,https://careers.employinc.com/,
+Settle,https://www.settle.com/careers,jazzhr,Found in rendered HTML,https://www.settle.com/careers,
+LegalZoom,https://www.legalzoom.com/careers,jobvite,Jobvite — matched: jobvite.com,https://www.legalzoom.com/careers,
+EasyPost,https://www.easypost.com/careers,lever,Found in rendered HTML,https://www.easypost.com/careers/,
+Glean,https://www.glean.com/careers,lever,Network request: https://api.lever.co/v1/opportunities,https://www.glean.com/careers,
+Hinge,https://hinge.co/careers,lever,Network request: https://api.lever.co/v0/postings/matchgroup?department=hinge&mode=json,https://hinge.co/careers,
+Lever,https://www.lever.co/careers,lever,Network request: https://www.lever.co/careers,https://careers.employinc.com/,
+Mistral AI,https://mistral.ai/careers/,lever,Found in rendered HTML,https://mistral.ai/careers/,
+Reflektive,https://www.reflektive.com/careers,lever,Lever embed — matched: lever-jobs-embed,https://www.reflektive.com/company/careers/,
+Side,https://www.side.com/careers,lever,Network request: https://api.lever.co/v0/postings/sideinc?group=team&mode=json,https://www.side.com/about/careers/,
+AppNexus,https://www.appnexus.com/careers,microsoft,Found in rendered HTML,https://about.ads.microsoft.com/en,
+Nuance,https://www.nuance.com/careers,microsoft,Found in rendered HTML,https://www.microsoft.com/en-us/health-solutions,
+Fortinet,https://www.fortinet.com/corporate/about-us/careers,oracle_hcm,Found in rendered HTML,https://www.fortinet.com/corporate/careers,
+Oracle,https://www.oracle.com/corporate/careers/,oracle_jobs,Oracle Careers — matched: careers.oracle.com,https://www.oracle.com/careers/,
+Paylocity,https://www.paylocity.com/careers,paylocity,URL redirect → https://www.paylocity.com/careers/,https://www.paylocity.com/careers/,
+Personio,https://www.personio.com/careers,personio,URL redirect → https://www.personio.com/careers,https://www.personio.com/careers,
+Brivo,https://www.brivo.com/careers,pinpoint,Pinpoint — matched: pinpointhq.com,https://careers.brivo.com/,
+Confluence,https://www.confluence.com/careers,pinpoint,Pinpoint — matched: pinpointhq.com,https://www.confluence.com/careers,
+YNAB,https://www.ynab.com/careers,pinpoint,Found in rendered HTML,https://www.ynab.com/careers,
+Freshworks,https://www.freshworks.com/company/careers/,smartrecruiters,Found in rendered HTML,https://www.freshworks.com/company/careers/,
+HireVue,https://www.hirevue.com/careers,smartrecruiters,Network request: https://api.smartrecruiters.com/v1/companies/hirevue/postings,https://www.hirevue.com/careers,
+SmartRecruiters,https://www.smartrecruiters.com/careers,smartrecruiters,SmartRecruiters — matched: smartrecruiters.com,https://www.smartrecruiterscareers.com/?src=sr_websitecareers-posting/,
+Optimizely,https://www.optimizely.com/careers,successfactors,SAP SuccessFactors — matched: successfactors.com,https://careers.optimizely.com,
+Uber,https://jobs.uber.com/en/jobs/,uber,Final URL: https://jobs.uber.com/en/jobs/,https://jobs.uber.com/en/jobs/,
+ADP,https://www.adp.com/careers,unknown,,https://jobs.adp.com/en/,
+Adept AI,https://www.adept.ai/careers,unknown,,https://www.adept.ai/careers,
+Akiflow,https://www.akiflow.com/careers,unknown,,https://akiflow.com/careers,
+Albert,https://www.albert.com/careers,unknown,,https://albert.com/careers,
+Aleph Farms,https://www.aleph-farms.com/careers,unknown,,https://aleph-farms.com/careers/,
+AllTrails,https://www.alltrails.com/careers,unknown,,https://www.alltrails.com/careers,
+Argyle,https://www.argyle.com/careers,unknown,,https://www.argyle.com/careers,
+Aspiration,https://www.aspiration.com/careers,unknown,,https://www.greenfi.com/careers,
+Atlassian,https://www.atlassian.com/company/careers,unknown,,https://www.atlassian.com/company/careers,
+Avant,https://www.avant.com/careers/,unknown,,https://www.avant.com/careers/,
+BentoBox,https://www.bentobox.com/careers,unknown,,https://www.bentobox.com/careers,
+Betterworks,https://www.betterworks.com/careers,unknown,,https://www.betterworks.com/careers,
+Blue Apron,https://www.blue-apron.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.blue-apron.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+Bonsai,https://www.bonsai.com/careers,unknown,,https://www.bonsai.com/careers,
+Bonusly,https://www.bonusly.com/careers,unknown,,https://bonusly.com/careers,
+Boom Supersonic,https://www.boom-supersonic.com/careers,unknown,,https://webindex.org/en/explore-boom-supersonic-flight-routes-and-booking-information-3631516/?ds=eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJib29tLXN1cGVyc29uaWMuY29tIiwiZXhwIjoxNzgyODg0MjA5LCJzYWxlYmFubmVyIjp7ImxpbmsiOiJtYWlsdG86dHJ1c3RlZUBuYW1laW52ZXN0LmJ6P3N1YmplY3Q9e2RvbWFpbn1cdTAwMjZib2R5PUklMjBhbSUyMGludGVyZXN0ZWQlMjBpbiUyMGJ1eWluZyUyMHtkb21haW59LiUwRCUwQVlvdXIlMjBOYW1lJTBEJTBBWW91ciUyMENvbXBhbnkiLCJ0ZXh0IjoiVGhlIGRvbWFpbiB7ZG9tYWlufSBtaWdodCBiZSBmb3Igc2FsZS4iLCJ0eXBlIjoiZW1haWwifX0.Kyi6CDyqi-J_ex9MwrhEIAqt_F9zTJPtV10wmxI9hXA&s1=da44e6fa-27a1-406c-9763-8dbb4555ca72%7C843fb37c-d045-4bdb-94e3-6f6e786308a2%7C&utm_content=boom-supersonic.com&utm_source=domain,
+Cake Equity,https://www.cake-equity.com/careers,unknown,,https://www.cake-equity.com/careers,
+Canva,https://www.canva.com/careers/,unknown,,https://www.lifeatcanva.com/en/,
+Cap Table,https://www.cap-table.com/careers,unknown,,https://www.cap-table.com/careers,
+CarMax,https://www.carmax.com/careers,unknown,,https://www.carmax.com/careers,
+Care.com,https://www.care.com/en-us/about/careers,unknown,,https://www.care.com/en-us/about/careers,
+Carvana,https://www.carvana.com/careers,unknown,,https://www.carvana.com/careers,
+Chainalysis,https://www.chainalysis.com/careers,unknown,,https://www.chainalysis.com/careers/,
+Cheese,https://www.cheese.com/careers,unknown,,https://www.cheese.com/careers/,
+Chegg,https://careers.chegg.com/,unknown,,https://careers.chegg.com/,
+Chorus.ai,https://www.chorusai.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.chorusai.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+Circle,https://www.circle.com/careers,unknown,,https://careers.circle.com/us/en,
+Citymapper,https://www.citymapper.com/careers,unknown,,https://citymapper.com/careers,
+Clari,https://www.clari.com/careers,unknown,,https://www.clari.com/careers/,
+Clearbit,https://www.clearbit.com/careers,unknown,,https://clearbit.com/careers,
+Clearcover,https://www.clearcover.com/careers,unknown,,https://www.clearcover.com/careers,
+Clio,https://www.clio.com/careers,unknown,,https://www.clio.com/about/careers/,
+Clover,https://www.clover.com/careers,unknown,,https://careers.fiserv.com/us/en,
+Coda,https://coda.io/about/jobs,unknown,,https://coda.io/about/jobs,
+CodeSignal,https://www.codesignal.com/careers,unknown,,https://codesignal.com/careers,
+Codility,https://www.codility.com/careers,unknown,,https://www.codility.com/about-us/#careers,
+Composer,https://www.composer.com/careers,unknown,,https://telepathy.com/,
+Convex,https://www.convex.com/careers,unknown,,https://www.convex.com/careers,
+Convoy,https://convoy.com/careers/,unknown,,https://convoy.com/,
+CoverWallet,https://www.coverwallet.com/careers,unknown,,https://www.aonaffinity.com/traffic-director/,
+Craft.io,https://www.craftio.com/careers,unknown,,https://craftio.com/careers,
+Crossover,https://www.crossover.com/careers,unknown,,https://ed.crossover.com/careers,
+Cruise,https://www.cruise.com/careers,unknown,,https://www.cruise.com/cruise-information/employment/,
+Daily Harvest,https://www.daily-harvest.com/careers,unknown,,https://daily-harvest.com/careers,
+Datavant,https://www.datavant.com/careers,unknown,,https://www.datavant.com/careers,
+Deliverr,https://www.deliverr.com/careers,unknown,,https://www.flexport.com/careers,
+DoNotPay,https://www.donotpay.com/careers,unknown,,https://www.donotpay.com/careers,
+DocSend,https://www.docsend.com/careers,unknown,,https://www.docsend.com/careers,
+DoorDash,https://careers.doordash.com/,unknown,,https://careersatdoordash.com/,
+Drift,https://www.drift.com/careers,unknown,,https://www.salesloft.com/platform/drift,
+Dubsado,https://www.dubsado.com/careers,unknown,,https://www.dubsado.com/careers,
+EarnUp,https://www.earnup.com/careers,unknown,,https://earnup.com/careers/,
+Ecobee,https://www.ecobee.com/careers,unknown,,https://careers.generac.com/en/brands/ecobee/,
+EdgeDB,https://www.edgedb.com/careers,unknown,,https://www.geldata.com/careers,
+Etsy,https://careers.etsy.com/,unknown,,https://careers.etsy.com/,
+Eufy,https://www.eufy.com/careers,unknown,,https://www.eufy.com/careers,
+EveryPlate,https://www.everyplate.com/careers,unknown,,https://www.everyplate.com/careers,
+Fellow.app,https://www.fellowapp.com/careers,unknown,,https://www.fellowapp.com/careers,
+Fishbowl,https://www.fishbowl.com/careers,unknown,,https://www.fishbowl.com/careers,
+Fiverr,https://www.fiverr.com/jobs,unknown,,https://www.fiverr.com/jobs,
+FlexWage,https://www.flexwage.com/careers,unknown,,https://flexwage.com/careers,
+Fly.io,https://www.flyio.com/careers,unknown,,https://www.flyio.com/,
+Flyhomes,https://www.flyhomes.com/careers,unknown,,https://flyhomes.com/careers,
+Gem,https://www.gem.com/careers,unknown,,https://www.gem.com/company/careers,
+Getaround,https://www.getaround.com/careers,unknown,,https://getaround.com/,
+Gobble,https://www.gobble.com/careers,unknown,,https://www.gobble.com/careers/,
+Gong,https://www.gong.com/careers,unknown,,https://www.gong.com/careers,
+GoodHire,https://www.goodhire.com/careers,unknown,,https://www.goodhire.com/careers,
+GoodRx,https://www.goodrx.com/jobs,unknown,,https://www.goodrx.com/jobs,
+Groq,https://www.groq.com/careers,unknown,,https://groq.com/careers-at-groq,
+Guild Education,https://www.guildeducation.com/careers/,unknown,,https://www.guildeducation.com/careers,
+Gun.io,https://www.gunio.com/careers,unknown,,https://www.gunio.com/careers,
+HashiCorp,https://www.hashicorp.com/careers,unknown,,https://www.hashicorp.com/en/careers,
+Height,https://www.height.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.height.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+HiBob,https://www.hibob.com/careers,unknown,,https://www.hibob.com/careers/,
+Hired,https://www.hired.com/careers,unknown,,https://www.lhh.com/en-us/about-us/our-story,
+ImpactVision,https://www.impactvision.com/careers,unknown,,https://sedo.com/search/details/?domain=www.impactvision.com&campaignId=329145&origin=sales_lander_15,
+Increase,https://www.increase.com/careers,unknown,,https://www.increase.com/careers,
+Insperity,https://www.insperity.com/careers,unknown,,https://careers.insperity.com/?utm_source=insperity.com/,
+Ironclad,https://www.ironclad.com/careers,unknown,,https://ironclad.com/careers,
+Klarna,https://www.klarna.com/careers/,unknown,,https://www.klarna.com/careers/,
+Komoot,https://www.komoot.com/careers,unknown,,https://www.komoot.com/careers,
+Lambda Labs,https://www.lambda-labs.com/careers,unknown,,https://www.lambda-labs.com/careers,
+Layr,https://www.layr.com/careers,unknown,,https://layr.com/careers,
+Levels.fyi,https://www.levelsfyi.com/careers,unknown,,https://www.levels.fyi/?tab=levels,
+Linktree,https://www.linktree.com/careers,unknown,,https://linktr.ee/s/about/careers,
+Madkudu,https://www.madkudu.com/careers,unknown,,https://www.madkudu.com/careers,
+Majority,https://www.majority.com/careers,unknown,,https://majority.com/en,
+Measurabl,https://www.measurabl.com/careers,unknown,,https://www.measurabl.com/careers/,
+Mercoa,https://www.mercoa.com/careers,unknown,,https://mercoa.com/careers,
+Metromile,https://www.metromile.com/careers,unknown,,https://www.metromile.com/careers,
+Monday.com,https://monday.com/jobs,unknown,,https://monday.com/careers,
+Moomoo,https://www.moomoo.com/careers,unknown,,https://www.moomoo.com/404,
+Motivosity,https://www.motivosity.com/careers,unknown,,https://www.motivosity.com/careers,
+Multiplier,https://www.multiplier.com/careers,unknown,,https://www.multiplier.com/careers,
+Mynd,https://www.mynd.com/careers,unknown,,https://www.mynd.com/careers,
+Namely,https://www.namely.com/careers,unknown,,https://vensure.com/about-us/careers/,
+Next Insurance,https://www.next-insurance.com/careers,unknown,,https://www.nextinsurance.com/careers,
+Northflank,https://www.northflank.com/careers,unknown,,https://northflank.com/careers,
+Notable Health,https://www.notable-health.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.notable-health.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+Notco,https://www.notco.com/careers,unknown,,https://www.notco.com/careers,
+Nuvocargo,https://www.nuvocargo.com/careers,unknown,,https://www.nuvocargo.com/careers,
+Offerpad,https://www.offerpad.com/careers/,unknown,,https://www.offerpad.com/careers/,
+Onfido,https://www.onfido.com/careers,unknown,,https://www.entrust.com/careers,
+Onfleet,https://www.onfleet.com/careers,unknown,,https://onfleet.com/careers,
+OnlyFans,https://www.onlyfans.com/careers,unknown,,https://onlyfans.com/careers,
+Opendoor,https://www.opendoor.com/w/careers,unknown,,https://www.opendoor.com/careers,
+Otta,https://www.otta.com/careers,unknown,,https://app.welcometothejungle.com/companies/Welcome-to-the-Jungle-%28formerly-Otta%29#company-mission-section,
+Pinwheel,https://www.pinwheel.com/careers,unknown,,https://www.pinwheel.com/careers,
+PlanGrid,https://www.plangrid.com/careers,unknown,,https://www.autodesk.com/careers/,
+Policygenius,https://www.policygenius.com/careers,unknown,,https://www.policygenius.com/careers/,
+Postmates,https://www.postmates.com/careers,unknown,,https://postmates.com/careers,
+Procore,https://careers.procore.com/,unknown,,https://careers.procore.com/,
+ProdPad,https://www.prodpad.com/careers,unknown,,https://www.prodpad.com/about-us/jobs/,
+Productboard,https://www.productboard.com/careers,unknown,,https://www.productboard.com/careers/,
+Pymetrics,https://www.pymetrics.com/careers,unknown,,https://www.pymetrics.com/login/,
+Qapital,https://www.qapital.com/careers,unknown,,https://www.qapital.com/careers,
+Quizlet,https://quizlet.com/jobs,unknown,,https://quizlet.com/jobs,
+Rapid7,https://www.rapid7.com/company/careers/,unknown,,https://www.rapid7.com/company/careers/,
+Reclaim.ai,https://www.reclaimai.com/careers,unknown,,https://reclaim.ai/careers,
+Reef Technology,https://www.reef-technology.com/careers,unknown,,https://reef-technology.com/careers,
+Retool,https://retool.com/careers,unknown,,https://retool.com/careers,
+Revolut,https://www.revolut.com/en-US/careers,unknown,,https://www.revolut.com/en-US/careers/,
+Rippling HR,https://www.rippling-hr.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.rippling-hr.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+Roadmunk,https://www.roadmunk.com/careers,unknown,,https://roadmunk.com/careers/,
+Routific,https://www.routific.com/careers,unknown,,https://www.routific.com/careers,
+SAP,https://www.sap.com/about/careers.html,unknown,,https://www.sap.com/about/careers.html,
+Salesforce,https://www.salesforce.com/company/careers/,unknown,,https://www.salesforce.com/company/careers/,
+SeedInvest,https://www.seedinvest.com/careers,unknown,,https://www.startengine.com/seedinvest,
+Seismic,https://www.seismic.com/careers,unknown,,https://www.seismic.com/careers/,
+Sendwave,https://www.sendwave.com/careers,unknown,,https://www.sendwave.com/en/careers,
+ServiceNow,https://www.servicenow.com/careers.html,unknown,,https://www.servicenow.com/careers.html,
+Shift Technologies,https://www.shift-technologies.com/careers,unknown,,https://shift-technologies.com/careers/,
+ShipBob,https://www.shipbob.com/careers/,unknown,,https://www.shipbob.com/careers/,
+ShipHero,https://www.shiphero.com/careers,unknown,,https://shiphero.breezy.hr/,
+Shopify,https://www.shopify.com/careers,unknown,,https://www.shopify.com/careers,
+Smartlead,https://www.smartlead.com/careers,unknown,,https://www.smartlead.com/careers,
+Snap,https://careers.snap.com/,unknown,,https://careers.snap.com/,
+Snap Finance,https://www.snap-finance.com/careers,unknown,,https://forsale.godaddy.com/forsale/www.snap-finance.com?utm_source=TDFS_BINNS2&utm_medium=parkedpages&utm_campaign=x_corp_tdfs-binns2_base&traffic_type=TDFS_BINNS2&traffic_id=binns2&,
+Soldo,https://www.soldo.com/careers,unknown,,https://www.soldo.com/en-gb/soldo-career/,
+SoundCloud,https://www.soundcloud.com/careers,unknown,,https://soundcloud.com/careers,
+SpaceX,https://www.spacex.com/careers,unknown,,https://www.spacex.com/careers,
+Split,https://www.split.com/careers,unknown,,https://www.split.com/careers,
+Spotii,https://www.spotii.com/careers,unknown,,https://www.spotii.com/careers,
+Step,https://www.step.com/careers,unknown,,https://step.com/careers,
+Sunbasket,https://www.sunbasket.com/careers,unknown,,https://sunbasket.com/try/join-the-team/,
+Synthesis,https://www.synthesis.com/careers,unknown,,https://www.synthesis.com/careers,
+Tabby,https://www.tabby.com/careers,unknown,,https://www.tabby.com/careers,
+Tableau,https://www.tableau.com/careers,unknown,,https://www.tableau.com/careers,
+Tesla,https://www.tesla.com/careers,unknown,,https://www.tesla.com/careers,
+ThredUp,https://www.thredup.com/pg/careers,unknown,,https://www.thredup.com/pg/careers,
+Tidal,https://www.tidal.com/careers,unknown,,https://www.tidal.com/careers,
+Tradier,https://www.tradier.com/careers,unknown,,https://tradier.com/careers,
+Tred,https://www.tred.com/careers,unknown,,https://www.tred.com/careers,
+Trello,https://www.trello.com/careers,unknown,,https://trello.com/careers,
+Trupay,https://www.trupay.com/careers,unknown,,https://www.trupay.com/careers,
+Tubi,https://www.tubi.com/careers,unknown,,https://tubitv.com/,
+Turo,https://turo.com/us/en/careers,unknown,,https://turo.com/us/en/careers,
+Turso,https://www.turso.com/careers,unknown,,https://www.turso.com/careers,
+Unit21,https://www.unit21.com/careers,unknown,,https://www.unit21.ai/,
+Unity,https://www.unity.com/careers,unknown,,https://unity.com/careers,
+VRBO,https://www.vrbo.com/en-us/p/careers,unknown,,https://www.vrbo.com/en-us/p/careers,
+Vagaro,https://www.vagaro.com/careers,unknown,,https://www.vagaro.com/pro/careers,
+Vendr,https://www.vendr.com/careers,unknown,,https://www.vendr.com/careers,
+Vested,https://www.vested.com/careers,unknown,,https://vested.com/careers,
+Vettery,https://www.vettery.com/careers,unknown,,https://www.lhh.com/en-us/about-us/our-story,
+Vopay,https://www.vopay.com/careers,unknown,,https://vopay.com/en-us/careers/?utm_source=vopay.com&utm_medium=referral,
+Vouch Insurance,https://www.vouch-insurance.com/careers,unknown,,https://www.vouch.us/careers,
+Vroom,https://www.vroom.com/careers,unknown,,https://www.vroom.com/careers,
+Wagestream,https://www.wagestream.com/careers,unknown,,https://stream.co/careers,
+Warmly,https://www.warmly.com/careers,unknown,,https://www.warmly.com/careers,
+Wayfair,https://www.wayfair.com/careers/,unknown,,https://www.wayfair.com/careers/,
+Webull,https://www.webull.com/careers,unknown,,https://ats.rippling.com/webull/jobs,
+Wefunder,https://www.wefunder.com/careers,unknown,,https://wefunder.com/careers,
+Wellfound,https://www.wellfound.com/careers,unknown,,https://wellfound.com/careers,
+Wellhub,https://www.wellhub.com/careers,unknown,,https://wellhub.com/en-us/,
+Welltok,https://www.welltok.com/careers,unknown,,https://www.welltok.com/careers/,
+Whatnot,https://www.whatnot.com/careers,unknown,,https://careers.whatnot.com/,
+Wise,https://www.wise.jobs/,unknown,,https://wise.jobs/,
+WorkTango,https://www.worktango.com/careers,unknown,,https://www.worktango.com/careers,
+WorldRemit,https://www.worldremit.com/careers,unknown,,https://zepz.io/,
+X-Team,https://www.x-team.com/careers,unknown,,https://x-team.com/careers,
+Yodlee,https://www.yodlee.com/careers,unknown,,https://www.yodlee.com/careers,
+Yokoy,https://www.yokoy.com/careers,unknown,,https://www.yokoy.com/,
+Zencargo,https://www.zencargo.com/careers,unknown,,https://www.zencargo.com/careers/,
+Zenefits,https://www.zenefits.com/careers,unknown,,https://www.trinet.com/about-us/careers,
+Zillow,https://www.zillow.com/careers/,unknown,,https://www.zillow.com/careers/,
+Zynga,https://www.zynga.com/careers,unknown,,https://www.zynga.com/jobs/careers/,
+ezCater,https://www.ezcater.com/careers,unknown,,https://www.ezcater.com/careers,
+Facet,https://www.facet.com/careers,workable,Network request: https://www.workable.com/assets/embed.js,https://facet.com/careers/,
+Hugging Face,https://apply.workable.com/huggingface/,workable,URL redirect → https://apply.workable.com/huggingface/,https://apply.workable.com/huggingface/,
+LeetCode,https://leetcode.com/jobs/,workable,Final URL: https://apply.workable.com/leetcode,https://apply.workable.com/leetcode,
+Persado,https://www.persado.com/careers,workable,Workable — matched: workable.com,https://www.persado.com/careers,
+Workable,https://www.workable.com/careers,workable,URL redirect → https://apply.workable.com/careers,https://apply.workable.com/careers,
+23andMe,https://www.23andme.com/careers,workday,Workday — matched: myworkdayjobs.com,https://www.23andme.com/careers/,
+BigCommerce,https://www.bigcommerce.com/careers/,workday,Found in rendered HTML,https://www.bigcommerce.com/company/careers/,
+Buildertrend,https://www.buildertrend.com/careers,workday,Found in rendered HTML,https://buildertrend.com/careers/,
+Cityblock Health,https://www.cityblock.com/careers,workday,Found in rendered HTML,https://www.cityblock.com/careers,
+Criteo,https://www.criteo.com/careers,workday,Found in rendered HTML,https://careers.criteo.com/en/,
+Devoted Health,https://www.devoted.com/careers,workday,Workday — matched: myworkdayjobs.com,https://www.devoted.com/careers/,
+Empower,https://www.empower.com/careers,workday,Workday — matched: myworkdayjobs.com,https://jobs.empower.com/,
+Finicity,https://www.finicity.com/careers,workday,Workday — matched: myworkdayjobs.com,https://careers.mastercard.com/us/en/search-results?keywords=open%20banking&utm_source=direct&utm_medium=organic&utm_campaign=finicitycareers,
+Grubhub,https://careers.grubhub.com/,workday,Found in rendered HTML,https://careers.grubhub.com/,
+Palo Alto Networks,https://www.paloaltonetworks.com/company/careers,workday,Found in rendered HTML,https://jobs.paloaltonetworks.com/en,
+Pluralsight,https://www.pluralsight.com/careers,workday,Found in rendered HTML,https://www.pluralsight.com/careers,
+Remitly,https://www.remitly.com/careers,workday,Found in rendered HTML,https://careers.remitly.com/,
+Sunrun,https://www.sunrun.com/careers,workday,Workday — matched: myworkdayjobs.com,https://careers.sunrun.com/,
+Tempus,https://www.tempus.com/careers,workday,Found in rendered HTML,https://www.tempus.com/about-us/#careers,
+Wonder,https://www.wonder.com/careers,workday,Found in rendered HTML,https://www.wonder.com/careers,
+Zipcar,https://www.zipcar.com/careers,workday,Workday — matched: myworkdayjobs.com,https://www.zipcar.com/careers,
