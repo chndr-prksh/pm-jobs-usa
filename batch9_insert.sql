@@ -1,10 +1,9 @@
 -- ============================================================
--- BATCH 9: 486 new companies (Fortune-500 / large-cap list)
--- Run in Supabase SQL editor
+-- BATCH 9 (FINAL): Large-cap / Fortune-500 companies
 -- ============================================================
 
 -- -------------------------------------------------------
--- WORKDAY — tenant confirmed by network interception
+-- WORKDAY — ACTIVE (tenant confirmed by network interception)
 -- -------------------------------------------------------
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
 SELECT 'AT&T', 'workday', 'https://www.att.jobs', '{"tenant":"att","instance":"wd1"}'::jsonb, true
@@ -407,1219 +406,1222 @@ SELECT 'argenx', 'workday', 'https://www.argenx.com/careers', '{"tenant":"argenx
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'argenx');
 
 -- -------------------------------------------------------
--- WORKDAY — tenant not found (Cloudflare-blocked); inserted inactive
--- Update ats_config manually with tenant+instance before activating
+-- WORKDAY — ACTIVE (tenant confirmed by API probe)
 -- -------------------------------------------------------
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT '3M', 'workday', 'https://www.3m.com/3M/en_US/careers-us/', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = '3M');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AbbVie', 'workday', 'https://careers.abbvie.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AbbVie');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Aflac', 'workday', 'https://careers.aflac.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Aflac');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Agilent', 'workday', 'https://jobs.agilent.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Agilent');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Agnico Eagle Mines', 'workday', 'https://agnicoeagle.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Agnico Eagle Mines');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AIG', 'workday', 'https://careers.aig.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AIG');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Allstate', 'workday', 'https://careers.allstate.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Allstate');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Alnylam Pharma', 'workday', 'https://www.alnylam.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Alnylam Pharma');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Altria', 'workday', 'https://careers.altria.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Altria');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ambev', 'workday', 'https://www.ambev.com.br/carreiras/', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ambev');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AMD', 'workday', 'https://careers.amd.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AMD');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'American Express', 'workday', 'https://careers.americanexpress.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'American Express');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'American Tower', 'workday', 'https://careers.americantower.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'American Tower');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ameriprise Financial', 'workday', 'https://www.ameriprise.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ameriprise Financial');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AMETEK', 'workday', 'https://www.ametek.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AMETEK');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Amphenol', 'workday', 'https://careers.amphenol.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Amphenol');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AngloGold Ashanti', 'workday', 'https://www.anglogoldashanti.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AngloGold Ashanti');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Anheuser-Busch InBev', 'workday', 'https://careers.ab-inbev.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Anheuser-Busch InBev');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Aon', 'workday', 'https://careers.aon.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Aon');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Applied Materials', 'workday', 'https://careers.appliedmaterials.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Applied Materials');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'ArcelorMittal', 'workday', 'https://careers.arcelormittal.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ArcelorMittal');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Archer-Daniels-Midland', 'workday', 'https://careers.adm.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Archer-Daniels-Midland');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Arista Networks', 'workday', 'https://www.arista.com/en/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arista Networks');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Arm Holdings', 'workday', 'https://careers.arm.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arm Holdings');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Arthur J. Gallagher', 'workday', 'https://careers.ajg.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arthur J. Gallagher');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'ASML', 'workday', 'https://www.asml.com/en/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ASML');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AstraZeneca', 'workday', 'https://careers.astrazeneca.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AstraZeneca');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Atmos Energy', 'workday', 'https://careers.atmosenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Atmos Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Autodesk', 'workday', 'https://www.autodesk.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Autodesk');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'AutoZone', 'workday', 'https://careers.autozone.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AutoZone');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Bank of Nova Scotia', 'workday', 'https://jobs.scotiabank.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Bank of Nova Scotia');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Barrick Mining', 'workday', 'https://www.barrick.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Barrick Mining');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'BHP Group', 'workday', 'https://www.bhp.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BHP Group');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'BlackRock', 'workday', 'https://careers.blackrock.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BlackRock');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'BNY Mellon', 'workday', 'https://bny.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BNY Mellon');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Booking Holdings', 'workday', 'https://careers.bookingholdings.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Booking Holdings');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Boston Scientific', 'workday', 'https://jobs.bostonscientific.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Boston Scientific');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'BP', 'workday', 'https://www.bp.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BP');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'British American Tobacco', 'workday', 'https://www.bat.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'British American Tobacco');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Broadcom', 'workday', 'https://careers.broadcom.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Broadcom');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cameco', 'workday', 'https://www.cameco.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cameco');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Canadian National Rail', 'workday', 'https://www.cn.ca/en/careers/', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian National Rail');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Canadian Natural Res', 'workday', 'https://www.cnrl.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian Natural Res');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Canadian Pacific KC', 'workday', 'https://careers.cpkcr.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian Pacific KC');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cardinal Health', 'workday', 'https://jobs.cardinalhealth.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cardinal Health');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Carnival', 'workday', 'https://jobs.carnival.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Carnival');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Carrier Global', 'workday', 'https://careers.carrier.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Carrier Global');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Casey''s General Stores', 'workday', 'https://careers.caseys.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Casey''s General Stores');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Caterpillar', 'workday', 'https://careers.caterpillar.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Caterpillar');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cboe Global Markets', 'workday', 'https://careers.cboe.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cboe Global Markets');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CBRE Group', 'workday', 'https://careers.cbre.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CBRE Group');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Celestica', 'workday', 'https://www.celestica.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Celestica');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cencora', 'workday', 'https://careers.cencora.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cencora');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cenovus Energy', 'workday', 'https://careers.cenovus.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cenovus Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CenterPoint Energy', 'workday', 'https://jobs.centerpointenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CenterPoint Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Charles Schwab', 'workday', 'https://www.schwab.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Charles Schwab');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cheniere Energy', 'workday', 'https://careers.cheniere.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cheniere Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cheniere Energy Partners', 'workday', 'https://careers.cheniere.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cheniere Energy Partners');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Chevron', 'workday', 'https://www.chevron.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chevron');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Chipotle', 'workday', 'https://jobs.chipotle.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chipotle');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Chubb', 'workday', 'https://careers.chubb.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chubb');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CIBC', 'workday', 'https://www.cibc.com/en/about-cibc/careers.html', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CIBC');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cintas', 'workday', 'https://careers.cintas.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cintas');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cisco', 'workday', 'https://jobs.cisco.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cisco');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Citigroup', 'workday', 'https://careers.citi.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Citigroup');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CME Group', 'workday', 'https://careers.cmegroup.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CME Group');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Coca-Cola', 'workday', 'https://careers.coca-colacompany.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coca-Cola');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Coca-Cola Europacific', 'workday', 'https://careers.ccep.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coca-Cola Europacific');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Coherent', 'workday', 'https://careers.coherent.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coherent');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Colgate-Palmolive', 'workday', 'https://jobs.colgate.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Colgate-Palmolive');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Consolidated Edison', 'workday', 'https://careers.coned.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Consolidated Edison');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Constellation Energy', 'workday', 'https://careers.constellationenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Constellation Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Copart', 'workday', 'https://www.copart.com/content/us/en/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Copart');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Corning', 'workday', 'https://www.corning.com/worldwide/en/careers.html', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Corning');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Corteva', 'workday', 'https://careers.corteva.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Corteva');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CRH', 'workday', 'https://www.crh.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CRH');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Crown Castle', 'workday', 'https://careers.crowncastle.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Crown Castle');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'CSX', 'workday', 'https://jobs.csx.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CSX');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Cummins', 'workday', 'https://careers.cummins.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cummins');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'D.R. Horton', 'workday', 'https://careers.drhorton.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'D.R. Horton');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Deere', 'workday', 'https://jobs.deere.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Deere');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Dell', 'workday', 'https://jobs.dell.com', '{}'::jsonb, false
+SELECT 'Dell', 'workday', 'https://jobs.dell.com', '{"tenant":"dell","instance":"wd1"}'::jsonb, true
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Dell');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Delta Air Lines', 'workday', 'https://www.deltaairlines.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Delta Air Lines');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Deutsche Bank', 'workday', 'https://careers.db.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Deutsche Bank');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Devon Energy', 'workday', 'https://www.devonenergy.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Devon Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'DexCom', 'workday', 'https://careers.dexcom.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'DexCom');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Diamondback Energy', 'workday', 'https://careers.diamondbackenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Diamondback Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Digital Realty', 'workday', 'https://careers.digitalrealty.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Digital Realty');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Dominion Energy', 'workday', 'https://careers.dominionenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Dominion Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Dover', 'workday', 'https://www.dovercorporation.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Dover');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'DTE Energy', 'workday', 'https://careers.dteenergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'DTE Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Duke Energy', 'workday', 'https://careers.duke-energy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Duke Energy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Eaton', 'workday', 'https://careers.eaton.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Eaton');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'eBay', 'workday', 'https://careers.ebayinc.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'eBay');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'EchoStar', 'workday', 'https://careers.echostar.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EchoStar');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Edison International', 'workday', 'https://www.edisoninternational.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Edison International');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Edwards Lifesciences', 'workday', 'https://careers.edwards.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Edwards Lifesciences');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Electronic Arts', 'workday', 'https://jobs.ea.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Electronic Arts');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'EMCOR Group', 'workday', 'https://emcor.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EMCOR Group');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Emerson Electric', 'workday', 'https://www.emerson.com/en-us/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Emerson Electric');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Enbridge', 'workday', 'https://www.enbridge.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Enbridge');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Energy Transfer', 'workday', 'https://www.energytransfer.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Energy Transfer');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Entergy', 'workday', 'https://jobs.entergy.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Entergy');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Enterprise Products', 'workday', 'https://www.enterpriseproducts.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Enterprise Products');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'EOG Resources', 'workday', 'https://careers.eogresources.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EOG Resources');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'EQT Corp', 'workday', 'https://careers.eqt.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EQT Corp');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ericsson', 'workday', 'https://www.ericsson.com/en/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ericsson');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Estee Lauder', 'workday', 'https://careers.elcompanies.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Estee Lauder');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Exelon', 'workday', 'https://careers.exeloncorp.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Exelon');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Extra Space Storage', 'workday', 'https://careers.extraspace.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Extra Space Storage');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Fastenal', 'workday', 'https://careers.fastenal.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fastenal');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'FedEx', 'workday', 'https://careers.fedex.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'FedEx');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ferguson', 'workday', 'https://careers.ferguson.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ferguson');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Fifth Third Bancorp', 'workday', 'https://www.53.com/content/fifth-third/en/careers.html', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fifth Third Bancorp');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'First Solar', 'workday', 'https://jobs.firstsolar.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'First Solar');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Fiserv', 'workday', 'https://careers.fiserv.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fiserv');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Flex', 'workday', 'https://careers.flex.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Flex');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ford Motor', 'workday', 'https://careers.ford.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ford Motor');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Fortinet', 'workday', 'https://www.fortinet.com/corporate/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fortinet');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Fortis', 'workday', 'https://careers.fortisinc.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fortis');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Franco-Nevada', 'workday', 'https://www.franco-nevada.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Franco-Nevada');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Freeport-McMoRan', 'workday', 'https://careers.fcx.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Freeport-McMoRan');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Garmin', 'workday', 'https://careers.garmin.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Garmin');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'GE Aerospace', 'workday', 'https://jobs.gecareers.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GE Aerospace');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'GE Vernova', 'workday', 'https://jobs.gecareers.com/vernova', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GE Vernova');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'General Dynamics', 'workday', 'https://www.gd.com/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'General Dynamics');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'General Motors', 'workday', 'https://careers.gm.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'General Motors');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'GLOBALFOUNDRIES', 'workday', 'https://gf.com/careers', '{}'::jsonb, false
+SELECT 'GLOBALFOUNDRIES', 'workday', 'https://gf.com/careers', '{"tenant":"globalfoundries","instance":"wd1"}'::jsonb, true
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GLOBALFOUNDRIES');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Gold Fields', 'workday', 'https://careers.goldfields.com', '{}'::jsonb, false
+SELECT 'Illinois Tool Works', 'workday', 'https://careers.itw.com', '{"tenant":"itw","instance":"wd5"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Illinois Tool Works');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'PNC Financial', 'workday', 'https://www.pnc.com/en/about-pnc/careers.html', '{"tenant":"pnc","instance":"wd5"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PNC Financial');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Qualcomm', 'workday', 'https://careers.qualcomm.com', '{"tenant":"qualcomm","instance":"wd12"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Qualcomm');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Takeda', 'workday', 'https://www.takeda.com/en-us/careers', '{"tenant":"takeda","instance":"wd3"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Takeda');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Walmart', 'workday', 'https://careers.walmart.com', '{"tenant":"walmart","instance":"wd5"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Walmart');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Williams Companies', 'workday', 'https://careers.williams.com', '{"tenant":"williams","instance":"wd5"}'::jsonb, true
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Williams Companies');
+
+-- -------------------------------------------------------
+-- WORKDAY — INACTIVE (slug guessed, instance defaulted to wd1)
+-- Verify: update ats_config and set active=true when confirmed
+-- -------------------------------------------------------
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT '3M', 'workday', 'https://www.3m.com/3M/en_US/careers-us/', '{"tenant":"3m","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = '3M');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AbbVie', 'workday', 'https://careers.abbvie.com', '{"tenant":"abbvie","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AbbVie');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Aflac', 'workday', 'https://careers.aflac.com', '{"tenant":"aflac","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Aflac');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Agilent', 'workday', 'https://jobs.agilent.com', '{"tenant":"agilent","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Agilent');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Agnico Eagle Mines', 'workday', 'https://agnicoeagle.com/careers', '{"tenant":"agnicoeagle","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Agnico Eagle Mines');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AIG', 'workday', 'https://careers.aig.com', '{"tenant":"aig","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AIG');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Allstate', 'workday', 'https://careers.allstate.com', '{"tenant":"allstate","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Allstate');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Alnylam Pharma', 'workday', 'https://www.alnylam.com/careers', '{"tenant":"alnylam","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Alnylam Pharma');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Altria', 'workday', 'https://careers.altria.com', '{"tenant":"altria","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Altria');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Ambev', 'workday', 'https://www.ambev.com.br/carreiras/', '{"tenant":"ambev","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ambev');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AMD', 'workday', 'https://careers.amd.com', '{"tenant":"amd","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AMD');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'American Express', 'workday', 'https://careers.americanexpress.com', '{"tenant":"americanexpress","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'American Express');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'American Tower', 'workday', 'https://careers.americantower.com', '{"tenant":"americantower","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'American Tower');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Ameriprise Financial', 'workday', 'https://www.ameriprise.com/careers', '{"tenant":"ameriprise","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ameriprise Financial');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AMETEK', 'workday', 'https://www.ametek.com/careers', '{"tenant":"ametek","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AMETEK');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Amphenol', 'workday', 'https://careers.amphenol.com', '{"tenant":"amphenol","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Amphenol');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AngloGold Ashanti', 'workday', 'https://www.anglogoldashanti.com/careers', '{"tenant":"anglogoldashanti","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AngloGold Ashanti');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Anheuser-Busch InBev', 'workday', 'https://careers.ab-inbev.com', '{"tenant":"abinbev","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Anheuser-Busch InBev');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Aon', 'workday', 'https://careers.aon.com', '{"tenant":"aon","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Aon');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Applied Materials', 'workday', 'https://careers.appliedmaterials.com', '{"tenant":"appliedmaterials","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Applied Materials');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'ArcelorMittal', 'workday', 'https://careers.arcelormittal.com', '{"tenant":"arcelormittal","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ArcelorMittal');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Archer-Daniels-Midland', 'workday', 'https://careers.adm.com', '{"tenant":"adm","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Archer-Daniels-Midland');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Arista Networks', 'workday', 'https://www.arista.com/en/careers', '{"tenant":"arista","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arista Networks');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Arm Holdings', 'workday', 'https://careers.arm.com', '{"tenant":"arm","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arm Holdings');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Arthur J. Gallagher', 'workday', 'https://careers.ajg.com', '{"tenant":"ajg","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Arthur J. Gallagher');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'ASML', 'workday', 'https://www.asml.com/en/careers', '{"tenant":"asml","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ASML');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AstraZeneca', 'workday', 'https://careers.astrazeneca.com', '{"tenant":"astrazeneca","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AstraZeneca');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Atmos Energy', 'workday', 'https://careers.atmosenergy.com', '{"tenant":"atmosenergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Atmos Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Autodesk', 'workday', 'https://www.autodesk.com/careers', '{"tenant":"autodesk","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Autodesk');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'AutoZone', 'workday', 'https://careers.autozone.com', '{"tenant":"autozone","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'AutoZone');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Bank of Nova Scotia', 'workday', 'https://jobs.scotiabank.com', '{"tenant":"scotiabank","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Bank of Nova Scotia');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Barrick Mining', 'workday', 'https://www.barrick.com/careers', '{"tenant":"barrick","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Barrick Mining');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'BHP Group', 'workday', 'https://www.bhp.com/careers', '{"tenant":"bhp","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BHP Group');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'BlackRock', 'workday', 'https://careers.blackrock.com', '{"tenant":"blackrock","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BlackRock');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'BNY Mellon', 'workday', 'https://bny.com/careers', '{"tenant":"bnymellon","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BNY Mellon');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Booking Holdings', 'workday', 'https://careers.bookingholdings.com', '{"tenant":"bookingholdings","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Booking Holdings');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Boston Scientific', 'workday', 'https://jobs.bostonscientific.com', '{"tenant":"bostonscientific","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Boston Scientific');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'BP', 'workday', 'https://www.bp.com/careers', '{"tenant":"bp","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'BP');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'British American Tobacco', 'workday', 'https://www.bat.com/careers', '{"tenant":"bat","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'British American Tobacco');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Broadcom', 'workday', 'https://careers.broadcom.com', '{"tenant":"broadcom","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Broadcom');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cameco', 'workday', 'https://www.cameco.com/careers', '{"tenant":"cameco","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cameco');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Canadian National Rail', 'workday', 'https://www.cn.ca/en/careers/', '{"tenant":"cn","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian National Rail');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Canadian Natural Res', 'workday', 'https://www.cnrl.com/careers', '{"tenant":"cnrl","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian Natural Res');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Canadian Pacific KC', 'workday', 'https://careers.cpkcr.com', '{"tenant":"cpkc","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Canadian Pacific KC');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cardinal Health', 'workday', 'https://jobs.cardinalhealth.com', '{"tenant":"cardinalhealth","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cardinal Health');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Carnival', 'workday', 'https://jobs.carnival.com', '{"tenant":"carnival","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Carnival');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Carrier Global', 'workday', 'https://careers.carrier.com', '{"tenant":"carrier","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Carrier Global');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Casey''s General Stores', 'workday', 'https://careers.caseys.com', '{"tenant":"caseys","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Casey''s General Stores');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Caterpillar', 'workday', 'https://careers.caterpillar.com', '{"tenant":"caterpillar","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Caterpillar');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cboe Global Markets', 'workday', 'https://careers.cboe.com', '{"tenant":"cboe","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cboe Global Markets');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CBRE Group', 'workday', 'https://careers.cbre.com', '{"tenant":"cbre","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CBRE Group');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Celestica', 'workday', 'https://www.celestica.com/careers', '{"tenant":"celestica","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Celestica');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cencora', 'workday', 'https://careers.cencora.com', '{"tenant":"cencora","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cencora');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cenovus Energy', 'workday', 'https://careers.cenovus.com', '{"tenant":"cenovus","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cenovus Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CenterPoint Energy', 'workday', 'https://jobs.centerpointenergy.com', '{"tenant":"centerpointenergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CenterPoint Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Charles Schwab', 'workday', 'https://www.schwab.com/careers', '{"tenant":"schwab","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Charles Schwab');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cheniere Energy', 'workday', 'https://careers.cheniere.com', '{"tenant":"cheniere","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cheniere Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cheniere Energy Partners', 'workday', 'https://careers.cheniere.com', '{"tenant":"cheniere","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cheniere Energy Partners');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Chevron', 'workday', 'https://www.chevron.com/careers', '{"tenant":"chevron","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chevron');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Chipotle', 'workday', 'https://jobs.chipotle.com', '{"tenant":"chipotle","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chipotle');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Chubb', 'workday', 'https://careers.chubb.com', '{"tenant":"chubb","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Chubb');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CIBC', 'workday', 'https://www.cibc.com/en/about-cibc/careers.html', '{"tenant":"cibc","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CIBC');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cintas', 'workday', 'https://careers.cintas.com', '{"tenant":"cintas","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cintas');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cisco', 'workday', 'https://jobs.cisco.com', '{"tenant":"cisco","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cisco');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Citigroup', 'workday', 'https://careers.citi.com', '{"tenant":"citi","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Citigroup');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CME Group', 'workday', 'https://careers.cmegroup.com', '{"tenant":"cmegroup","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CME Group');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Coca-Cola', 'workday', 'https://careers.coca-colacompany.com', '{"tenant":"cocacola","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coca-Cola');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Coca-Cola Europacific', 'workday', 'https://careers.ccep.com', '{"tenant":"ccep","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coca-Cola Europacific');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Coherent', 'workday', 'https://careers.coherent.com', '{"tenant":"coherent","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Coherent');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Colgate-Palmolive', 'workday', 'https://jobs.colgate.com', '{"tenant":"colgate","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Colgate-Palmolive');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Consolidated Edison', 'workday', 'https://careers.coned.com', '{"tenant":"coned","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Consolidated Edison');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Constellation Energy', 'workday', 'https://careers.constellationenergy.com', '{"tenant":"constellationenergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Constellation Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Copart', 'workday', 'https://www.copart.com/content/us/en/careers', '{"tenant":"copart","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Copart');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Corning', 'workday', 'https://www.corning.com/worldwide/en/careers.html', '{"tenant":"corning","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Corning');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Corteva', 'workday', 'https://careers.corteva.com', '{"tenant":"corteva","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Corteva');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CRH', 'workday', 'https://www.crh.com/careers', '{"tenant":"crh","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CRH');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Crown Castle', 'workday', 'https://careers.crowncastle.com', '{"tenant":"crowncastle","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Crown Castle');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'CSX', 'workday', 'https://jobs.csx.com', '{"tenant":"csx","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'CSX');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Cummins', 'workday', 'https://careers.cummins.com', '{"tenant":"cummins","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Cummins');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'D.R. Horton', 'workday', 'https://careers.drhorton.com', '{"tenant":"drhorton","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'D.R. Horton');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Deere', 'workday', 'https://jobs.deere.com', '{"tenant":"deere","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Deere');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Delta Air Lines', 'workday', 'https://www.deltaairlines.com/careers', '{"tenant":"delta","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Delta Air Lines');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Deutsche Bank', 'workday', 'https://careers.db.com', '{"tenant":"deutschebank","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Deutsche Bank');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Devon Energy', 'workday', 'https://www.devonenergy.com/careers', '{"tenant":"devon","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Devon Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'DexCom', 'workday', 'https://careers.dexcom.com', '{"tenant":"dexcom","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'DexCom');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Diamondback Energy', 'workday', 'https://careers.diamondbackenergy.com', '{"tenant":"diamondbackenergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Diamondback Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Digital Realty', 'workday', 'https://careers.digitalrealty.com', '{"tenant":"digitalrealty","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Digital Realty');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Dominion Energy', 'workday', 'https://careers.dominionenergy.com', '{"tenant":"dominionenergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Dominion Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Dover', 'workday', 'https://www.dovercorporation.com/careers', '{"tenant":"dovercrp","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Dover');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'DTE Energy', 'workday', 'https://careers.dteenergy.com', '{"tenant":"dte","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'DTE Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Duke Energy', 'workday', 'https://careers.duke-energy.com', '{"tenant":"duke","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Duke Energy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Eaton', 'workday', 'https://careers.eaton.com', '{"tenant":"eaton","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Eaton');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'eBay', 'workday', 'https://careers.ebayinc.com', '{"tenant":"ebay","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'eBay');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'EchoStar', 'workday', 'https://careers.echostar.com', '{"tenant":"echostar","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EchoStar');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Edison International', 'workday', 'https://www.edisoninternational.com/careers', '{"tenant":"edisonintl","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Edison International');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Edwards Lifesciences', 'workday', 'https://careers.edwards.com', '{"tenant":"edwards","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Edwards Lifesciences');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Electronic Arts', 'workday', 'https://jobs.ea.com', '{"tenant":"ea","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Electronic Arts');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'EMCOR Group', 'workday', 'https://emcor.com/careers', '{"tenant":"emcor","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EMCOR Group');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Emerson Electric', 'workday', 'https://www.emerson.com/en-us/careers', '{"tenant":"emerson","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Emerson Electric');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Enbridge', 'workday', 'https://www.enbridge.com/careers', '{"tenant":"enbridge","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Enbridge');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Energy Transfer', 'workday', 'https://www.energytransfer.com/careers', '{"tenant":"energytransfer","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Energy Transfer');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Entergy', 'workday', 'https://jobs.entergy.com', '{"tenant":"entergy","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Entergy');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Enterprise Products', 'workday', 'https://www.enterpriseproducts.com/careers', '{"tenant":"enterpriseproducts","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Enterprise Products');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'EOG Resources', 'workday', 'https://careers.eogresources.com', '{"tenant":"eog","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EOG Resources');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'EQT Corp', 'workday', 'https://careers.eqt.com', '{"tenant":"eqt","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'EQT Corp');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Ericsson', 'workday', 'https://www.ericsson.com/en/careers', '{"tenant":"ericsson","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ericsson');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Estee Lauder', 'workday', 'https://careers.elcompanies.com', '{"tenant":"elcompanies","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Estee Lauder');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Exelon', 'workday', 'https://careers.exeloncorp.com', '{"tenant":"exelon","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Exelon');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Extra Space Storage', 'workday', 'https://careers.extraspace.com', '{"tenant":"extraspace","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Extra Space Storage');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Fastenal', 'workday', 'https://careers.fastenal.com', '{"tenant":"fastenal","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fastenal');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'FedEx', 'workday', 'https://careers.fedex.com', '{"tenant":"fedex","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'FedEx');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Ferguson', 'workday', 'https://careers.ferguson.com', '{"tenant":"ferguson","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ferguson');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Fifth Third Bancorp', 'workday', 'https://www.53.com/content/fifth-third/en/careers.html', '{"tenant":"fifththird","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fifth Third Bancorp');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'First Solar', 'workday', 'https://jobs.firstsolar.com', '{"tenant":"firstsolar","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'First Solar');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Fiserv', 'workday', 'https://careers.fiserv.com', '{"tenant":"fiserv","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fiserv');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Flex', 'workday', 'https://careers.flex.com', '{"tenant":"flex","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Flex');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Ford Motor', 'workday', 'https://careers.ford.com', '{"tenant":"ford","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ford Motor');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Fortinet', 'workday', 'https://www.fortinet.com/corporate/careers', '{"tenant":"fortinet","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fortinet');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Fortis', 'workday', 'https://careers.fortisinc.com', '{"tenant":"fortis","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Fortis');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Franco-Nevada', 'workday', 'https://www.franco-nevada.com/careers', '{"tenant":"franconevada","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Franco-Nevada');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Freeport-McMoRan', 'workday', 'https://careers.fcx.com', '{"tenant":"fcx","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Freeport-McMoRan');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Garmin', 'workday', 'https://careers.garmin.com', '{"tenant":"garmin","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Garmin');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'GE Aerospace', 'workday', 'https://jobs.gecareers.com', '{"tenant":"ge","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GE Aerospace');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'GE Vernova', 'workday', 'https://jobs.gecareers.com/vernova', '{"tenant":"gevernova","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GE Vernova');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'General Dynamics', 'workday', 'https://www.gd.com/careers', '{"tenant":"gd","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'General Dynamics');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'General Motors', 'workday', 'https://careers.gm.com', '{"tenant":"generalmotors","instance":"wd1"}'::jsonb, false
+WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'General Motors');
+
+INSERT INTO companies (company_name, ats, career_url, ats_config, active)
+SELECT 'Gold Fields', 'workday', 'https://careers.goldfields.com', '{"tenant":"goldfields","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Gold Fields');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Goldman Sachs', 'workday', 'https://www.goldmansachs.com/careers', '{}'::jsonb, false
+SELECT 'Goldman Sachs', 'workday', 'https://www.goldmansachs.com/careers', '{"tenant":"goldmansachs","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Goldman Sachs');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'GSK', 'workday', 'https://careers.gsk.com', '{}'::jsonb, false
+SELECT 'GSK', 'workday', 'https://careers.gsk.com', '{"tenant":"gsk","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'GSK');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Haleon', 'workday', 'https://www.haleon.com/careers', '{}'::jsonb, false
+SELECT 'Haleon', 'workday', 'https://www.haleon.com/careers', '{"tenant":"haleon","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Haleon');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Halliburton', 'workday', 'https://www.halliburton.com/en/careers', '{}'::jsonb, false
+SELECT 'Halliburton', 'workday', 'https://www.halliburton.com/en/careers', '{"tenant":"halliburton","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Halliburton');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Hartford Insurance', 'workday', 'https://www.thehartford.com/careers', '{}'::jsonb, false
+SELECT 'Hartford Insurance', 'workday', 'https://www.thehartford.com/careers', '{"tenant":"thehartford","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Hartford Insurance');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'HCA Healthcare', 'workday', 'https://careers.hcahealthcare.com', '{}'::jsonb, false
+SELECT 'HCA Healthcare', 'workday', 'https://careers.hcahealthcare.com', '{"tenant":"hca","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'HCA Healthcare');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'HEICO', 'workday', 'https://www.heico.com/careers', '{}'::jsonb, false
+SELECT 'HEICO', 'workday', 'https://www.heico.com/careers', '{"tenant":"heico","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'HEICO');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Hershey', 'workday', 'https://careers.thehersheycompany.com', '{}'::jsonb, false
+SELECT 'Hershey', 'workday', 'https://careers.thehersheycompany.com', '{"tenant":"hershey","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Hershey');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Hilton', 'workday', 'https://jobs.hilton.com', '{}'::jsonb, false
+SELECT 'Hilton', 'workday', 'https://jobs.hilton.com', '{"tenant":"hilton","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Hilton');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Honeywell', 'workday', 'https://careers.honeywell.com', '{}'::jsonb, false
+SELECT 'Honeywell', 'workday', 'https://careers.honeywell.com', '{"tenant":"honeywell","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Honeywell');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Howmet Aerospace', 'workday', 'https://careers.howmet.com', '{}'::jsonb, false
+SELECT 'Howmet Aerospace', 'workday', 'https://careers.howmet.com', '{"tenant":"howmet","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Howmet Aerospace');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'HSBC', 'workday', 'https://www.hsbc.com/careers', '{}'::jsonb, false
+SELECT 'HSBC', 'workday', 'https://www.hsbc.com/careers', '{"tenant":"hsbc","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'HSBC');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'IBM', 'workday', 'https://www.ibm.com/careers', '{}'::jsonb, false
+SELECT 'IBM', 'workday', 'https://www.ibm.com/careers', '{"tenant":"ibm","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'IBM');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Illinois Tool Works', 'workday', 'https://careers.itw.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Illinois Tool Works');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
 SELECT 'Imperial Oil', 'workday', 'https://www.imperialoil.ca/en-CA/company/careers', '{}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Imperial Oil');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'ING Groep', 'workday', 'https://www.ing.jobs', '{}'::jsonb, false
+SELECT 'ING Groep', 'workday', 'https://www.ing.jobs', '{"tenant":"ing","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ING Groep');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ingersoll Rand', 'workday', 'https://careers.irco.com', '{}'::jsonb, false
+SELECT 'Ingersoll Rand', 'workday', 'https://careers.irco.com', '{"tenant":"ingersollrand","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ingersoll Rand');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Interactive Brokers', 'workday', 'https://www.interactivebrokers.com/en/general/about/jobs.php', '{}'::jsonb, false
+SELECT 'Interactive Brokers', 'workday', 'https://www.interactivebrokers.com/en/general/about/jobs.php', '{"tenant":"ibkr","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Interactive Brokers');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Intercontinental Exch', 'workday', 'https://careers.intercontinentalexchange.com', '{}'::jsonb, false
+SELECT 'Intercontinental Exch', 'workday', 'https://careers.intercontinentalexchange.com', '{"tenant":"ice","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Intercontinental Exch');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Intuit', 'workday', 'https://careers.intuit.com', '{}'::jsonb, false
+SELECT 'Intuit', 'workday', 'https://careers.intuit.com', '{"tenant":"intuit","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Intuit');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Intuitive Surgical', 'workday', 'https://careers.intuitive.com', '{}'::jsonb, false
+SELECT 'Intuitive Surgical', 'workday', 'https://careers.intuitive.com', '{"tenant":"intuitive","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Intuitive Surgical');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Iron Mountain', 'workday', 'https://careers.ironmountain.com', '{}'::jsonb, false
+SELECT 'Iron Mountain', 'workday', 'https://careers.ironmountain.com', '{"tenant":"ironmountain","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Iron Mountain');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'JPMorgan Chase', 'workday', 'https://careers.jpmorgan.com', '{}'::jsonb, false
+SELECT 'JPMorgan Chase', 'workday', 'https://careers.jpmorgan.com', '{"tenant":"jpmorgan","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'JPMorgan Chase');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Kenvue', 'workday', 'https://careers.kenvue.com', '{}'::jsonb, false
+SELECT 'Kenvue', 'workday', 'https://careers.kenvue.com', '{"tenant":"kenvue","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Kenvue');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Keurig Dr Pepper', 'workday', 'https://careers.keurigdrpepper.com', '{}'::jsonb, false
+SELECT 'Keurig Dr Pepper', 'workday', 'https://careers.keurigdrpepper.com', '{"tenant":"keurigdrpepper","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Keurig Dr Pepper');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Keysight', 'workday', 'https://jobs.keysight.com', '{}'::jsonb, false
+SELECT 'Keysight', 'workday', 'https://jobs.keysight.com', '{"tenant":"keysight","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Keysight');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Kimberly-Clark', 'workday', 'https://jobs.kimberly-clark.com', '{}'::jsonb, false
+SELECT 'Kimberly-Clark', 'workday', 'https://jobs.kimberly-clark.com', '{"tenant":"kimberlyclark","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Kimberly-Clark');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Kinder Morgan', 'workday', 'https://www.kindermorgan.com/Careers/', '{}'::jsonb, false
+SELECT 'Kinder Morgan', 'workday', 'https://www.kindermorgan.com/Careers/', '{"tenant":"kindermorgan","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Kinder Morgan');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Kinross Gold', 'workday', 'https://careers.kinross.com', '{}'::jsonb, false
+SELECT 'Kinross Gold', 'workday', 'https://careers.kinross.com', '{"tenant":"kinross","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Kinross Gold');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'KKR', 'workday', 'https://www.kkr.com/careers', '{}'::jsonb, false
+SELECT 'KKR', 'workday', 'https://www.kkr.com/careers', '{"tenant":"kkr","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'KKR');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Kroger', 'workday', 'https://jobs.kroger.com', '{}'::jsonb, false
+SELECT 'Kroger', 'workday', 'https://jobs.kroger.com', '{"tenant":"kroger","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Kroger');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'L3Harris', 'workday', 'https://careers.l3harris.com', '{}'::jsonb, false
+SELECT 'L3Harris', 'workday', 'https://careers.l3harris.com', '{"tenant":"l3harris","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'L3Harris');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Lam Research', 'workday', 'https://careers.lamresearch.com', '{}'::jsonb, false
+SELECT 'Lam Research', 'workday', 'https://careers.lamresearch.com', '{"tenant":"lamresearch","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Lam Research');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Las Vegas Sands', 'workday', 'https://jobs.lasvegassands.com', '{}'::jsonb, false
+SELECT 'Las Vegas Sands', 'workday', 'https://jobs.lasvegassands.com', '{"tenant":"sands","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Las Vegas Sands');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Linde', 'workday', 'https://jobs.linde.com', '{}'::jsonb, false
+SELECT 'Linde', 'workday', 'https://jobs.linde.com', '{"tenant":"linde","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Linde');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Lockheed Martin', 'workday', 'https://www.lockheedmartinjobs.com', '{}'::jsonb, false
+SELECT 'Lockheed Martin', 'workday', 'https://www.lockheedmartinjobs.com', '{"tenant":"lmco","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Lockheed Martin');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Lowe''s', 'workday', 'https://careers.lowes.com', '{}'::jsonb, false
+SELECT 'Lowe''s', 'workday', 'https://careers.lowes.com', '{"tenant":"lowes","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Lowe''s');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'M&T Bank', 'workday', 'https://careers.mtb.com', '{}'::jsonb, false
+SELECT 'M&T Bank', 'workday', 'https://careers.mtb.com', '{"tenant":"mtb","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'M&T Bank');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'MACOM Technology', 'workday', 'https://www.macom.com/careers', '{}'::jsonb, false
+SELECT 'MACOM Technology', 'workday', 'https://www.macom.com/careers', '{"tenant":"macom","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MACOM Technology');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Manulife Financial', 'workday', 'https://jobs.manulife.com', '{}'::jsonb, false
+SELECT 'Manulife Financial', 'workday', 'https://jobs.manulife.com', '{"tenant":"manulife","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Manulife Financial');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Marathon Petroleum', 'workday', 'https://careers.marathonpetroleum.com', '{}'::jsonb, false
+SELECT 'Marathon Petroleum', 'workday', 'https://careers.marathonpetroleum.com', '{"tenant":"mpc","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Marathon Petroleum');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Marriott', 'workday', 'https://careers.marriott.com', '{}'::jsonb, false
+SELECT 'Marriott', 'workday', 'https://careers.marriott.com', '{"tenant":"marriott","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Marriott');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Marsh & McLennan', 'workday', 'https://careers.mmc.com', '{}'::jsonb, false
+SELECT 'Marsh & McLennan', 'workday', 'https://careers.mmc.com', '{"tenant":"mmc","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Marsh & McLennan');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Martin Marietta', 'workday', 'https://careers.martinmarietta.com', '{}'::jsonb, false
+SELECT 'Martin Marietta', 'workday', 'https://careers.martinmarietta.com', '{"tenant":"martinmarietta","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Martin Marietta');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'MasTec', 'workday', 'https://mastec.com/careers', '{}'::jsonb, false
+SELECT 'MasTec', 'workday', 'https://mastec.com/careers', '{"tenant":"mastec","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MasTec');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'McDonald''s', 'workday', 'https://careers.mcdonalds.com', '{}'::jsonb, false
+SELECT 'McDonald''s', 'workday', 'https://careers.mcdonalds.com', '{"tenant":"mcdonalds","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'McDonald''s');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'McKesson', 'workday', 'https://careers.mckesson.com', '{}'::jsonb, false
+SELECT 'McKesson', 'workday', 'https://careers.mckesson.com', '{"tenant":"mckesson","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'McKesson');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Medline', 'workday', 'https://medline.com/careers', '{}'::jsonb, false
+SELECT 'Medline', 'workday', 'https://medline.com/careers', '{"tenant":"medline","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Medline');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Medtronic', 'workday', 'https://jobs.medtronic.com', '{}'::jsonb, false
+SELECT 'Medtronic', 'workday', 'https://jobs.medtronic.com', '{"tenant":"medtronic","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Medtronic');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'MetLife', 'workday', 'https://jobs.metlife.com', '{}'::jsonb, false
+SELECT 'MetLife', 'workday', 'https://jobs.metlife.com', '{"tenant":"metlife","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MetLife');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Microchip Technology', 'workday', 'https://careers.microchip.com', '{}'::jsonb, false
+SELECT 'Microchip Technology', 'workday', 'https://careers.microchip.com', '{"tenant":"microchip","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Microchip Technology');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Mondelez', 'workday', 'https://careers.mondelezinternational.com', '{}'::jsonb, false
+SELECT 'Mondelez', 'workday', 'https://careers.mondelezinternational.com', '{"tenant":"mondelez","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Mondelez');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Monolithic Power', 'workday', 'https://www.monolithicpower.com/careers', '{}'::jsonb, false
+SELECT 'Monolithic Power', 'workday', 'https://www.monolithicpower.com/careers', '{"tenant":"mpssemi","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Monolithic Power');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Monster Beverage', 'workday', 'https://careers.monsterbevcorp.com', '{}'::jsonb, false
+SELECT 'Monster Beverage', 'workday', 'https://careers.monsterbevcorp.com', '{"tenant":"monsterbevcorp","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Monster Beverage');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Moody''s', 'workday', 'https://careers.moodys.com', '{}'::jsonb, false
+SELECT 'Moody''s', 'workday', 'https://careers.moodys.com', '{"tenant":"moodys","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Moody''s');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Morgan Stanley', 'workday', 'https://www.morganstanley.com/careers', '{}'::jsonb, false
+SELECT 'Morgan Stanley', 'workday', 'https://www.morganstanley.com/careers', '{"tenant":"morganstanley","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Morgan Stanley');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'MPLX', 'workday', 'https://careers.marathonpetroleum.com', '{}'::jsonb, false
+SELECT 'MPLX', 'workday', 'https://careers.marathonpetroleum.com', '{"tenant":"mpc","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MPLX');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'MSCI', 'workday', 'https://www.msci.com/careers', '{}'::jsonb, false
+SELECT 'MSCI', 'workday', 'https://www.msci.com/careers', '{"tenant":"msci","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MSCI');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Nasdaq', 'workday', 'https://nasdaq.com/careers', '{}'::jsonb, false
+SELECT 'Nasdaq', 'workday', 'https://nasdaq.com/careers', '{"tenant":"nasdaq","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Nasdaq');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Natera', 'workday', 'https://natera.com/company/careers', '{}'::jsonb, false
+SELECT 'Natera', 'workday', 'https://natera.com/company/careers', '{"tenant":"natera","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Natera');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'National Grid', 'workday', 'https://careers.nationalgrid.com', '{}'::jsonb, false
+SELECT 'National Grid', 'workday', 'https://careers.nationalgrid.com', '{"tenant":"nationalgrid","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'National Grid');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NatWest', 'workday', 'https://www.natwest.com/careers.html', '{}'::jsonb, false
+SELECT 'NatWest', 'workday', 'https://www.natwest.com/careers.html', '{"tenant":"natwest","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NatWest');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NetApp', 'workday', 'https://careers.netapp.com', '{}'::jsonb, false
+SELECT 'NetApp', 'workday', 'https://careers.netapp.com', '{"tenant":"netapp","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NetApp');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Netflix', 'workday', 'https://jobs.netflix.com/', '{}'::jsonb, false
+SELECT 'Netflix', 'workday', 'https://jobs.netflix.com/', '{"tenant":"netflix","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Netflix');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Newmont', 'workday', 'https://newmont.com/careers', '{}'::jsonb, false
+SELECT 'Newmont', 'workday', 'https://newmont.com/careers', '{"tenant":"newmont","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Newmont');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NextEra Energy', 'workday', 'https://careers.nexteraenergy.com', '{}'::jsonb, false
+SELECT 'NextEra Energy', 'workday', 'https://careers.nexteraenergy.com', '{"tenant":"nexteraenergy","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NextEra Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Nokia', 'workday', 'https://www.nokia.com/about-us/careers/', '{}'::jsonb, false
+SELECT 'Nokia', 'workday', 'https://www.nokia.com/about-us/careers/', '{"tenant":"nokia","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Nokia');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Norfolk Southern', 'workday', 'https://www.nscorp.com/content/nscorp/en/careers.html', '{}'::jsonb, false
+SELECT 'Norfolk Southern', 'workday', 'https://www.nscorp.com/content/nscorp/en/careers.html', '{"tenant":"nscorp","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Norfolk Southern');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Northrop Grumman', 'workday', 'https://www.northropgrumman.com/careers/', '{}'::jsonb, false
+SELECT 'Northrop Grumman', 'workday', 'https://www.northropgrumman.com/careers/', '{"tenant":"northropgrumman","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Northrop Grumman');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Novo Nordisk', 'workday', 'https://www.novonordisk.com/careers', '{}'::jsonb, false
+SELECT 'Novo Nordisk', 'workday', 'https://www.novonordisk.com/careers', '{"tenant":"novonordisk","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Novo Nordisk');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NRG Energy', 'workday', 'https://careers.nrgenergy.com', '{}'::jsonb, false
+SELECT 'NRG Energy', 'workday', 'https://careers.nrgenergy.com', '{"tenant":"nrg","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NRG Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Nucor', 'workday', 'https://careers.nucor.com', '{}'::jsonb, false
+SELECT 'Nucor', 'workday', 'https://careers.nucor.com', '{"tenant":"nucor","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Nucor');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Nutrien', 'workday', 'https://nutrien.com/careers', '{}'::jsonb, false
+SELECT 'Nutrien', 'workday', 'https://nutrien.com/careers', '{"tenant":"nutrien","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Nutrien');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'nVent Electric', 'workday', 'https://careers.nvent.com', '{}'::jsonb, false
+SELECT 'nVent Electric', 'workday', 'https://careers.nvent.com', '{"tenant":"nvent","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'nVent Electric');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NVIDIA', 'workday', 'https://www.nvidia.com/en-us/about-nvidia/careers/', '{}'::jsonb, false
+SELECT 'NVIDIA', 'workday', 'https://www.nvidia.com/en-us/about-nvidia/careers/', '{"tenant":"nvidia","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NVIDIA');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'NXP Semiconductors', 'workday', 'https://careers.nxp.com', '{}'::jsonb, false
+SELECT 'NXP Semiconductors', 'workday', 'https://careers.nxp.com', '{"tenant":"nxp","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'NXP Semiconductors');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'ON Semiconductor', 'workday', 'https://www.onsemi.com/careers', '{}'::jsonb, false
+SELECT 'ON Semiconductor', 'workday', 'https://www.onsemi.com/careers', '{"tenant":"onsemi","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ON Semiconductor');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'PACCAR', 'workday', 'https://careers.paccar.com', '{}'::jsonb, false
+SELECT 'PACCAR', 'workday', 'https://careers.paccar.com', '{"tenant":"paccar","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PACCAR');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Palo Alto Networks', 'workday', 'https://careers.paloaltonetworks.com', '{}'::jsonb, false
+SELECT 'Palo Alto Networks', 'workday', 'https://careers.paloaltonetworks.com', '{"tenant":"paloaltonetworks","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Palo Alto Networks');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Parker-Hannifin', 'workday', 'https://careers.parker.com', '{}'::jsonb, false
+SELECT 'Parker-Hannifin', 'workday', 'https://careers.parker.com', '{"tenant":"parker","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Parker-Hannifin');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Paychex', 'workday', 'https://careers.paychex.com', '{}'::jsonb, false
+SELECT 'Paychex', 'workday', 'https://careers.paychex.com', '{"tenant":"paychex","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Paychex');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'PayPal', 'workday', 'https://careers.pypl.com/', '{}'::jsonb, false
+SELECT 'PayPal', 'workday', 'https://careers.pypl.com/', '{"tenant":"paypal","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PayPal');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Pembina Pipeline', 'workday', 'https://careers.pembina.com', '{}'::jsonb, false
+SELECT 'Pembina Pipeline', 'workday', 'https://careers.pembina.com', '{"tenant":"pembina","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Pembina Pipeline');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'PepsiCo', 'workday', 'https://www.pepsicojobs.com', '{}'::jsonb, false
+SELECT 'PepsiCo', 'workday', 'https://www.pepsicojobs.com', '{"tenant":"pepsico","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PepsiCo');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Pfizer', 'workday', 'https://www.pfizercareers.com', '{}'::jsonb, false
+SELECT 'Pfizer', 'workday', 'https://www.pfizercareers.com', '{"tenant":"pfizer","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Pfizer');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'PG&E', 'workday', 'https://careers.pge.com', '{}'::jsonb, false
+SELECT 'PG&E', 'workday', 'https://careers.pge.com', '{"tenant":"pge","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PG&E');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Philip Morris Intl', 'workday', 'https://careers.pmi.com', '{}'::jsonb, false
+SELECT 'Philip Morris Intl', 'workday', 'https://careers.pmi.com', '{"tenant":"pmi","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Philip Morris Intl');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Phillips 66', 'workday', 'https://careers.phillips66.com', '{}'::jsonb, false
+SELECT 'Phillips 66', 'workday', 'https://careers.phillips66.com', '{"tenant":"phillips66","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Phillips 66');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'PNC Financial', 'workday', 'https://www.pnc.com/en/about-pnc/careers.html', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'PNC Financial');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Progressive', 'workday', 'https://www.progressive.com/careers/', '{}'::jsonb, false
+SELECT 'Progressive', 'workday', 'https://www.progressive.com/careers/', '{"tenant":"progressive","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Progressive');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Prologis', 'workday', 'https://careers.prologis.com', '{}'::jsonb, false
+SELECT 'Prologis', 'workday', 'https://careers.prologis.com', '{"tenant":"prologis","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Prologis');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Public Service Enterprise', 'workday', 'https://jobs.pseg.com', '{}'::jsonb, false
+SELECT 'Public Service Enterprise', 'workday', 'https://jobs.pseg.com', '{"tenant":"pseg","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Public Service Enterprise');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Public Storage', 'workday', 'https://jobs.publicstorage.com', '{}'::jsonb, false
+SELECT 'Public Storage', 'workday', 'https://jobs.publicstorage.com', '{"tenant":"publicstorage","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Public Storage');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Qualcomm', 'workday', 'https://careers.qualcomm.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Qualcomm');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Quanta Services', 'workday', 'https://www.quantaservices.com/careers', '{}'::jsonb, false
+SELECT 'Quanta Services', 'workday', 'https://www.quantaservices.com/careers', '{"tenant":"quantaservices","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Quanta Services');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Raymond James', 'workday', 'https://jobs.raymondjames.com', '{}'::jsonb, false
+SELECT 'Raymond James', 'workday', 'https://jobs.raymondjames.com', '{"tenant":"raymondjames","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Raymond James');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Regeneron', 'workday', 'https://careers.regeneron.com', '{}'::jsonb, false
+SELECT 'Regeneron', 'workday', 'https://careers.regeneron.com', '{"tenant":"regeneron","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Regeneron');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'RELX', 'workday', 'https://www.relx.com/careers', '{}'::jsonb, false
+SELECT 'RELX', 'workday', 'https://www.relx.com/careers', '{"tenant":"relx","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'RELX');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Republic Services', 'workday', 'https://careers.republicservices.com', '{}'::jsonb, false
+SELECT 'Republic Services', 'workday', 'https://careers.republicservices.com', '{"tenant":"republicservices","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Republic Services');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'ResMed', 'workday', 'https://jobs.resmed.com', '{}'::jsonb, false
+SELECT 'ResMed', 'workday', 'https://jobs.resmed.com', '{"tenant":"resmed","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'ResMed');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Rio Tinto', 'workday', 'https://careers.riotinto.com', '{}'::jsonb, false
+SELECT 'Rio Tinto', 'workday', 'https://careers.riotinto.com', '{"tenant":"riotinto","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Rio Tinto');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Rocket Companies', 'workday', 'https://careers.rocket.com', '{}'::jsonb, false
+SELECT 'Rocket Companies', 'workday', 'https://careers.rocket.com', '{"tenant":"rocket","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Rocket Companies');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Rocket Lab', 'workday', 'https://www.rocketlabusa.com/careers/', '{}'::jsonb, false
+SELECT 'Rocket Lab', 'workday', 'https://www.rocketlabusa.com/careers/', '{"tenant":"rocketlab","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Rocket Lab');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Rockwell Automation', 'workday', 'https://careers.rockwellautomation.com', '{}'::jsonb, false
+SELECT 'Rockwell Automation', 'workday', 'https://careers.rockwellautomation.com', '{"tenant":"rockwellautomation","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Rockwell Automation');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Roper Technologies', 'workday', 'https://roper.com/careers', '{}'::jsonb, false
+SELECT 'Roper Technologies', 'workday', 'https://roper.com/careers', '{"tenant":"ropertech","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Roper Technologies');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ross Stores', 'workday', 'https://jobs.rossstores.com', '{}'::jsonb, false
+SELECT 'Ross Stores', 'workday', 'https://jobs.rossstores.com', '{"tenant":"rossstores","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ross Stores');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Royal Caribbean', 'workday', 'https://careers.royalcaribbeangroup.com', '{}'::jsonb, false
+SELECT 'Royal Caribbean', 'workday', 'https://careers.royalcaribbeangroup.com', '{"tenant":"royalcaribbean","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Royal Caribbean');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Royalty Pharma', 'workday', 'https://www.royaltypharma.com/careers', '{}'::jsonb, false
+SELECT 'Royalty Pharma', 'workday', 'https://www.royaltypharma.com/careers', '{"tenant":"royaltypharma","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Royalty Pharma');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sanofi', 'workday', 'https://sanofi.com/en/careers', '{}'::jsonb, false
+SELECT 'Sanofi', 'workday', 'https://sanofi.com/en/careers', '{"tenant":"sanofi","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sanofi');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Seagate', 'workday', 'https://jobs.seagate.com', '{}'::jsonb, false
+SELECT 'Seagate', 'workday', 'https://jobs.seagate.com', '{"tenant":"seagate","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Seagate');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sempra', 'workday', 'https://jobs.sempra.com', '{}'::jsonb, false
+SELECT 'Sempra', 'workday', 'https://jobs.sempra.com', '{"tenant":"sempra","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sempra');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sherwin-Williams', 'workday', 'https://careers.sherwin-williams.com', '{}'::jsonb, false
+SELECT 'Sherwin-Williams', 'workday', 'https://careers.sherwin-williams.com', '{"tenant":"sherwinwilliams","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sherwin-Williams');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Simon Property', 'workday', 'https://www.simon.com/careers', '{}'::jsonb, false
+SELECT 'Simon Property', 'workday', 'https://www.simon.com/careers', '{"tenant":"simon","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Simon Property');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'SLB (Schlumberger)', 'workday', 'https://careers.slb.com', '{}'::jsonb, false
+SELECT 'SLB (Schlumberger)', 'workday', 'https://careers.slb.com', '{"tenant":"slb","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'SLB (Schlumberger)');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Snowflake', 'workday', 'https://careers.snowflake.com', '{}'::jsonb, false
+SELECT 'Snowflake', 'workday', 'https://careers.snowflake.com', '{"tenant":"snowflake","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Snowflake');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Southern Company', 'workday', 'https://careers.southerncompany.com', '{}'::jsonb, false
+SELECT 'Southern Company', 'workday', 'https://careers.southerncompany.com', '{"tenant":"southernco","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Southern Company');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Starbucks', 'workday', 'https://careers.starbucks.com', '{}'::jsonb, false
+SELECT 'Starbucks', 'workday', 'https://careers.starbucks.com', '{"tenant":"starbucks","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Starbucks');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Steel Dynamics', 'workday', 'https://www.steeldynamics.com/careers', '{}'::jsonb, false
+SELECT 'Steel Dynamics', 'workday', 'https://www.steeldynamics.com/careers', '{"tenant":"steeldynamics","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Steel Dynamics');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sterling Infrastructure', 'workday', 'https://sterlingrsg.com/careers', '{}'::jsonb, false
+SELECT 'Sterling Infrastructure', 'workday', 'https://sterlingrsg.com/careers', '{"tenant":"sterling","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sterling Infrastructure');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'STMicroelectronics', 'workday', 'https://www.st.com/content/st_com/en/about/careers.html', '{}'::jsonb, false
+SELECT 'STMicroelectronics', 'workday', 'https://www.st.com/content/st_com/en/about/careers.html', '{"tenant":"st","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'STMicroelectronics');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Strategy (MicroStrategy)', 'workday', 'https://www.microstrategy.com/careers', '{}'::jsonb, false
+SELECT 'Strategy (MicroStrategy)', 'workday', 'https://www.microstrategy.com/careers', '{"tenant":"microstrategy","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Strategy (MicroStrategy)');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sun Life Financial', 'workday', 'https://sunlife.com/careers', '{}'::jsonb, false
+SELECT 'Sun Life Financial', 'workday', 'https://sunlife.com/careers', '{"tenant":"sunlife","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sun Life Financial');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Suncor Energy', 'workday', 'https://careers.suncor.com', '{}'::jsonb, false
+SELECT 'Suncor Energy', 'workday', 'https://careers.suncor.com', '{"tenant":"suncor","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Suncor Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Super Micro Computer', 'workday', 'https://careers.supermicro.com', '{}'::jsonb, false
+SELECT 'Super Micro Computer', 'workday', 'https://careers.supermicro.com', '{"tenant":"supermicro","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Super Micro Computer');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Synopsys', 'workday', 'https://www.synopsys.com/company/job-search.html', '{}'::jsonb, false
+SELECT 'Synopsys', 'workday', 'https://www.synopsys.com/company/job-search.html', '{"tenant":"synopsys","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Synopsys');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Sysco', 'workday', 'https://jobs.sysco.com', '{}'::jsonb, false
+SELECT 'Sysco', 'workday', 'https://jobs.sysco.com', '{"tenant":"sysco","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Sysco');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Take-Two Interactive', 'workday', 'https://careers.take2games.com', '{}'::jsonb, false
+SELECT 'Take-Two Interactive', 'workday', 'https://careers.take2games.com', '{"tenant":"take2","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Take-Two Interactive');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Takeda', 'workday', 'https://www.takeda.com/en-us/careers', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Takeda');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Targa Resources', 'workday', 'https://careers.targaresources.com', '{}'::jsonb, false
+SELECT 'Targa Resources', 'workday', 'https://careers.targaresources.com', '{"tenant":"targaresources","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Targa Resources');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TC Energy', 'workday', 'https://careers.tcenergy.com', '{}'::jsonb, false
+SELECT 'TC Energy', 'workday', 'https://careers.tcenergy.com', '{"tenant":"tcenergy","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TC Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TE Connectivity', 'workday', 'https://jobs.te.com', '{}'::jsonb, false
+SELECT 'TE Connectivity', 'workday', 'https://jobs.te.com', '{"tenant":"te","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TE Connectivity');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TechnipFMC', 'workday', 'https://www.technipfmc.com/careers', '{}'::jsonb, false
+SELECT 'TechnipFMC', 'workday', 'https://www.technipfmc.com/careers', '{"tenant":"technipfmc","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TechnipFMC');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Teck Resources', 'workday', 'https://jobs.teck.com', '{}'::jsonb, false
+SELECT 'Teck Resources', 'workday', 'https://jobs.teck.com', '{"tenant":"teck","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Teck Resources');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Teradyne', 'workday', 'https://jobs.teradyne.com', '{}'::jsonb, false
+SELECT 'Teradyne', 'workday', 'https://jobs.teradyne.com', '{"tenant":"teradyne","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Teradyne');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Teva Pharma', 'workday', 'https://careers.teva', '{}'::jsonb, false
+SELECT 'Teva Pharma', 'workday', 'https://careers.teva', '{"tenant":"teva","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Teva Pharma');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Texas Pacific Land', 'workday', 'https://texaspacific.com/careers', '{}'::jsonb, false
+SELECT 'Texas Pacific Land', 'workday', 'https://texaspacific.com/careers', '{"tenant":"tpl","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Texas Pacific Land');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Thermo Fisher', 'workday', 'https://jobs.thermofisher.com', '{}'::jsonb, false
+SELECT 'Thermo Fisher', 'workday', 'https://jobs.thermofisher.com', '{"tenant":"thermofisher","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Thermo Fisher');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TJX Companies', 'workday', 'https://careers.tjx.com', '{}'::jsonb, false
+SELECT 'TJX Companies', 'workday', 'https://careers.tjx.com', '{"tenant":"tjx","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TJX Companies');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TKO Group', 'workday', 'https://tkogroupholdings.com/careers', '{}'::jsonb, false
+SELECT 'TKO Group', 'workday', 'https://tkogroupholdings.com/careers', '{"tenant":"tko","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TKO Group');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TotalEnergies', 'workday', 'https://careers.totalenergies.com', '{}'::jsonb, false
+SELECT 'TotalEnergies', 'workday', 'https://careers.totalenergies.com', '{"tenant":"totalenergies","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TotalEnergies');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'TransDigm', 'workday', 'https://www.transdigm.com/careers', '{}'::jsonb, false
+SELECT 'TransDigm', 'workday', 'https://www.transdigm.com/careers', '{"tenant":"transdigm","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'TransDigm');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Ubiquiti', 'workday', 'https://www.ui.com/careers/', '{}'::jsonb, false
+SELECT 'Ubiquiti', 'workday', 'https://www.ui.com/careers/', '{"tenant":"ubiquiti","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Ubiquiti');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'UBS Group', 'workday', 'https://www.ubs.com/global/en/careers.html', '{}'::jsonb, false
+SELECT 'UBS Group', 'workday', 'https://www.ubs.com/global/en/careers.html', '{"tenant":"ubs","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'UBS Group');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Union Pacific', 'workday', 'https://up.jobs', '{}'::jsonb, false
+SELECT 'Union Pacific', 'workday', 'https://up.jobs', '{"tenant":"up","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Union Pacific');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'United Airlines', 'workday', 'https://careers.united.com', '{}'::jsonb, false
+SELECT 'United Airlines', 'workday', 'https://careers.united.com', '{"tenant":"united","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'United Airlines');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'United Rentals', 'workday', 'https://jobs.ur.com', '{}'::jsonb, false
+SELECT 'United Rentals', 'workday', 'https://jobs.ur.com', '{"tenant":"ur","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'United Rentals');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'UnitedHealth (Optum)', 'workday', 'https://careers.unitedhealthgroup.com', '{}'::jsonb, false
+SELECT 'UnitedHealth (Optum)', 'workday', 'https://careers.unitedhealthgroup.com', '{"tenant":"uhg","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'UnitedHealth (Optum)');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'UPS', 'workday', 'https://www.jobs-ups.com', '{}'::jsonb, false
+SELECT 'UPS', 'workday', 'https://www.jobs-ups.com', '{"tenant":"ups","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'UPS');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Valero Energy', 'workday', 'https://careers.valero.com', '{}'::jsonb, false
+SELECT 'Valero Energy', 'workday', 'https://careers.valero.com', '{"tenant":"valero","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Valero Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Venture Global', 'workday', 'https://ventureglobal.com/careers', '{}'::jsonb, false
+SELECT 'Venture Global', 'workday', 'https://ventureglobal.com/careers', '{"tenant":"ventureglobal","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Venture Global');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'VeriSign', 'workday', 'https://www.verisign.com/en_US/company-information/careers/', '{}'::jsonb, false
+SELECT 'VeriSign', 'workday', 'https://www.verisign.com/en_US/company-information/careers/', '{"tenant":"verisign","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'VeriSign');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Vertex Pharma', 'workday', 'https://www.vrtx.com/careers', '{}'::jsonb, false
+SELECT 'Vertex Pharma', 'workday', 'https://www.vrtx.com/careers', '{"tenant":"vrtx","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Vertex Pharma');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'VICI Properties', 'workday', 'https://viciproperties.com/careers', '{}'::jsonb, false
+SELECT 'VICI Properties', 'workday', 'https://viciproperties.com/careers', '{"tenant":"vici","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'VICI Properties');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Viking Holdings', 'workday', 'https://www.vikingcruises.com/careers', '{}'::jsonb, false
+SELECT 'Viking Holdings', 'workday', 'https://www.vikingcruises.com/careers', '{"tenant":"viking","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Viking Holdings');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Vistra', 'workday', 'https://vistra.com/careers', '{}'::jsonb, false
+SELECT 'Vistra', 'workday', 'https://vistra.com/careers', '{"tenant":"vistra","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Vistra');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Vodafone', 'workday', 'https://careers.vodafone.com', '{}'::jsonb, false
+SELECT 'Vodafone', 'workday', 'https://careers.vodafone.com', '{"tenant":"vodafone","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Vodafone');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Vulcan Materials', 'workday', 'https://www.vulcanmaterials.com/careers', '{}'::jsonb, false
+SELECT 'Vulcan Materials', 'workday', 'https://www.vulcanmaterials.com/careers', '{"tenant":"vulcanmaterials","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Vulcan Materials');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'W.W. Grainger', 'workday', 'https://jobs.grainger.com', '{}'::jsonb, false
+SELECT 'W.W. Grainger', 'workday', 'https://jobs.grainger.com', '{"tenant":"grainger","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'W.W. Grainger');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Wabtec', 'workday', 'https://careers.wabtec.com', '{}'::jsonb, false
+SELECT 'Wabtec', 'workday', 'https://careers.wabtec.com', '{"tenant":"wabtec","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Wabtec');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Walmart', 'workday', 'https://careers.walmart.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Walmart');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Walt Disney', 'workday', 'https://jobs.disneycareers.com', '{}'::jsonb, false
+SELECT 'Walt Disney', 'workday', 'https://jobs.disneycareers.com', '{"tenant":"disney","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Walt Disney');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Waste Connections', 'workday', 'https://careers.wasteconnections.com', '{}'::jsonb, false
+SELECT 'Waste Connections', 'workday', 'https://careers.wasteconnections.com', '{"tenant":"wasteconnections","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Waste Connections');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Waste Management', 'workday', 'https://careers.wm.com', '{}'::jsonb, false
+SELECT 'Waste Management', 'workday', 'https://careers.wm.com', '{"tenant":"wm","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Waste Management');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Waters', 'workday', 'https://careers.waters.com', '{}'::jsonb, false
+SELECT 'Waters', 'workday', 'https://careers.waters.com', '{"tenant":"waters","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Waters');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'WEC Energy', 'workday', 'https://careers.wecenergygroup.com', '{}'::jsonb, false
+SELECT 'WEC Energy', 'workday', 'https://careers.wecenergygroup.com', '{"tenant":"wecenergy","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'WEC Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Wells Fargo', 'workday', 'https://www.wellsfargo.com/about/careers/', '{}'::jsonb, false
+SELECT 'Wells Fargo', 'workday', 'https://www.wellsfargo.com/about/careers/', '{"tenant":"wellsfargo","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Wells Fargo');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Welltower', 'workday', 'https://welltower.com/careers', '{}'::jsonb, false
+SELECT 'Welltower', 'workday', 'https://welltower.com/careers', '{"tenant":"welltower","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Welltower');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Western Digital', 'workday', 'https://www.westerndigital.com/company/careers', '{}'::jsonb, false
+SELECT 'Western Digital', 'workday', 'https://www.westerndigital.com/company/careers', '{"tenant":"westerndigital","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Western Digital');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Wheaton Precious Metals', 'workday', 'https://www.wheatonpm.com/careers', '{}'::jsonb, false
+SELECT 'Wheaton Precious Metals', 'workday', 'https://www.wheatonpm.com/careers', '{"tenant":"wheatonpm","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Wheaton Precious Metals');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Williams Companies', 'workday', 'https://careers.williams.com', '{}'::jsonb, false
-WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Williams Companies');
-
-INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Woodside Energy', 'workday', 'https://www.woodside.com/careers', '{}'::jsonb, false
+SELECT 'Woodside Energy', 'workday', 'https://www.woodside.com/careers', '{"tenant":"woodside","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Woodside Energy');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Yum! Brands', 'workday', 'https://careers.yum.com', '{}'::jsonb, false
+SELECT 'Yum! Brands', 'workday', 'https://careers.yum.com', '{"tenant":"yum","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Yum! Brands');
 
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
-SELECT 'Zoom', 'workday', 'https://careers.zoom.us', '{}'::jsonb, false
+SELECT 'Zoom', 'workday', 'https://careers.zoom.us', '{"tenant":"zoom","instance":"wd1"}'::jsonb, false
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Zoom');
 
 -- -------------------------------------------------------
--- GREENHOUSE
+-- GREENHOUSE (slugs known)
 -- -------------------------------------------------------
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
 SELECT 'Airbnb', 'greenhouse', 'https://careers.airbnb.com', '{"slug":"airbnb"}'::jsonb, true
@@ -1739,7 +1741,7 @@ SELECT 'MercadoLibre', 'eightfold', 'https://careers-meli.mercadolibre.com/en', 
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'MercadoLibre');
 
 -- -------------------------------------------------------
--- iCIMS — domain lookup needed before activating
+-- iCIMS — inactive (need domain per company)
 -- -------------------------------------------------------
 INSERT INTO companies (company_name, ats, career_url, ats_config, active)
 SELECT 'Costco', 'icims', 'https://careers.costco.com', '{}'::jsonb, false
@@ -1754,9 +1756,59 @@ SELECT 'Home Depot', 'icims', 'https://careers.homedepot.com', '{}'::jsonb, fals
 WHERE NOT EXISTS (SELECT 1 FROM companies WHERE company_name = 'Home Depot');
 
 -- -------------------------------------------------------
--- SKIPPED — no scraper for these ATS types:
---   SuccessFactors (Amrize, Banco Santander, Exxon Mobil, SAP)
---   Taleo (Boeing)
---   Oracle Recruiting Cloud (Oracle, Vertiv)
---   custom (Amazon, Apple, Microsoft, Meta, Google, etc.)
+-- SKIPPED — no scraper: custom / SuccessFactors / Taleo / Oracle
 -- -------------------------------------------------------
+-- Alibaba                                       [custom]
+-- Alphabet (Google)                             [custom]
+-- Amazon                                        [custom]
+-- America Movil                                 [custom]
+-- Amrize                                        [SuccessFactors]
+-- Apple                                         [custom]
+-- ASE Technology                                [custom]
+-- Baidu                                         [custom]
+-- Banco Bradesco                                [custom]
+-- Banco Santander                               [SuccessFactors]
+-- BBVA                                          [custom]
+-- Boeing                                        [Taleo]
+-- Chunghwa Telecom                              [custom]
+-- Ecopetrol                                     [custom]
+-- Elbit Systems                                 [custom]
+-- Eni                                           [custom]
+-- Exxon Mobil                                   [SuccessFactors]
+-- FEMSA                                         [custom]
+-- Ferrari                                       [custom]
+-- Ferrovial                                     [custom]
+-- HDFC Bank                                     [custom]
+-- Honda Motor                                   [custom]
+-- ICICI Bank                                    [custom]
+-- Infosys                                       [custom]
+-- Itau Unibanco                                 [custom]
+-- JD.com                                        [custom]
+-- KB Financial                                  [custom]
+-- Meta                                          [custom]
+-- Microsoft                                     [custom]
+-- Mitsubishi UFJ                                [custom]
+-- Mizuho                                        [custom]
+-- NetEase                                       [custom]
+-- Nu Holdings                                   [custom]
+-- Oracle                                        [Oracle Recruiting Cloud]
+-- ORIX                                          [custom]
+-- PDD Holdings                                  [custom]
+-- Petrobras                                     [custom]
+-- Petrobras (A)                                 [custom]
+-- Prudential plc                                [custom]
+-- Ryanair                                       [custom]
+-- Shinhan Financial                             [custom]
+-- Sony Group                                    [custom]
+-- Southern Copper                               [custom]
+-- Sumitomo Mitsui                               [custom]
+-- Tenaris                                       [custom]
+-- Texas Instruments                             [custom]
+-- Tower Semiconductor                           [custom]
+-- Toyota (N.A.)                                 [custom]
+-- Trip.com                                      [custom]
+-- TSMC                                          [custom]
+-- United Microelectronics                       [custom]
+-- Vale                                          [custom]
+-- Veeva Systems                                 [custom]
+-- Vertiv                                        [Oracle Recruiting Cloud]

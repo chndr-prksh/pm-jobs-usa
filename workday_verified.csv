@@ -1,0 +1,303 @@
+company_name,tenant,instance,verified
+AIG,aig,,no
+Amphenol,amphenol,,no
+American Tower,americantower,,no
+Agnico Eagle Mines,agnicoeagle,,no
+Ambev,ambev,,no
+AMETEK,ametek,,no
+Ameriprise Financial,ameriprise,,no
+Aflac,aflac,,no
+American Express,americanexpress,,no
+AbbVie,abbvie,,no
+AMD,amd,,no
+Applied Materials,appliedmaterials,,no
+Anheuser-Busch InBev,abinbev,,no
+Alnylam Pharma,alnylam,,no
+AngloGold Ashanti,anglogoldashanti,,no
+3M,3m,,no
+Aon,aon,,no
+Agilent,agilent,,no
+Altria,altria,,no
+Allstate,allstate,,no
+ArcelorMittal,arcelormittal,,no
+Arthur J. Gallagher,ajg,,no
+Atmos Energy,atmosenergy,,no
+AutoZone,autozone,,no
+Archer-Daniels-Midland,adm,,no
+ASML,asml,,no
+Bank of Nova Scotia,scotiabank,,no
+Arm Holdings,arm,,no
+Barrick Mining,barrick,,no
+Autodesk,autodesk,,no
+AstraZeneca,astrazeneca,,no
+Boston Scientific,bostonscientific,,no
+Booking Holdings,bookingholdings,,no
+Arista Networks,arista,,no
+BlackRock,blackrock,,no
+BNY Mellon,bnymellon,,no
+BHP Group,bhp,,no
+British American Tobacco,bat,,no
+Broadcom,broadcom,,no
+BP,bp,,no
+Cameco,cameco,,no
+Canadian Pacific KC,cpkc,,no
+Canadian Natural Res,cnrl,,no
+Canadian National Rail,cn,,no
+Carrier Global,carrier,,no
+CenterPoint Energy,centerpointenergy,,no
+Caterpillar,caterpillar,,no
+Casey's General Stores,caseys,,no
+Cardinal Health,cardinalhealth,,no
+Cboe Global Markets,cboe,,no
+CBRE Group,cbre,,no
+Celestica,celestica,,no
+Cenovus Energy,cenovus,,no
+Charles Schwab,schwab,,no
+Cheniere Energy,cheniere,,no
+Cencora,cencora,,no
+Chevron,chevron,,no
+Cheniere Energy Partners,cheniere,,no
+Chipotle,chipotle,,no
+Cisco,cisco,,no
+CME Group,cmegroup,,no
+Coca-Cola Europacific,ccep,,no
+Chubb,chubb,,no
+Colgate-Palmolive,colgate,,no
+Coherent,coherent,,no
+Cintas,cintas,,no
+Copart,copart,,no
+Citigroup,citi,,no
+Corning,corning,,no
+Coca-Cola,cocacola,,no
+Consolidated Edison,coned,,no
+CRH,crh,,no
+Corteva,corteva,,no
+Constellation Energy,constellationenergy,,no
+CSX,csx,,no
+Crown Castle,crowncastle,,no
+CIBC,cibc,,no
+Dell,dell,wd1,yes
+Carnival,carnival,,no
+Cummins,cummins,,no
+Deere,deere,,no
+D.R. Horton,drhorton,,no
+Devon Energy,devon,,no
+Eaton,eaton,,no
+Delta Air Lines,delta,,no
+DexCom,dexcom,,no
+Deutsche Bank,deutschebank,,no
+Dover,dovercrp,,no
+Duke Energy,duke,,no
+Dominion Energy,dominionenergy,,no
+eBay,ebay,,no
+Digital Realty,digitalrealty,,no
+DTE Energy,dte,,no
+Edison International,edisonintl,,no
+EchoStar,echostar,,no
+Electronic Arts,ea,,no
+Diamondback Energy,diamondbackenergy,,no
+Edwards Lifesciences,edwards,,no
+EMCOR Group,emcor,,no
+Emerson Electric,emerson,,no
+Energy Transfer,energytransfer,,no
+Enterprise Products,enterpriseproducts,,no
+Entergy,entergy,,no
+EOG Resources,eog,,no
+Estee Lauder,elcompanies,,no
+EQT Corp,eqt,,no
+Ericsson,ericsson,,no
+Exelon,exelon,,no
+Ferguson,ferguson,,no
+Extra Space Storage,extraspace,,no
+Fastenal,fastenal,,no
+First Solar,firstsolar,,no
+FedEx,fedex,,no
+Fifth Third Bancorp,fifththird,,no
+Ford Motor,ford,,no
+Flex,flex,,no
+Fiserv,fiserv,,no
+GLOBALFOUNDRIES,globalfoundries,wd1,yes
+Enbridge,enbridge,,no
+Fortis,fortis,,no
+Fortinet,fortinet,,no
+Garmin,garmin,,no
+General Dynamics,gd,,no
+Franco-Nevada,franconevada,,no
+GE Aerospace,ge,,no
+General Motors,generalmotors,,no
+GE Vernova,gevernova,,no
+Freeport-McMoRan,fcx,,no
+Illinois Tool Works,itw,wd5,yes
+Gold Fields,goldfields,,no
+Goldman Sachs,goldmansachs,,no
+GSK,gsk,,no
+Haleon,haleon,,no
+Hartford Insurance,thehartford,,no
+Hilton,hilton,,no
+Halliburton,halliburton,,no
+HEICO,heico,,no
+Honeywell,honeywell,,no
+HCA Healthcare,hca,,no
+Hershey,hershey,,no
+Howmet Aerospace,howmet,,no
+HSBC,hsbc,,no
+Imperial Oil,imperialoil,,no
+IBM,ibm,,no
+Interactive Brokers,ibkr,,no
+Ingersoll Rand,ingersollrand,,no
+Intuit,intuit,,no
+Intercontinental Exch,ice,,no
+Intuitive Surgical,intuitive,,no
+JPMorgan Chase,jpmorgan,,no
+ING Groep,ing,,no
+Kenvue,kenvue,,no
+Iron Mountain,ironmountain,,no
+Kinross Gold,kinross,,no
+Kimberly-Clark,kimberlyclark,,no
+KKR,kkr,,no
+Kinder Morgan,kindermorgan,,no
+Keysight,keysight,,no
+Kroger,kroger,,no
+Lam Research,lamresearch,,no
+L3Harris,l3harris,,no
+Keurig Dr Pepper,keurigdrpepper,,no
+Las Vegas Sands,sands,,no
+Lowe's,lowes,,no
+Linde,linde,,no
+Lockheed Martin,lmco,,no
+M&T Bank,mtb,,no
+MACOM Technology,macom,,no
+MasTec,mastec,,no
+Marsh & McLennan,mmc,,no
+McDonald's,mcdonalds,,no
+Manulife Financial,manulife,,no
+Marathon Petroleum,mpc,,no
+Martin Marietta,martinmarietta,,no
+Marriott,marriott,,no
+Medtronic,medtronic,,no
+MetLife,metlife,,no
+Mondelez,mondelez,,no
+McKesson,mckesson,,no
+Medline,medline,,no
+Microchip Technology,microchip,,no
+Monolithic Power,mpssemi,,no
+Monster Beverage,monsterbevcorp,,no
+Moody's,moodys,,no
+MPLX,mpc,,no
+Morgan Stanley,morganstanley,,no
+MSCI,msci,,no
+National Grid,nationalgrid,,no
+NetApp,netapp,,no
+Nasdaq,nasdaq,,no
+Natera,natera,,no
+Newmont,newmont,,no
+NatWest,natwest,,no
+Netflix,netflix,,no
+Nokia,nokia,,no
+Norfolk Southern,nscorp,,no
+NextEra Energy,nexteraenergy,,no
+Northrop Grumman,northropgrumman,,no
+Novo Nordisk,novonordisk,,no
+Nucor,nucor,,no
+NRG Energy,nrg,,no
+Nutrien,nutrien,,no
+nVent Electric,nvent,,no
+ON Semiconductor,onsemi,,no
+NVIDIA,nvidia,,no
+NXP Semiconductors,nxp,,no
+PNC Financial,pnc,wd5,yes
+Palo Alto Networks,paloaltonetworks,,no
+Paychex,paychex,,no
+PACCAR,paccar,,no
+Pfizer,pfizer,,no
+Parker-Hannifin,parker,,no
+Pembina Pipeline,pembina,,no
+PayPal,paypal,,no
+PG&E,pge,,no
+Philip Morris Intl,pmi,,no
+PepsiCo,pepsico,,no
+Phillips 66,phillips66,,no
+Qualcomm,qualcomm,wd12,yes
+Progressive,progressive,,no
+Prologis,prologis,,no
+Public Service Enterprise,pseg,,no
+Public Storage,publicstorage,,no
+Quanta Services,quantaservices,,no
+Raymond James,raymondjames,,no
+RELX,relx,,no
+Regeneron,regeneron,,no
+ResMed,resmed,,no
+Republic Services,republicservices,,no
+Rocket Companies,rocket,,no
+Rio Tinto,riotinto,,no
+Ross Stores,rossstores,,no
+Royal Caribbean,royalcaribbean,,no
+Rockwell Automation,rockwellautomation,,no
+Roper Technologies,ropertech,,no
+Royalty Pharma,royaltypharma,,no
+Sanofi,sanofi,,no
+Seagate,seagate,,no
+Sempra,sempra,,no
+Sherwin-Williams,sherwinwilliams,,no
+Simon Property,simon,,no
+Rocket Lab,rocketlab,,no
+SLB (Schlumberger),slb,,no
+Snowflake,snowflake,,no
+Steel Dynamics,steeldynamics,,no
+Takeda,takeda,wd3,yes
+Starbucks,starbucks,,no
+Southern Company,southernco,,no
+Sterling Infrastructure,sterling,,no
+Strategy (MicroStrategy),microstrategy,,no
+STMicroelectronics,st,,no
+Super Micro Computer,supermicro,,no
+Suncor Energy,suncor,,no
+Synopsys,synopsys,,no
+Sysco,sysco,,no
+Take-Two Interactive,take2,,no
+Sun Life Financial,sunlife,,no
+Targa Resources,targaresources,,no
+TechnipFMC,technipfmc,,no
+TE Connectivity,te,,no
+Teck Resources,teck,,no
+TC Energy,tcenergy,,no
+Teradyne,teradyne,,no
+Teva Pharma,teva,,no
+Texas Pacific Land,tpl,,no
+TJX Companies,tjx,,no
+Ubiquiti,ubiquiti,,no
+TKO Group,tko,,no
+TotalEnergies,totalenergies,,no
+TransDigm,transdigm,,no
+Union Pacific,up,,no
+UBS Group,ubs,,no
+UPS,ups,,no
+United Rentals,ur,,no
+Thermo Fisher,thermofisher,,no
+UnitedHealth (Optum),uhg,,no
+Walmart,walmart,wd5,yes
+United Airlines,united,,no
+Valero Energy,valero,,no
+Venture Global,ventureglobal,,no
+VeriSign,verisign,,no
+Vertex Pharma,vrtx,,no
+Williams Companies,williams,wd5,yes
+VICI Properties,vici,,no
+Vodafone,vodafone,,no
+Vistra,vistra,,no
+W.W. Grainger,grainger,,no
+Vulcan Materials,vulcanmaterials,,no
+Viking Holdings,viking,,no
+Wabtec,wabtec,,no
+Waste Management,wm,,no
+Walt Disney,disney,,no
+Waste Connections,wasteconnections,,no
+Wells Fargo,wellsfargo,,no
+Wheaton Precious Metals,wheatonpm,,no
+WEC Energy,wecenergy,,no
+Welltower,welltower,,no
+Waters,waters,,no
+Western Digital,westerndigital,,no
+Woodside Energy,woodside,,no
+Yum! Brands,yum,,no
+Zoom,zoom,,no
