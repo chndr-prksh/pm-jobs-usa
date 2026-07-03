@@ -16,13 +16,12 @@ import re
 import time
 from playwright.sync_api import sync_playwright
 
-# Load companies from ats_detection_results.csv (unknown/error only)
-def load_targets():
+# Load companies from manual_lookup_updated.csv (corrected career URLs)
+def load_targets(src="manual_lookup_updated.csv"):
     targets = []
-    with open("ats_detection_results.csv") as f:
+    with open(src) as f:
         for row in csv.DictReader(f):
-            if row["detected_ats"] in ("unknown", "error"):
-                targets.append((row["company"], row["careers_url"]))
+            targets.append((row["company_name"].strip(), row["career_url"].strip()))
     return targets
 
 
@@ -198,7 +197,7 @@ def main():
 
         browser.close()
 
-    with open("slug_results_v2.csv", "w", newline="") as f:
+    with open("slug_results_v3.csv", "w", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=["company", "careers_url", "ats", "slug", "evidence", "error"])
         writer.writeheader()
         writer.writerows(results)
@@ -211,7 +210,7 @@ def main():
 
     found = [r for r in results if r["slug"]]
     print(f"\nTotal resolved: {len(found)} / {len(targets)}")
-    print("Results saved to slug_results_v2.csv")
+    print("Results saved to slug_results_v3.csv")
 
 
 if __name__ == "__main__":

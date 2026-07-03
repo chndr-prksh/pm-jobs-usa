@@ -1,0 +1,925 @@
+company,careers_url,ats,slug,evidence,error
+8x8,https://www.8x8.com/careers,workday,8x8inc.wd5.myworkdayjobs.com,followed link https://www.8x8.com/careers/jobs/2a4584b5719d1000c95e392e235 → https://www.8x8.com/careers/jobs/2a4584b5719d1000c95e392e235c0000-product-manage,
+A Cloud Guru,https://www.a-cloud-guru.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.a-cloud-guru.com/careers
+Call log:
+  - navigating to ""https://www.a"
+Aaptiv,https://www.aaptiv.com/careers,unknown,,,
+Affirm Inc,https://www.affirm-inc.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.affirm-inc.com/careers
+Call log:
+  - navigating to ""https://www.aff"
+Afterpay,https://www.afterpay.com/en-US/careers,unknown,,,
+Age of Learning,https://www.age-of-learning.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.age-of-learning.com/careers
+Call log:
+  - navigating to ""https://ww"
+Anchorage Digital,https://www.anchorage-digital.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.anchorage-digital.com/careers
+Call log:
+  - navigating to ""https://"
+Arc (Browser Company),https://www.arc-browser-company.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.arc-browser-company.com/careers
+Call log:
+  - navigating to ""https:"
+Archer Aviation,https://www.archer-aviation.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.archer-aviation.com/careers
+Call log:
+  - navigating to ""https://ww"
+Ashby (ATS),https://www.ashby-ats.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ashby-ats.com/careers
+Call log:
+  - navigating to ""https://www.ashb"
+Bench Accounting,https://www.bench-accounting.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bench-accounting.com/careers
+Call log:
+  - navigating to ""https://w"
+Better.com,https://better.com/careers,unknown,,,
+Beyond Meat,https://www.beyond-meat.com/careers,unknown,,,
+Blind,https://www.blind.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.blind.com/careers"", waiting until ""domcont"
+Block (Square),https://www.block-square.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.block-square.com/careers
+Call log:
+  - navigating to ""https://www.b"
+Box,https://www.box.com/en-us/about-us/careers,unknown,,,
+Branch (Earned Wage),https://www.branch-earned-wage.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.branch-earned-wage.com/careers
+Call log:
+  - navigating to ""https:/"
+Brandless,https://www.brandless.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.brandless.com/careers
+Call log:
+  - navigating to ""https://www.bran"
+Bread Financial,https://www.bread-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.bread-financial.com/careers
+Call log:
+  - navigating to ""https://ww"
+Breezy HR,https://www.breezy-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.breezy-hr.com/careers
+Call log:
+  - navigating to ""https://www.bree"
+Brex Empower,https://www.brex-empower.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.brex-empower.com/careers
+Call log:
+  - navigating to ""https://www.b"
+Building Engines,https://www.building-engines.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.building-engines.com/careers
+Call log:
+  - navigating to ""https://w"
+CAVA,https://www.cava.com/careers,unknown,,,
+Captable.io,https://www.captableio.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.captableio.com/careers
+Call log:
+  - navigating to ""https://www.cap"
+Carta Talent,https://www.carta-talent.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.carta-talent.com/careers
+Call log:
+  - navigating to ""https://www.c"
+Carta Venture,https://www.carta-venture.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.carta-venture.com/careers
+Call log:
+  - navigating to ""https://www."
+Catalant,https://www.catalant.com/careers,lever,gocatalant,page load: https://catalant.com/careers/,
+Chime Financial,https://www.chime-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.chime-financial.com/careers
+Call log:
+  - navigating to ""https://ww"
+Clutch Kitchen,https://www.clutch-kitchen.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.clutch-kitchen.com/careers
+Call log:
+  - navigating to ""https://www"
+Compass,https://www.compass.com/careers/,unknown,,,
+Copy.ai,https://www.copyai.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.copyai.com/careers"", waiting until ""domcon"
+Cron,https://www.cron.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.cron.com/careers"", waiting until ""domconte"
+Culture Amp HR,https://www.culture-amp-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.culture-amp-hr.com/careers
+Call log:
+  - navigating to ""https://www"
+Current Banking,https://www.current-banking.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.current-banking.com/careers
+Call log:
+  - navigating to ""https://ww"
+Deel HR,https://www.deel-hr.com/careers,unknown,,,
+Density,https://www.density.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.density.com/careers
+Call log:
+  - navigating to ""https://www.densit"
+Disney Streaming,https://www.disney-streaming.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.disney-streaming.com/careers
+Call log:
+  - navigating to ""https://w"
+Divvy Homes,https://www.divvy-homes.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.divvy-homes.com/careers
+Call log:
+  - navigating to ""https://www.di"
+Domain Money,https://www.domain-money.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.domain-money.com/careers
+Call log:
+  - navigating to ""https://www.d"
+DoorDash Storefront,https://www.doordash-storefront.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.doordash-storefront.com/careers
+Call log:
+  - navigating to ""https:"
+Eat Just,https://www.eat-just.com/careers,unknown,,,
+Eightfold AI,https://www.eightfold-ai.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.eightfold-ai.com/careers
+Call log:
+  - navigating to ""https://www.e"
+Even (Earnin),https://www.even-earnin.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.even-earnin.com/careers
+Call log:
+  - navigating to ""https://www.ev"
+Even Financial,https://www.even-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.even-financial.com/careers
+Call log:
+  - navigating to ""https://www"
+Expedia,https://lifeatexpedia.com/,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://lifeatexpedia.com/"", waiting until ""domcontent"
+Experian Boost,https://www.experian-boost.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.experian-boost.com/careers
+Call log:
+  - navigating to ""https://www"
+Factorial,https://www.factorial.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.factorial.com/careers
+Call log:
+  - navigating to ""https://w"
+Fama,https://www.fama.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.fama.com/careers"", waiting until ""domconte"
+Felix Pago,https://www.felix-pago.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.felix-pago.com/careers
+Call log:
+  - navigating to ""https://www.fel"
+First Boulevard,https://www.first-boulevard.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.first-boulevard.com/careers
+Call log:
+  - navigating to ""https://ww"
+Flock Freight,https://www.flock-freight.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.flock-freight.com/careers
+Call log:
+  - navigating to ""https://www."
+Found Banking,https://www.found-banking.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.found-banking.com/careers
+Call log:
+  - navigating to ""https://www."
+Frame.io,https://www.frameio.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.frameio.com/careers
+Call log:
+  - navigating to ""https://www"
+Front,https://www.front.com/careers,ashby,frontcareers,page load: https://front.com/jobs,
+Grammarly,https://www.grammarly.com/jobs,greenhouse,grammarly,page load: https://superhuman.com/company/careers,
+Greenhouse Software,https://www.greenhouse-software.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.greenhouse-software.com/careers
+Call log:
+  - navigating to ""https:"
+Greenlight Financial,https://www.greenlight-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.greenlight-financial.com/careers
+Call log:
+  - navigating to ""https"
+Greenwood,https://www.greenwood.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.greenwood.com/careers
+Call log:
+  - navigating to ""https://w"
+Gusto Wallet,https://www.gusto-wallet.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.gusto-wallet.com/careers
+Call log:
+  - navigating to ""https://www.g"
+HBO Max,https://www.hbo-max.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.hbo-max.com/careers
+Call log:
+  - navigating to ""https://www.hbo-ma"
+Heap,https://www.heap.com/careers,unknown,,,
+Hightower,https://www.hightower.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.hightower.com/careers
+Call log:
+  - navigating to ""https://w"
+Honeypot,https://www.honeypot.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.honeypot.com/careers
+Call log:
+  - navigating to ""https://www.honey"
+Imperfect Foods,https://www.imperfect-foods.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.imperfect-foods.com/careers
+Call log:
+  - navigating to ""https://ww"
+Instant Financial,https://www.instant-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.instant-financial.com/careers
+Call log:
+  - navigating to ""https://"
+Instantly,https://www.instantly.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.instantly.com/careers
+Call log:
+  - navigating to ""https://www.inst"
+Integral Ad Science,https://www.integral-ad-science.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.integral-ad-science.com/careers
+Call log:
+  - navigating to ""https:"
+Jasper,https://www.jasper.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.jasper.com/careers"", waiting until ""domcon"
+Joby Aviation,https://www.joby-aviation.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.joby-aviation.com/careers
+Call log:
+  - navigating to ""https://www."
+KeepTruckin (Motive),https://www.keeptruckin-motive.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.keeptruckin-motive.com/careers
+Call log:
+  - navigating to ""https:/"
+King (Activision),https://www.king-activision.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.king-activision.com/careers
+Call log:
+  - navigating to ""https://ww"
+Kitchen United,https://www.kitchen-united.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.kitchen-united.com/careers
+Call log:
+  - navigating to ""https://www"
+Lambda School (BloomTech),https://www.lambda-school-bloomtech.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lambda-school-bloomtech.com/careers
+Call log:
+  - navigating to ""ht"
+Lattice HR,https://www.lattice-hr.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lattice-hr.com/careers
+Call log:
+  - navigating to ""https://www.lat"
+Lemon.io,https://www.lemonio.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.lemonio.com/careers
+Call log:
+  - navigating to ""https://www"
+Lever TA,https://www.lever-ta.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lever-ta.com/careers
+Call log:
+  - navigating to ""https://www.lever"
+Lili,https://www.lili.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.lili.com/careers
+Call log:
+  - navigating to ""https://www.lili.com/"
+Lime,https://www.lime.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.lime.com/careers"", waiting until ""domconte"
+M1 Finance,https://www.m1-finance.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.m1-finance.com/careers
+Call log:
+  - navigating to ""https://www.m1-"
+Mailchimp,https://www.mailchimp.com/careers,unknown,,,
+Marcus by Goldman Sachs,https://www.marcus-by-goldman-sachs.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.marcus-by-goldman-sachs.com/careers
+Call log:
+  - navigating to ""ht"
+Mercury Banking,https://www.mercury-banking.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.mercury-banking.com/careers
+Call log:
+  - navigating to ""https://ww"
+Method Financial,https://www.method-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.method-financial.com/careers
+Call log:
+  - navigating to ""https://w"
+Mirror,https://www.mirror.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.mirror.com/careers"", waiting until ""domcon"
+Mode Analytics,https://www.mode-analytics.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.mode-analytics.com/careers
+Call log:
+  - navigating to ""https://www"
+Motion,https://www.motion.com/careers,unknown,,,
+Nasdaq Private Market,https://www.nasdaq-private-market.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.nasdaq-private-market.com/careers
+Call log:
+  - navigating to ""http"
+Notion Press,https://www.notion-press.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.notion-press.com/careers
+Call log:
+  - navigating to ""https://www.n"
+Origin,https://www.origin.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.origin.com/careers
+Call log:
+  - navigating to ""https://www.orig"
+Oyster HR,https://www.oyster-hr.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.oyster-hr.com/careers"", waiting until ""dom"
+Papaya Global,https://www.papaya-global.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.papaya-global.com/careers
+Call log:
+  - navigating to ""https://www."
+Paramount+,https://www.paramount+.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.paramount+.com/careers
+Call log:
+  - navigating to ""https://www.par"
+Paycor,https://www.paycor.com/careers,icims,icims,followed link https://careers.paychex.com/careers/jobs?sortBy=relevance&pa → https://careers.paychex.com/careers/jobs?sortBy=relevance&page=1&tags1=Paycor,
+Peacock,https://www.peacock.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.peacock.com/careers
+Call log:
+  - navigating to ""https://www"
+Perfect Day,https://www.perfect-day.com/careers,error,,,"Page.goto: net::ERR_CONNECTION_CLOSED at https://www.perfect-day.com/careers
+Call log:
+  - navigating to ""https://www.pe"
+Pika Labs,https://www.pika-labs.com/careers,unknown,,,
+Pilot.com,https://www.pilotcom.com/careers,unknown,,,
+Postpay,https://www.postpay.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.postpay.com/careers
+Call log:
+  - navigating to ""https://www.postpa"
+Puzzle,https://www.puzzle.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.puzzle.com/careers
+Call log:
+  - navigating to ""https://www.puzzle."
+Rakuten,https://rakuten.jobs/,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://rakuten.jobs/
+Call log:
+  - navigating to ""https://rakuten.jobs/"", wait"
+Ramp Business,https://www.ramp-business.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-business.com/careers
+Call log:
+  - navigating to ""https://www."
+Ramp Financial,https://www.ramp-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-financial.com/careers
+Call log:
+  - navigating to ""https://www"
+Ramp Procurement,https://www.ramp-procurement.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ramp-procurement.com/careers
+Call log:
+  - navigating to ""https://w"
+Redfin,https://www.redfin.com/about/jobs,workday,quickenloans.wd5.myworkdayjobs.com,page load: https://careers.rocket.com/us/en/teams/real-estate,
+Relativity Space,https://www.relativity-space.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.relativity-space.com/careers
+Call log:
+  - navigating to ""https://w"
+Relay Financial,https://www.relay-financial.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.relay-financial.com/careers
+Call log:
+  - navigating to ""https://ww"
+Remote OAB,https://www.remote-oab.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.remote-oab.com/careers
+Call log:
+  - navigating to ""https://www.rem"
+Remote OK,https://www.remote-ok.com/careers,unknown,,,
+Republic,https://www.republic.com/careers,unknown,,,
+Ribbon,https://www.ribbon.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.ribbon.com/careers"", waiting until ""domcon"
+Ring,https://www.ring.com/careers,amazon,amazon,followed link https://www.amazon.jobs/content/en/career-programs/hourly-jo → https://www.amazon.jobs/content/en/hourly,
+RingCentral,https://www.ringcentral.com/careers,workday,ringcentral.wd1.myworkdayjobs.com,page load: https://www.ringcentral.com/company/careers/overview.html,
+Rippling,https://www.rippling.com/careers,rippling,rippling,followed link https://www.rippling.com/careers/open-roles → https://www.rippling.com/careers/open-roles,
+Riverside.fm,https://www.riversidefm.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.riversidefm.com/careers"", waiting until ""d"
+Rocket Money,https://www.rocket-money.com/careers,unknown,,,
+Sakara Life,https://www.sakara-life.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.sakara-life.com/careers
+Call log:
+  - navigating to ""https://www.sa"
+Sastrify,https://www.sastrify.com/careers,personio,personio,page load: https://www.sastrify.com/careers,
+Sequoia Consulting,https://www.sequoia-consulting.com/careers,error,,,"Page.goto: net::ERR_SSL_UNRECOGNIZED_NAME_ALERT at https://www.sequoia-consulting.com/careers
+Call log:
+  - navigating t"
+Shippo,https://www.shippo.com/careers,rippling,shippo,followed link https://goshippo.com/jobs → https://goshippo.com/jobs,
+Simple,https://www.simple.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.simple.com/careers
+Call log:
+  - navigating to ""https://www.simp"
+Slack,https://www.slack.com/careers,workday,salesforce.wd12.myworkdayjobs.com,page load: https://slack.com/careers,
+Splendid Spoon,https://www.splendid-spoon.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.splendid-spoon.com/careers
+Call log:
+  - navigating to ""https://www"
+Square,https://www.square.com/careers,unknown,,,
+Square (Block),https://block.xyz/careers,greenhouse,block,followed link https://block.xyz/careers/jobs/5264896008 → https://block.xyz/careers/jobs/5264896008,
+Square POS,https://www.square-pos.com/careers,unknown,,,
+Synapse,https://www.synapse.com/careers,unknown,,,
+Synchrony,https://www.synchrony.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.synchrony.com/careers
+Call log:
+  - navigating to ""https://www.s"
+Tability,https://www.tability.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.tability.com/careers"", waiting until ""domc"
+Tally,https://www.tally.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.tally.com/careers
+Call log:
+  - navigating to ""https://www.t"
+Tally Technologies,https://www.tally-technologies.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.tally-technologies.com/careers
+Call log:
+  - navigating to ""https:/"
+Teamblind,https://www.teamblind.com/careers,unknown,,,
+Tenable,https://www.tenable.com/careers,greenhouse,tenableinc,page load: https://www.tenable.com/careers,
+Tesla Energy,https://www.tesla-energy.com/careers,unknown,,,
+Toast POS,https://www.toast-pos.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.toast-pos.com/careers"", waiting until ""dom"
+Transit App,https://www.transit-app.com/careers,unknown,,,
+TriNet,https://www.trinet.com/careers,unknown,,,
+Trim,https://www.trim.com/careers,error,,,"Page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://www.trim.com/careers
+Call log:
+  - navigating to ""https://www.tr"
+Triplebyte,https://www.triplebyte.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.triplebyte.com/careers
+Call log:
+  - navigating to ""https://www.tri"
+Tropic,https://www.tropic.com/careers,unknown,,,
+Truebill (Rocket Money),https://www.truebill-rocket-money.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.truebill-rocket-money.com/careers
+Call log:
+  - navigating to ""http"
+Truework,https://www.truework.com/careers,unknown,,,
+Varo Bank,https://www.varo-bank.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.varo-bank.com/careers
+Call log:
+  - navigating to ""https://www.varo"
+Veho,https://www.veho.com/careers,error,,,"Page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.veho.com/careers
+Call log:
+  - navigating to ""https://www.veho.c"
+Velocity Global,https://www.velocity-global.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.velocity-global.com/careers"", waiting unti"
+Voltage Park,https://www.voltage-park.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.voltage-park.com/careers
+Call log:
+  - navigating to ""https://www.v"
+We Work Remotely,https://www.we-work-remotely.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.we-work-remotely.com/careers
+Call log:
+  - navigating to ""https://w"
+Weights & Biases,https://wandb.ai/site/careers,lever,wandb,followed link https://wandb.ai/site/ko/careers/ → https://wandb.ai/site/ko/careers/,
+Wise Transfer,https://www.wise-transfer.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.wise-transfer.com/careers
+Call log:
+  - navigating to ""https://www."
+Wix,https://www.wix.com/jobs/locations/tel-aviv,smartrecruiters,Wix2,followed link https://careers.wix.com/position/oracle-eb4f7eac-91ce-5bdb-8 → https://careers.wix.com/position/oracle-eb4f7eac-91ce-5bdb-8f96-3a4f5b36bf32-T17,
+Wyze,https://www.wyze.com/careers,unknown,,,
+Xata,https://www.xata.com/careers,error,,,"Page.goto: net::ERR_SSL_VERSION_OR_CIPHER_MISMATCH at https://www.xata.com/careers
+Call log:
+  - navigating to ""https://"
+Xoom,https://www.xoom.com/careers,eightfold,paypal.eightfold.ai/careers,followed link https://www.xoom.com/about/careers → https://careers.pypl.com/home/,
+Zip Co,https://www.zip-co.com/careers,error,,,"Page.goto: Timeout 25000ms exceeded.
+Call log:
+  - navigating to ""https://www.zip-co.com/careers"", waiting until ""domcon"
+dbt Labs,https://www.dbt-labs.com/careers,unknown,,,
+ironSource,https://www.ironsource.com/careers,error,,,"Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.ironsource.com/careers
+Call log:
+  - navigating to ""https://www.iro"
+ADP,https://www.adp.com/careers,unknown,,,
+Adept AI,https://www.adept.ai/careers,unknown,,,
+Akiflow,https://www.akiflow.com/careers,unknown,,,
+Albert,https://www.albert.com/careers,unknown,,,
+Aleph Farms,https://www.aleph-farms.com/careers,unknown,,,
+AllTrails,https://www.alltrails.com/careers,unknown,,,
+Argyle,https://www.argyle.com/careers,rippling,argyle,page load: https://www.argyle.com/careers,
+Aspiration,https://www.aspiration.com/careers,unknown,,,
+Atlassian,https://www.atlassian.com/company/careers,unknown,,,
+Avant,https://www.avant.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.avant.com/careers/
+Call log:
+  - navigating to ""https://www.ava"
+BentoBox,https://www.bentobox.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bentobox.com/careers
+Call log:
+  - navigating to ""https://www.b"
+Betterworks,https://www.betterworks.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.betterworks.com/careers
+Call log:
+  - navigating to ""https://ww"
+Blue Apron,https://www.blue-apron.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.blue-apron.com/careers
+Call log:
+  - navigating to ""https://www"
+Bonsai,https://www.bonsai.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bonsai.com/careers
+Call log:
+  - navigating to ""https://www.bon"
+Bonusly,https://www.bonusly.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.bonusly.com/careers
+Call log:
+  - navigating to ""https://www.bo"
+Boom Supersonic,https://www.boom-supersonic.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.boom-supersonic.com/careers
+Call log:
+  - navigating to ""https:"
+Cake Equity,https://www.cake-equity.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.cake-equity.com/careers
+Call log:
+  - navigating to ""https://ww"
+Canva,https://www.canva.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.canva.com/careers/
+Call log:
+  - navigating to ""https://www.can"
+Cap Table,https://www.cap-table.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.cap-table.com/careers
+Call log:
+  - navigating to ""https://www."
+CarMax,https://www.carmax.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.carmax.com/careers
+Call log:
+  - navigating to ""https://www.car"
+Care.com,https://www.care.com/en-us/about/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.care.com/en-us/about/careers
+Call log:
+  - navigating to ""https"
+Carvana,https://www.carvana.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.carvana.com/careers
+Call log:
+  - navigating to ""https://www.ca"
+Chainalysis,https://www.chainalysis.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.chainalysis.com/careers
+Call log:
+  - navigating to ""https://ww"
+Cheese,https://www.cheese.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.cheese.com/careers
+Call log:
+  - navigating to ""https://www.che"
+Chegg,https://careers.chegg.com/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.chegg.com/
+Call log:
+  - navigating to ""https://careers.che"
+Chorus.ai,https://www.chorusai.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.chorusai.com/careers
+Call log:
+  - navigating to ""https://www.c"
+Circle,https://www.circle.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.circle.com/careers
+Call log:
+  - navigating to ""https://www.cir"
+Citymapper,https://www.citymapper.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.citymapper.com/careers
+Call log:
+  - navigating to ""https://www"
+Clari,https://www.clari.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.clari.com/careers
+Call log:
+  - navigating to ""https://www.clar"
+Clearbit,https://www.clearbit.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.clearbit.com/careers
+Call log:
+  - navigating to ""https://www.c"
+Clearcover,https://www.clearcover.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.clearcover.com/careers
+Call log:
+  - navigating to ""https://www"
+Clio,https://www.clio.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.clio.com/careers
+Call log:
+  - navigating to ""https://www.clio."
+Clover,https://www.clover.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.clover.com/careers
+Call log:
+  - navigating to ""https://www.clo"
+Coda,https://coda.io/about/jobs,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://coda.io/about/jobs
+Call log:
+  - navigating to ""https://coda.io/abo"
+CodeSignal,https://www.codesignal.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.codesignal.com/careers
+Call log:
+  - navigating to ""https://www"
+Codility,https://www.codility.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.codility.com/careers
+Call log:
+  - navigating to ""https://www.c"
+Composer,https://www.composer.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.composer.com/careers
+Call log:
+  - navigating to ""https://www.c"
+Convex,https://www.convex.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.convex.com/careers
+Call log:
+  - navigating to ""https://www.con"
+Convoy,https://convoy.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://convoy.com/careers/
+Call log:
+  - navigating to ""https://convoy.com"
+CoverWallet,https://www.coverwallet.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.coverwallet.com/careers
+Call log:
+  - navigating to ""https://ww"
+Craft.io,https://www.craftio.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.craftio.com/careers
+Call log:
+  - navigating to ""https://www.cr"
+Crossover,https://www.crossover.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.crossover.com/careers
+Call log:
+  - navigating to ""https://www."
+Cruise,https://www.cruise.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.cruise.com/careers
+Call log:
+  - navigating to ""https://www.cru"
+Daily Harvest,https://www.daily-harvest.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.daily-harvest.com/careers
+Call log:
+  - navigating to ""https://"
+Datavant,https://www.datavant.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.datavant.com/careers
+Call log:
+  - navigating to ""https://www.d"
+Deliverr,https://www.deliverr.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.deliverr.com/careers
+Call log:
+  - navigating to ""https://www.d"
+DoNotPay,https://www.donotpay.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.donotpay.com/careers
+Call log:
+  - navigating to ""https://www.d"
+DocSend,https://www.docsend.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.docsend.com/careers
+Call log:
+  - navigating to ""https://www.do"
+DoorDash,https://careers.doordash.com/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.doordash.com/
+Call log:
+  - navigating to ""https://careers."
+Drift,https://www.drift.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.drift.com/careers
+Call log:
+  - navigating to ""https://www.drif"
+Dubsado,https://www.dubsado.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.dubsado.com/careers
+Call log:
+  - navigating to ""https://www.du"
+EarnUp,https://www.earnup.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.earnup.com/careers
+Call log:
+  - navigating to ""https://www.ear"
+Ecobee,https://www.ecobee.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.ecobee.com/careers
+Call log:
+  - navigating to ""https://www.eco"
+EdgeDB,https://www.edgedb.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.edgedb.com/careers
+Call log:
+  - navigating to ""https://www.edg"
+Etsy,https://careers.etsy.com/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.etsy.com/
+Call log:
+  - navigating to ""https://careers.etsy"
+Eufy,https://www.eufy.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.eufy.com/careers
+Call log:
+  - navigating to ""https://www.eufy."
+EveryPlate,https://www.everyplate.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.everyplate.com/careers
+Call log:
+  - navigating to ""https://www"
+Fellow.app,https://www.fellowapp.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.fellowapp.com/careers
+Call log:
+  - navigating to ""https://www."
+Fishbowl,https://www.fishbowl.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.fishbowl.com/careers
+Call log:
+  - navigating to ""https://www.f"
+Fiverr,https://www.fiverr.com/jobs,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.fiverr.com/jobs
+Call log:
+  - navigating to ""https://www.fiverr"
+FlexWage,https://www.flexwage.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.flexwage.com/careers
+Call log:
+  - navigating to ""https://www.f"
+Fly.io,https://www.flyio.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.flyio.com/careers
+Call log:
+  - navigating to ""https://www.flyi"
+Flyhomes,https://www.flyhomes.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.flyhomes.com/careers
+Call log:
+  - navigating to ""https://www.f"
+Gem,https://www.gem.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.gem.com/careers
+Call log:
+  - navigating to ""https://www.gem.co"
+Getaround,https://www.getaround.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.getaround.com/careers
+Call log:
+  - navigating to ""https://www."
+Gobble,https://www.gobble.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.gobble.com/careers
+Call log:
+  - navigating to ""https://www.gob"
+Gong,https://www.gong.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.gong.com/careers
+Call log:
+  - navigating to ""https://www.gong."
+GoodHire,https://www.goodhire.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.goodhire.com/careers
+Call log:
+  - navigating to ""https://www.g"
+GoodRx,https://www.goodrx.com/jobs,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.goodrx.com/jobs
+Call log:
+  - navigating to ""https://www.goodrx"
+Groq,https://www.groq.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.groq.com/careers
+Call log:
+  - navigating to ""https://www.groq."
+Guild Education,https://www.guildeducation.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.guildeducation.com/careers/
+Call log:
+  - navigating to ""https:"
+Gun.io,https://www.gunio.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.gunio.com/careers
+Call log:
+  - navigating to ""https://www.guni"
+HashiCorp,https://www.hashicorp.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.hashicorp.com/careers
+Call log:
+  - navigating to ""https://www."
+Height,https://www.height.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.height.com/careers
+Call log:
+  - navigating to ""https://www.hei"
+HiBob,https://www.hibob.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.hibob.com/careers
+Call log:
+  - navigating to ""https://www.hibo"
+Hired,https://www.hired.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.hired.com/careers
+Call log:
+  - navigating to ""https://www.hire"
+ImpactVision,https://www.impactvision.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.impactvision.com/careers
+Call log:
+  - navigating to ""https://w"
+Increase,https://www.increase.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.increase.com/careers
+Call log:
+  - navigating to ""https://www.i"
+Insperity,https://www.insperity.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.insperity.com/careers
+Call log:
+  - navigating to ""https://www."
+Ironclad,https://www.ironclad.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.ironclad.com/careers
+Call log:
+  - navigating to ""https://www.i"
+Klarna,https://www.klarna.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.klarna.com/careers/
+Call log:
+  - navigating to ""https://www.kl"
+Komoot,https://www.komoot.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.komoot.com/careers
+Call log:
+  - navigating to ""https://www.kom"
+Lambda Labs,https://www.lambda-labs.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.lambda-labs.com/careers
+Call log:
+  - navigating to ""https://ww"
+Layr,https://www.layr.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.layr.com/careers
+Call log:
+  - navigating to ""https://www.layr."
+Levels.fyi,https://www.levelsfyi.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.levelsfyi.com/careers
+Call log:
+  - navigating to ""https://www."
+Linktree,https://www.linktree.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.linktree.com/careers
+Call log:
+  - navigating to ""https://www.l"
+Madkudu,https://www.madkudu.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.madkudu.com/careers
+Call log:
+  - navigating to ""https://www.ma"
+Majority,https://www.majority.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.majority.com/careers
+Call log:
+  - navigating to ""https://www.m"
+Measurabl,https://www.measurabl.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.measurabl.com/careers
+Call log:
+  - navigating to ""https://www."
+Mercoa,https://www.mercoa.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.mercoa.com/careers
+Call log:
+  - navigating to ""https://www.mer"
+Metromile,https://www.metromile.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.metromile.com/careers
+Call log:
+  - navigating to ""https://www."
+Monday.com,https://monday.com/jobs,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://monday.com/jobs
+Call log:
+  - navigating to ""https://monday.com/job"
+Moomoo,https://www.moomoo.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.moomoo.com/careers
+Call log:
+  - navigating to ""https://www.moo"
+Motivosity,https://www.motivosity.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.motivosity.com/careers
+Call log:
+  - navigating to ""https://www"
+Multiplier,https://www.multiplier.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.multiplier.com/careers
+Call log:
+  - navigating to ""https://www"
+Mynd,https://www.mynd.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.mynd.com/careers
+Call log:
+  - navigating to ""https://www.mynd."
+Namely,https://www.namely.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.namely.com/careers
+Call log:
+  - navigating to ""https://www.nam"
+Next Insurance,https://www.next-insurance.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.next-insurance.com/careers
+Call log:
+  - navigating to ""https:/"
+Northflank,https://www.northflank.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.northflank.com/careers
+Call log:
+  - navigating to ""https://www"
+Notable Health,https://www.notable-health.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.notable-health.com/careers
+Call log:
+  - navigating to ""https:/"
+Notco,https://www.notco.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.notco.com/careers
+Call log:
+  - navigating to ""https://www.notc"
+Nuvocargo,https://www.nuvocargo.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.nuvocargo.com/careers
+Call log:
+  - navigating to ""https://www."
+Offerpad,https://www.offerpad.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.offerpad.com/careers/
+Call log:
+  - navigating to ""https://www."
+Onfido,https://www.onfido.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.onfido.com/careers
+Call log:
+  - navigating to ""https://www.onf"
+Onfleet,https://www.onfleet.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.onfleet.com/careers
+Call log:
+  - navigating to ""https://www.on"
+OnlyFans,https://www.onlyfans.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.onlyfans.com/careers
+Call log:
+  - navigating to ""https://www.o"
+Opendoor,https://www.opendoor.com/w/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.opendoor.com/w/careers
+Call log:
+  - navigating to ""https://www"
+Otta,https://www.otta.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.otta.com/careers
+Call log:
+  - navigating to ""https://www.otta."
+Pinwheel,https://www.pinwheel.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.pinwheel.com/careers
+Call log:
+  - navigating to ""https://www.p"
+PlanGrid,https://www.plangrid.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.plangrid.com/careers
+Call log:
+  - navigating to ""https://www.p"
+Policygenius,https://www.policygenius.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.policygenius.com/careers
+Call log:
+  - navigating to ""https://w"
+Postmates,https://www.postmates.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.postmates.com/careers
+Call log:
+  - navigating to ""https://www."
+Procore,https://careers.procore.com/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.procore.com/
+Call log:
+  - navigating to ""https://careers.p"
+ProdPad,https://www.prodpad.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.prodpad.com/careers
+Call log:
+  - navigating to ""https://www.pr"
+Productboard,https://www.productboard.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.productboard.com/careers
+Call log:
+  - navigating to ""https://w"
+Pymetrics,https://www.pymetrics.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.pymetrics.com/careers
+Call log:
+  - navigating to ""https://www."
+Qapital,https://www.qapital.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.qapital.com/careers
+Call log:
+  - navigating to ""https://www.qa"
+Quizlet,https://quizlet.com/jobs,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://quizlet.com/jobs
+Call log:
+  - navigating to ""https://quizlet.com/j"
+Rapid7,https://www.rapid7.com/company/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.rapid7.com/company/careers/
+Call log:
+  - navigating to ""https:"
+Reclaim.ai,https://www.reclaimai.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.reclaimai.com/careers
+Call log:
+  - navigating to ""https://www."
+Reef Technology,https://www.reef-technology.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.reef-technology.com/careers
+Call log:
+  - navigating to ""https:"
+Retool,https://retool.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://retool.com/careers
+Call log:
+  - navigating to ""https://retool.com/"
+Revolut,https://www.revolut.com/en-US/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.revolut.com/en-US/careers
+Call log:
+  - navigating to ""https://"
+Rippling HR,https://www.rippling-hr.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.rippling-hr.com/careers
+Call log:
+  - navigating to ""https://ww"
+Roadmunk,https://www.roadmunk.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.roadmunk.com/careers
+Call log:
+  - navigating to ""https://www.r"
+Routific,https://www.routific.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.routific.com/careers
+Call log:
+  - navigating to ""https://www.r"
+SAP,https://www.sap.com/about/careers.html,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sap.com/about/careers.html
+Call log:
+  - navigating to ""https:/"
+Salesforce,https://www.salesforce.com/company/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.salesforce.com/company/careers/
+Call log:
+  - navigating to ""ht"
+SeedInvest,https://www.seedinvest.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.seedinvest.com/careers
+Call log:
+  - navigating to ""https://www"
+Seismic,https://www.seismic.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.seismic.com/careers
+Call log:
+  - navigating to ""https://www.se"
+Sendwave,https://www.sendwave.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sendwave.com/careers
+Call log:
+  - navigating to ""https://www.s"
+ServiceNow,https://www.servicenow.com/careers.html,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.servicenow.com/careers.html
+Call log:
+  - navigating to ""https:"
+Shift Technologies,https://www.shift-technologies.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.shift-technologies.com/careers
+Call log:
+  - navigating to ""htt"
+ShipBob,https://www.shipbob.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.shipbob.com/careers/
+Call log:
+  - navigating to ""https://www.s"
+ShipHero,https://www.shiphero.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.shiphero.com/careers
+Call log:
+  - navigating to ""https://www.s"
+Shopify,https://www.shopify.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.shopify.com/careers
+Call log:
+  - navigating to ""https://www.sh"
+Smartlead,https://www.smartlead.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.smartlead.com/careers
+Call log:
+  - navigating to ""https://www."
+Snap,https://careers.snap.com/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://careers.snap.com/
+Call log:
+  - navigating to ""https://careers.snap"
+Snap Finance,https://www.snap-finance.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.snap-finance.com/careers
+Call log:
+  - navigating to ""https://w"
+Soldo,https://www.soldo.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.soldo.com/careers
+Call log:
+  - navigating to ""https://www.sold"
+SoundCloud,https://www.soundcloud.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.soundcloud.com/careers
+Call log:
+  - navigating to ""https://www"
+SpaceX,https://www.spacex.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.spacex.com/careers
+Call log:
+  - navigating to ""https://www.spa"
+Split,https://www.split.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.split.com/careers
+Call log:
+  - navigating to ""https://www.spli"
+Spotii,https://www.spotii.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.spotii.com/careers
+Call log:
+  - navigating to ""https://www.spo"
+Step,https://www.step.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.step.com/careers
+Call log:
+  - navigating to ""https://www.step."
+Sunbasket,https://www.sunbasket.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.sunbasket.com/careers
+Call log:
+  - navigating to ""https://www."
+Synthesis,https://www.synthesis.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.synthesis.com/careers
+Call log:
+  - navigating to ""https://www."
+Tabby,https://www.tabby.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tabby.com/careers
+Call log:
+  - navigating to ""https://www.tabb"
+Tableau,https://www.tableau.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tableau.com/careers
+Call log:
+  - navigating to ""https://www.ta"
+Tesla,https://www.tesla.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tesla.com/careers
+Call log:
+  - navigating to ""https://www.tesl"
+ThredUp,https://www.thredup.com/pg/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.thredup.com/pg/careers
+Call log:
+  - navigating to ""https://www"
+Tidal,https://www.tidal.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tidal.com/careers
+Call log:
+  - navigating to ""https://www.tida"
+Tradier,https://www.tradier.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tradier.com/careers
+Call log:
+  - navigating to ""https://www.tr"
+Tred,https://www.tred.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tred.com/careers
+Call log:
+  - navigating to ""https://www.tred."
+Trello,https://www.trello.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.trello.com/careers
+Call log:
+  - navigating to ""https://www.tre"
+Trupay,https://www.trupay.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.trupay.com/careers
+Call log:
+  - navigating to ""https://www.tru"
+Tubi,https://www.tubi.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.tubi.com/careers
+Call log:
+  - navigating to ""https://www.tubi."
+Turo,https://turo.com/us/en/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://turo.com/us/en/careers
+Call log:
+  - navigating to ""https://turo.co"
+Turso,https://www.turso.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.turso.com/careers
+Call log:
+  - navigating to ""https://www.turs"
+Unit21,https://www.unit21.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.unit21.com/careers
+Call log:
+  - navigating to ""https://www.uni"
+Unity,https://www.unity.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.unity.com/careers
+Call log:
+  - navigating to ""https://www.unit"
+VRBO,https://www.vrbo.com/en-us/p/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vrbo.com/en-us/p/careers
+Call log:
+  - navigating to ""https://w"
+Vagaro,https://www.vagaro.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vagaro.com/careers
+Call log:
+  - navigating to ""https://www.vag"
+Vendr,https://www.vendr.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vendr.com/careers
+Call log:
+  - navigating to ""https://www.vend"
+Vested,https://www.vested.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vested.com/careers
+Call log:
+  - navigating to ""https://www.ves"
+Vettery,https://www.vettery.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vettery.com/careers
+Call log:
+  - navigating to ""https://www.ve"
+Vopay,https://www.vopay.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vopay.com/careers
+Call log:
+  - navigating to ""https://www.vopa"
+Vouch Insurance,https://www.vouch-insurance.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vouch-insurance.com/careers
+Call log:
+  - navigating to ""https:"
+Vroom,https://www.vroom.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.vroom.com/careers
+Call log:
+  - navigating to ""https://www.vroo"
+Wagestream,https://www.wagestream.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wagestream.com/careers
+Call log:
+  - navigating to ""https://www"
+Warmly,https://www.warmly.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.warmly.com/careers
+Call log:
+  - navigating to ""https://www.war"
+Wayfair,https://www.wayfair.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wayfair.com/careers/
+Call log:
+  - navigating to ""https://www.w"
+Webull,https://www.webull.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.webull.com/careers
+Call log:
+  - navigating to ""https://www.web"
+Wefunder,https://www.wefunder.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wefunder.com/careers
+Call log:
+  - navigating to ""https://www.w"
+Wellfound,https://www.wellfound.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wellfound.com/careers
+Call log:
+  - navigating to ""https://www."
+Wellhub,https://www.wellhub.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wellhub.com/careers
+Call log:
+  - navigating to ""https://www.we"
+Welltok,https://www.welltok.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.welltok.com/careers
+Call log:
+  - navigating to ""https://www.we"
+Whatnot,https://www.whatnot.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.whatnot.com/careers
+Call log:
+  - navigating to ""https://www.wh"
+Wise,https://www.wise.jobs/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.wise.jobs/
+Call log:
+  - navigating to ""https://www.wise.jobs/"""
+WorkTango,https://www.worktango.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.worktango.com/careers
+Call log:
+  - navigating to ""https://www."
+WorldRemit,https://www.worldremit.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.worldremit.com/careers
+Call log:
+  - navigating to ""https://www"
+X-Team,https://www.x-team.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.x-team.com/careers
+Call log:
+  - navigating to ""https://www.x-t"
+Yodlee,https://www.yodlee.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.yodlee.com/careers
+Call log:
+  - navigating to ""https://www.yod"
+Yokoy,https://www.yokoy.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.yokoy.com/careers
+Call log:
+  - navigating to ""https://www.yoko"
+Zencargo,https://www.zencargo.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.zencargo.com/careers
+Call log:
+  - navigating to ""https://www.z"
+Zenefits,https://www.zenefits.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.zenefits.com/careers
+Call log:
+  - navigating to ""https://www.z"
+Zillow,https://www.zillow.com/careers/,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.zillow.com/careers/
+Call log:
+  - navigating to ""https://www.zi"
+Zynga,https://www.zynga.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.zynga.com/careers
+Call log:
+  - navigating to ""https://www.zyng"
+ezCater,https://www.ezcater.com/careers,error,,,"Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.ezcater.com/careers
+Call log:
+  - navigating to ""https://www.ez"
