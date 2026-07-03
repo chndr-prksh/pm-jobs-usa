@@ -1,11 +1,13 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-07-02 21:31 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-07-03 02:56 UTC · [Full list →](jobs.csv)
 
-Showing top 100 most recently posted Product Management jobs across 36 companies.
+Showing top 100 most recently posted Product Management jobs across 37 companies.
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Harvey AI | Staff Product Manager, Legal Operations Platform | San Francisco | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/harvey/4221e6ce-fb4f-4f20-a615-aa1b85d2ef3c) |
+| Harvey AI | Staff Product Manager, Legal Operations Platform | New York | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/harvey/d1b7c79c-e61b-4e68-a690-89a008f03670) |
 | SpotOn | Product Manager- Reporting | Austin, TX | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/spoton/e49c48c5-416d-4bdf-addc-3ce4b75a66d5) |
 | SpotOn | Product Manager (Dashboard) | Austin, TX | 2026-07-01 | [Apply](https://jobs.ashbyhq.com/spoton/908853bb-0f8b-4e64-846d-66a52400776c) |
 | MoneyLion | Director, Product Management for Customer Engagement Platform | CZE - Prague | 2026-07-01 | [Apply](https://jobs.ashbyhq.com/gen-digital/5b686799-29e7-4473-a8de-66c7ddfe7830) |
@@ -22,8 +24,8 @@ Showing top 100 most recently posted Product Management jobs across 36 companies
 | OpenAI | Product Manager, ChatGPT Sites | San Francisco | 2026-06-28 | [Apply](https://jobs.ashbyhq.com/openai/6db2af13-50b2-4fe0-a8df-874e2ba57f71) |
 | Rivian | Product Manager, Facilities Technology | Atlanta, Georgia | 2026-06-26 | [Apply](https://us-careers-rivian.icims.com/jobs/31878/login) |
 | PayPal | Sr Product Manager, Venmo Commerce | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274917467216) |
-| PayPal | Lead Product Manager - Payment Platform | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274917222158) |
 | PayPal | Sr Product Manager - CS/Agentic AI | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274919886116) |
+| PayPal | Lead Product Manager - Payment Platform | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274917222158) |
 | LangChain | Product Manager, Fleet | San Francisco, CA | 2026-06-25 | [Apply](https://jobs.ashbyhq.com/langchain/5ac59bcb-0245-4a82-bab0-0ebdeae07ccd) |
 | Rivian | Sr. Product Manager, Global Financial Systems | Atlanta, Georgia | 2026-06-24 | [Apply](https://us-careers-rivian.icims.com/jobs/31774/login) |
 | Kin Insurance | Director, Product Management - Platform & Customer Lifecycle | Remote | 2026-06-24 | [Apply](https://jobs.ashbyhq.com/kin/34551772-bf4b-47d8-afe9-d368b0a63ef9) |
@@ -50,8 +52,9 @@ Showing top 100 most recently posted Product Management jobs across 36 companies
 | MoneyLion | LifeLock Lead Product Manager, Mobile & AI Assistant  | USA - Mountain View, CA | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/gen-digital/689fcffc-4ee6-43f6-a9df-eeb2fe53c2ad) |
 | OpenAI | Product Manager, Shopping | San Francisco | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/openai/df8a1d73-58b9-4571-86f5-da9a12155fbb) |
 | Ramp | Product Manager – Generalist (All Levels) | New York, NY (HQ) | 2026-06-11 | [Apply](https://jobs.ashbyhq.com/ramp/9972df9e-4133-4e2c-9305-49c285b76506) |
-| MoneyLion | Director of Product Management – Consumer Marketplace (MoneyLion) | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/5974f24f-db72-47c3-b9ea-83242078c77b) |
 | MoneyLion | Sr. Principal Product Manager – Ecosystem, Partnerships & Distribution | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/8ac51372-b303-4ff2-84d9-ff8f05851484) |
+| MoneyLion | Director of Product Management – Consumer Marketplace (MoneyLion) | USA - New York, NY | 2026-06-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/5974f24f-db72-47c3-b9ea-83242078c77b) |
+| Front | Senior Product Manager - AI  | San Francisco, CA | 2026-06-09 | [Apply](https://jobs.ashbyhq.com/frontcareers/47e7d42a-0988-4445-b5d3-09ed4534c94a) |
 | Snowflake | Principal Product Manager - Zero-Copy Integrations | US-WA-Bellevue | 2026-06-09 | [Apply](https://jobs.ashbyhq.com/snowflake/0131b6dc-50b8-48bc-856a-b797554b484d) |
 | MoneyLion | Sr Principal Product Manager | CZE - Prague | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/gen-digital/5ba7035b-d9b8-4a96-aefe-a09ec3b0afa3) |
 | DailyPay | Senior Product Manager | US-Remote | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/dailypay/efbb4837-e4d9-4d37-aaf4-dac2f75e2c1a) |
@@ -96,18 +99,15 @@ Showing top 100 most recently posted Product Management jobs across 36 companies
 | Steadily | Principal Product Manager, Billing and Workflows | Austin, TX | 2026-05-08 | [Apply](https://jobs.ashbyhq.com/steadily/50191019-226e-4274-915f-e9e2da68cfa3) |
 | OpenAI | Product Manager, Cyber Safety | San Francisco | 2026-05-08 | [Apply](https://jobs.ashbyhq.com/openai/f6494cf8-efbc-4dbe-ae76-662088b4f32c) |
 | OpenAI | Product Manager, Sensitive Deployments | San Francisco | 2026-05-07 | [Apply](https://jobs.ashbyhq.com/openai/05a8cae8-81bd-4f7b-bc48-41ef1bd67e5d) |
-| OpenAI | Product Manager, Financial Engineering | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc) |
 | OpenAI | Product Manager, Families | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/11a61b5b-3c1f-472f-93ec-4cb3e37e5ae8) |
+| OpenAI | Product Manager, Financial Engineering | San Francisco | 2026-05-04 | [Apply](https://jobs.ashbyhq.com/openai/0f4da2b4-df8a-4560-809d-d0a6ac1ad9bc) |
 | Snowflake | Senior Product Manager - Data Observability | US-CA-Menlo Park | 2026-05-01 | [Apply](https://jobs.ashbyhq.com/snowflake/157bd8e6-7201-4d37-96ca-0b76a2bc1446) |
 | Sierra | Product Manager, Infrastructure | San Francisco, CA | 2026-05-01 | [Apply](https://jobs.ashbyhq.com/sierra/1e052261-0c89-4ccb-abfa-3820a1596a6e) |
 | Temporal | Staff Product Manager, Agent Platform | United States | 2026-04-30 | [Apply](https://jobs.ashbyhq.com/temporal/b6f06de9-fc02-493c-8aef-abaf8495572f) |
 | Snowflake | Staff Product Manager, Unistore (Hybrid Tables) | US-WA-Bellevue | 2026-04-30 | [Apply](https://jobs.ashbyhq.com/snowflake/2860302b-444c-49f4-b764-ff462efbfcc0) |
 | Confluent | Staff Product Manager, Real Time Data Analytics Platform  | Remote, United States | 2026-04-30 | [Apply](https://jobs.ashbyhq.com/confluent/81b94a4e-53d3-40d5-9c04-af57bd01961c) |
-| OpenAI | Deployed Product Manager, Codex  | San Francisco | 2026-04-30 | [Apply](https://jobs.ashbyhq.com/openai/60d1420a-8aa3-4d87-847e-e7b73d9d9a0c) |
-| Temporal | Staff Product Manager, Core Primitives | United States | 2026-04-29 | [Apply](https://jobs.ashbyhq.com/temporal/7592248c-719a-485c-a1a9-9285f99ed56b) |
-| DocuSign | Sr. Product Manager, Signing APIs | San Francisco, California | 2026-04-29 | [Apply](https://uscareers-docusign.icims.com/jobs/29311/login) |
 
 ---
-*666 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*674 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
