@@ -78,8 +78,9 @@ def fetch(company: dict) -> list[dict]:
     jobs = []
     offset = 0
     limit = 20
+    max_offset = 2000  # safety cap: no single tenant needs >2000 PM-search results
 
-    while True:
+    while offset <= max_offset:
         payload = {
             "appliedFacets": applied_facets,
             "limit": limit,
@@ -109,7 +110,11 @@ def fetch(company: dict) -> list[dict]:
                 "raw": job,
             })
 
-        if offset + limit >= data.get("total", 0):
+        # Workday's "total" field is unreliable after the first page (some
+        # tenants report it correctly only on offset=0, then 0 on every
+        # subsequent page even though more results keep coming back).
+        # Use the page size instead: a short page means we've hit the end.
+        if len(postings) < limit:
             break
         offset += limit
 
