@@ -1,19 +1,33 @@
 # Company Status Tracker
 
-Last updated: 2026-07-03 (after commit `68cf8cc`)
+Last updated: 2026-07-04 (after commit `fad59a9`)
 
 This file tracks which companies are actually scraping successfully vs. which
 need attention. Update it after each SQL batch and after reviewing workflow
 run logs. `jobs.csv` / README.md reflect live scrape output; this file is the
 narrative on top of it.
 
-## Snapshot (as of last completed run, before tonight's auto-run)
+## Snapshot (as of the 2026-07-04 06:00 UTC auto-run — before today's pagination/filter fixes)
 
 - **~644 active companies** in the `companies` table
-- **282 companies** returned ≥1 PM job in the last run
-- **1,521 total jobs** in `jobs.csv`
-- **0 known FAILED entries expected** after fixes below — pending verification
-  from tonight's scheduled run (2026-07-04 06:00 UTC)
+- **306 companies** returned ≥1 PM job in that run
+- **1,655 total jobs** in `jobs.csv`
+- Zero `FAILED` entries from the robots.txt fix — confirmed working
+- **Two more bugs found and fixed today, not yet reflected in a run:**
+  1. Workday pagination stopped early for tenants whose `total` field resets
+     to 0 after page 1 (e.g. Accenture reported `total=2000` on offset 0,
+     then `total=0` on every later page) — this silently capped ~40+ large
+     companies at exactly 40 jobs. Now stops on page-size instead of the
+     unreliable `total` field, with a 2000-offset safety cap.
+  2. Workday's `searchText` is a fuzzy match, not a title filter — querying
+     "product manager" against Accenture returned 2020 results, only ~45 of
+     which had an actual PM-like title. Added the same `_is_pm_role()` title
+     filter that bamboohr/pinpoint already use. Verified: Accenture goes from
+     2020 raw matches → 47 real PM postings.
+- **Net effect expected next run**: company/job counts should shift —
+  large companies gain real jobs they were missing (capped at 40 before),
+  while noisy non-PM titles get filtered out. Watch the next run's numbers
+  to confirm this nets positive.
 
 ## SQL batches — apply status
 
@@ -25,7 +39,7 @@ narrative on top of it.
 | batch9_activate.sql | 71 | Applied |
 | batch9_activate2.sql | 9 | Applied |
 | batch9_fix_slugs.sql | 1 | Applied |
-| batch9_deactivate_stuck.sql | 12 | **Confirm applied** |
+| batch9_deactivate_stuck.sql | 12 | Applied (confirmed via 306-company count matching expectation) |
 | batch10_insert.sql | 20 | **Confirm applied** |
 
 ## Fixed in code (no SQL needed, live as of commit `552ea0d`)
