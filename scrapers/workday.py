@@ -13,14 +13,16 @@ HEADERS = {
 INSTANCE_CANDIDATES = ["wd1", "wd5", "wd3", "wd12", "wd2", "wd10", "wd103", "wd108", "wd501", "wd503"]
 
 def _sites_from_robots(tenant: str, instance: str) -> list[str]:
-    """robots.txt lists 'Sitemap: https://{tenant}.{inst}.myworkdayjobs.com/{site}/siteMap.xml'
-    for every career site on the tenant. Returns [] if the tenant/instance is wrong
-    (404, DNS failure, or ERR_TENANT_MIGRATED)."""
+    """robots.txt lists every career site on the tenant, either as
+    'Sitemap: https://{tenant}.{inst}.myworkdayjobs.com/{site}/siteMap.xml' or as
+    'Disallow: /{site}/' entries. Returns [] if the tenant/instance is wrong
+    (non-200, DNS failure, or ERR_TENANT_MIGRATED)."""
     url = f"https://{tenant}.{instance}.myworkdayjobs.com/robots.txt"
     r = requests.get(url, headers={"User-Agent": HEADERS["User-Agent"]}, timeout=12)
     if r.status_code != 200:
         return []
     sites = re.findall(r"myworkdayjobs\.com/([^/\s]+)/siteMap\.xml", r.text)
+    sites += re.findall(r"Disallow:\s*/([^/\s]+)/", r.text)
     # Prefer external/career-sounding boards over internal or university ones
     return sorted(set(sites), key=lambda s: (0 if re.search(r"external|career", s, re.I) else 1, s))
 
@@ -98,7 +100,7 @@ def fetch(company: dict) -> list[dict]:
             apply_url = f"https://{tenant}.{instance}.myworkdayjobs.com/{site}{external_path}"
             jobs.append({
                 "external_job_id": job_id or external_path,
-                "job_title": job["title"],
+                "job_title": job.get("title", "Untitled"),
                 "department": None,
                 "location": "Multiple Locations" if "Location" in job.get("locationsText", "") else job.get("locationsText"),
                 "locations": [] if "Location" in job.get("locationsText", "") else ([job.get("locationsText")] if job.get("locationsText") else []),
