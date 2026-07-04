@@ -9,6 +9,15 @@ HEADERS = {
     "User-Agent": "Mozilla/5.0",
 }
 
+PM_KEYWORDS = [
+    "product manager", "product management", "head of product",
+    "vp of product", "director of product", "chief product officer",
+    "group pm", "principal pm", "staff pm",
+]
+
+def _is_pm_role(title: str) -> bool:
+    return any(kw in title.lower() for kw in PM_KEYWORDS)
+
 # Tried in order when the configured instance is missing or wrong.
 INSTANCE_CANDIDATES = ["wd1", "wd5", "wd3", "wd12", "wd2", "wd10", "wd103", "wd108", "wd501", "wd503"]
 
@@ -96,12 +105,16 @@ def fetch(company: dict) -> list[dict]:
             break
 
         for job in postings:
+            title = job.get("title", "Untitled")
+            if not _is_pm_role(title):
+                continue
+
             external_path = job.get("externalPath", "")
             job_id = job.get("bulletFields", [""])[0]
             apply_url = f"https://{tenant}.{instance}.myworkdayjobs.com/{site}{external_path}"
             jobs.append({
                 "external_job_id": job_id or external_path,
-                "job_title": job.get("title", "Untitled"),
+                "job_title": title,
                 "department": None,
                 "location": "Multiple Locations" if "Location" in job.get("locationsText", "") else job.get("locationsText"),
                 "locations": [] if "Location" in job.get("locationsText", "") else ([job.get("locationsText")] if job.get("locationsText") else []),
