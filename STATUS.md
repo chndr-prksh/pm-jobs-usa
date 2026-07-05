@@ -6,10 +6,18 @@ Last updated: 2026-07-04 (after commit `fad59a9`)
 
 - **Environment**: `env_01YVLywryRFCkcCn1ZKpDPvd` (`pm-jobs-apply-agent`, cloud, unrestricted networking — ATS/employer domains aren't enumerable in advance; tighten later once traffic patterns are known)
 - **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `SUPABASE_SERVICE_KEY` (scoped to the Supabase host). Telegram token is NOT in the vault (see note below).
-- **Agent**: `agent_01LWxTmm4FhbUkdJasYGwoir` (`pm-jobs-apply-agent`, v2, Sonnet 5) — **end-to-end smoke test passed** (Telegram delivery + Supabase REST query both confirmed working)
-- **Scheduled Deployment**: not yet created
+- **Agent**: `agent_01LWxTmm4FhbUkdJasYGwoir` (`pm-jobs-apply-agent`, **v5**, Sonnet 5)
+  - v2: smoke test passed (Telegram delivery + Supabase REST query)
+  - v3: per-ATS playbooks (Greenhouse/Lever/Ashby field patterns), resume/email/account-verification handling
+  - v4: Kind A/B question classification — drafts behavioral answers from resume, blocks on factual/personal-status questions
+  - v5 (current): **auto-submit** — reverses review-before-submit per explicit user direction. Fills, verifies, clicks Submit for real, captures before/after screenshots to Storage, records `filled_data` JSON, sends Telegram photo + Good/Flag inline buttons
+  - **Real-world validated**: successfully filled and reached submission-ready state on a real Spotify Senior PM (Lever) posting across two runs — first hit 2 factual-adjacent essay questions, second run (v4) correctly classified them as Kind A and drafted grounded answers from real work history
+- `check_telegram_feedback.py` — polls Telegram for Good/Flag button presses, writes to `application_feedback`. Not yet run against a real auto-submitted application (v5 not yet live-tested for actual submission).
+- **Scheduled Deployment**: not yet created — currently invoked manually via `apply_job.py <job_id>`
 - Target ATS rollout: Greenhouse, Lever, Ashby only
-- Submit mode: review-before-submit (Telegram approval required before final Submit click)
+- Submit mode: **auto-submit, review-after-the-fact via Telegram feedback** (changed from review-before-submit)
+- New tables: `application_feedback`, `telegram_poll_state`. New `applications` columns: `filled_data`, `confirmation_screenshot_url`, `submitted_at`
+- New Storage bucket: `application-screenshots` (private)
 - Note: local dev must use the `venv` (Python 3.14, in `pm-jobs-usa/venv/`), not conda `(base)` — conda's Python 3.8 caps `anthropic` SDK at 0.72.0, which predates Vaults/Managed Agents support
 - Note: `TELEGRAM_BOT_TOKEN` is a plain local `.env` var, not a Vault credential — Telegram's Bot API requires the token in the URL path, which Vault `environment_variable` substitution (header/body only) can't support. It's passed directly in each session's first user message instead. Bot: `@pm_jobs_us_bot`, chat ID saved as `TELEGRAM_CHAT_ID`.
 
