@@ -40,7 +40,7 @@ narrative on top of it.
 | batch9_activate2.sql | 9 | Applied |
 | batch9_fix_slugs.sql | 1 | Applied |
 | batch9_deactivate_stuck.sql | 12 | Applied (confirmed via 306-company count matching expectation) |
-| batch10_insert.sql | 20 | **Confirm applied** |
+| batch10_insert.sql | 20 | Applied |
 
 ## Fixed in code (no SQL needed, live as of commit `552ea0d`)
 
