@@ -68,9 +68,8 @@ def extract_text(path: str) -> str:
 def parse_with_claude(resume_text: str) -> dict:
     client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     message = client.messages.create(
-        model="claude-sonnet-5",
+        model="claude-haiku-4-5",
         max_tokens=4096,
-        thinking={"type": "disabled"},
         messages=[{
             "role": "user",
             "content": EXTRACTION_PROMPT.format(resume_text=resume_text),
