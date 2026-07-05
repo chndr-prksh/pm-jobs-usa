@@ -43,6 +43,21 @@ def download_base_resume(local_path: str):
     return local_path
 
 
+def get_candidate_profile() -> dict:
+    supabase_url = os.environ["SUPABASE_URL"].rstrip("/")
+    service_key = os.environ["SUPABASE_SERVICE_KEY"]
+    resp = requests.get(
+        f"{supabase_url}/rest/v1/candidate_profile?select=full_name,email,phone,location,linkedin_url,portfolio_url",
+        headers={"apikey": service_key, "Authorization": f"Bearer {service_key}"},
+        timeout=15,
+    )
+    resp.raise_for_status()
+    rows = resp.json()
+    if not rows:
+        raise RuntimeError("No candidate_profile row found — run ingest_resume.py first")
+    return rows[0]
+
+
 def get_job(job_id: str) -> dict:
     supabase_url = os.environ["SUPABASE_URL"].rstrip("/")
     service_key = os.environ["SUPABASE_SERVICE_KEY"]
@@ -76,6 +91,7 @@ def main():
 
     job_id = sys.argv[1]
     job = get_job(job_id)
+    profile = get_candidate_profile()
     print(f"Target: {job['company_name']} — {job['job_title']} ({job['ats']})")
     print(f"Apply URL: {job['apply_url']}")
 
@@ -116,10 +132,19 @@ def main():
                     f"  company: {job['company_name']}\n"
                     f"  ats: {job['ats']}\n"
                     f"  apply_url: {job['apply_url']}\n\n"
-                    f"Your resume PDF is mounted at /workspace/resume.pdf. Fetch candidate_profile "
-                    f"and question_bank from Supabase yourself per your instructions. Follow the "
-                    f"per-ATS notes for {job['ats']}. Remember: fill only, never click Submit — stop "
-                    f"at 'pending_review' and send me a Telegram summary of what you filled in."
+                    f"Your resume PDF is mounted at /workspace/resume.pdf.\n\n"
+                    f"Candidate identity fields (already fetched, no need to re-query these — "
+                    f"still fetch question_bank and check application_feedback yourself per your "
+                    f"instructions):\n"
+                    f"  full_name: {profile.get('full_name')}\n"
+                    f"  email: {profile.get('email')}\n"
+                    f"  phone: {profile.get('phone')}\n"
+                    f"  location: {profile.get('location')}\n"
+                    f"  linkedin_url: {profile.get('linkedin_url')}\n"
+                    f"  portfolio_url: {profile.get('portfolio_url')}\n\n"
+                    f"Follow the per-ATS notes for {job['ats']} and your standard workflow — "
+                    f"fill, verify, submit for real, capture screenshots, send the Telegram photo "
+                    f"with feedback buttons."
                 ),
             }],
         }],
