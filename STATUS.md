@@ -2,6 +2,15 @@
 
 Last updated: 2026-07-04 (after commit `fad59a9`)
 
+## Phase 5 — Autonomous Apply Agent (Managed Agents)
+
+- **Environment**: `env_01YVLywryRFCkcCn1ZKpDPvd` (`pm-jobs-apply-agent`, cloud, unrestricted networking — ATS/employer domains aren't enumerable in advance; tighten later once traffic patterns are known)
+- **Agent**: not yet created
+- **Vaults**: not yet created (pending Telegram bot token + first ATS account credential)
+- **Scheduled Deployment**: not yet created
+- Target ATS rollout: Greenhouse, Lever, Ashby only
+- Submit mode: review-before-submit (Telegram approval required before final Submit click)
+
 This file tracks which companies are actually scraping successfully vs. which
 need attention. Update it after each SQL batch and after reviewing workflow
 run logs. `jobs.csv` / README.md reflect live scrape output; this file is the
