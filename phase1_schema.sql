@@ -181,3 +181,37 @@ ALTER TABLE applications ADD CONSTRAINT applications_status_check
         'draft', 'pending_review', 'blocked_on_question', 'blocked_on_verification',
         'submitted', 'interviewing', 'rejected', 'offer', 'withdrawn'
     ));
+
+-- -------------------------------------------------------
+-- Phase 5b: auto-submit + post-submission feedback loop
+-- -------------------------------------------------------
+
+-- Persist what was actually submitted, since the agent's browser
+-- session is ephemeral and disappears after the run ends.
+ALTER TABLE applications ADD COLUMN IF NOT EXISTS filled_data jsonb;
+ALTER TABLE applications ADD COLUMN IF NOT EXISTS confirmation_screenshot_url text;
+ALTER TABLE applications ADD COLUMN IF NOT EXISTS submitted_at timestamp without time zone;
+
+-- User feedback per submitted application, given via Telegram inline
+-- buttons. This is the "training signal" fed back into future runs
+-- as context (prompt-based steering, not model fine-tuning).
+CREATE TABLE IF NOT EXISTS application_feedback (
+    id              uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    application_id  uuid NOT NULL REFERENCES applications(id) ON DELETE CASCADE,
+    feedback        text NOT NULL CHECK (feedback IN ('good', 'flagged')),
+    note            text,              -- optional detail, usually added later via chat, not Telegram
+    created_at      timestamp without time zone DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_application_feedback_application_id ON application_feedback(application_id);
+ALTER TABLE application_feedback ENABLE ROW LEVEL SECURITY;
+
+-- Tracks the last Telegram update_id processed by check_telegram_feedback.py,
+-- so the poller (run repeatedly via cron) doesn't reprocess old button presses.
+CREATE TABLE IF NOT EXISTS telegram_poll_state (
+    id              int PRIMARY KEY DEFAULT 1,
+    last_update_id  bigint DEFAULT 0,
+    CONSTRAINT singleton CHECK (id = 1)
+);
+INSERT INTO telegram_poll_state (id, last_update_id) VALUES (1, 0) ON CONFLICT (id) DO NOTHING;
+ALTER TABLE telegram_poll_state ENABLE ROW LEVEL SECURITY;
