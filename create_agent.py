@@ -44,12 +44,12 @@ Relevant tables:
 
 ## Telegram notifications
 
-Send status updates, progress reports, and blocked-question alerts via:
+Your Telegram bot token will be given to you directly in the first user message of this
+session (it is not a vaulted credential — Telegram's API requires the token in the URL
+path, which Vault substitution doesn't support). Use it literally in place of <TOKEN> below:
 
-  POST https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage
+  POST https://api.telegram.org/bot<TOKEN>/sendMessage
   Body: {"chat_id": "{chat_id}", "text": "<your message>"}
-
-Same rule: $TELEGRAM_BOT_TOKEN is substituted at request time, never visible to you.
 
 Send a Telegram message:
   - At the START of each run: "Starting run — checking N candidate jobs."
@@ -106,14 +106,16 @@ Send a Telegram message:
 """
 
 
-def main():
-    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
-
+def build_system_prompt() -> str:
     from urllib.parse import urlparse
     supabase_host = urlparse(os.environ["SUPABASE_URL"]).hostname
     chat_id = os.environ["TELEGRAM_CHAT_ID"]
+    return SYSTEM_PROMPT.replace("{supabase_host}", supabase_host).replace("{chat_id}", chat_id)
 
-    system = SYSTEM_PROMPT.replace("{supabase_host}", supabase_host).replace("{chat_id}", chat_id)
+
+def main():
+    client = Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    system = build_system_prompt()
 
     agent = client.beta.agents.create(
         name="pm-jobs-apply-agent",
