@@ -70,12 +70,13 @@ def parse_with_claude(resume_text: str) -> dict:
     message = client.messages.create(
         model="claude-sonnet-5",
         max_tokens=4096,
+        thinking={"type": "disabled"},
         messages=[{
             "role": "user",
             "content": EXTRACTION_PROMPT.format(resume_text=resume_text),
         }],
     )
-    text = message.content[0].text.strip()
+    text = next(block.text for block in message.content if block.type == "text").strip()
     if text.startswith("```"):
         text = text.split("```")[1]
         if text.startswith("json"):
