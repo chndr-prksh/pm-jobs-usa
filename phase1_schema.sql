@@ -103,3 +103,9 @@ CREATE TABLE IF NOT EXISTS applications (
 
 CREATE INDEX IF NOT EXISTS idx_applications_job_id ON applications(job_id);
 CREATE INDEX IF NOT EXISTS idx_applications_status ON applications(status);
+
+-- -------------------------------------------------------
+-- Added: PM-specific experience, separate from total career years
+-- (job postings specify "X years of PM experience", not total career)
+-- -------------------------------------------------------
+ALTER TABLE candidate_profile ADD COLUMN IF NOT EXISTS pm_years_experience numeric;
