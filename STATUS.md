@@ -5,10 +5,8 @@ Last updated: 2026-07-04 (after commit `fad59a9`)
 ## Phase 5 — Autonomous Apply Agent (Managed Agents)
 
 - **Environment**: `env_01YVLywryRFCkcCn1ZKpDPvd` (`pm-jobs-apply-agent`, cloud, unrestricted networking — ATS/employer domains aren't enumerable in advance; tighten later once traffic patterns are known)
-- **Agent**: not yet created
-- **Vaults**: not yet created (pending Telegram bot token + first ATS account credential)
-- **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `TELEGRAM_BOT_TOKEN`, scoped to `api.telegram.org`
-- **Agent**: not yet created
+- **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `TELEGRAM_BOT_TOKEN` (scoped to `api.telegram.org`) and `SUPABASE_SERVICE_KEY` (scoped to the Supabase host)
+- **Agent**: `agent_01LWxTmm4FhbUkdJasYGwoir` (`pm-jobs-apply-agent`, v1, Sonnet 5) — created, not yet tested end-to-end
 - **Scheduled Deployment**: not yet created
 - Target ATS rollout: Greenhouse, Lever, Ashby only
 - Submit mode: review-before-submit (Telegram approval required before final Submit click)
