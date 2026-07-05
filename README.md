@@ -1,14 +1,14 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-07-04 09:45 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-07-05 01:04 UTC · [Full list →](jobs.csv)
 
 Showing top 100 most recently posted Product Management jobs across 45 companies.
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
 | Branch Insurance | Senior Product Management Specialist | Branch HQ | 2026-07-03 | [Apply](https://jobs.ashbyhq.com/branchinsurance/63b53e73-b6ff-4bd7-948c-37244bb579bb) |
-| Harvey AI | Staff Product Manager, Legal Operations Platform | San Francisco | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/harvey/4221e6ce-fb4f-4f20-a615-aa1b85d2ef3c) |
 | Harvey AI | Staff Product Manager, Legal Operations Platform | New York | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/harvey/d1b7c79c-e61b-4e68-a690-89a008f03670) |
+| Harvey AI | Staff Product Manager, Legal Operations Platform | San Francisco | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/harvey/4221e6ce-fb4f-4f20-a615-aa1b85d2ef3c) |
 | SpotOn | Product Manager- Reporting | Austin, TX | 2026-07-02 | [Apply](https://jobs.ashbyhq.com/spoton/e49c48c5-416d-4bdf-addc-3ce4b75a66d5) |
 | SpotOn | Product Manager (Dashboard) | Austin, TX | 2026-07-01 | [Apply](https://jobs.ashbyhq.com/spoton/908853bb-0f8b-4e64-846d-66a52400776c) |
 | MoneyLion | Director, Product Management for Customer Engagement Platform | CZE - Prague | 2026-07-01 | [Apply](https://jobs.ashbyhq.com/gen-digital/5b686799-29e7-4473-a8de-66c7ddfe7830) |
@@ -25,9 +25,9 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | OpenAI | Product Manager, ChatGPT Sites | San Francisco | 2026-06-28 | [Apply](https://jobs.ashbyhq.com/openai/6db2af13-50b2-4fe0-a8df-874e2ba57f71) |
 | SanDisk | Sr. Product Manager – Software & Consumer Hardware | Milpitas, CA, US | 2026-06-26 | [Apply](https://jobs.smartrecruiters.com/SanDisk/744000134552009) |
 | Rivian | Product Manager, Facilities Technology | Atlanta, Georgia | 2026-06-26 | [Apply](https://us-careers-rivian.icims.com/jobs/31878/login) |
-| PayPal | Sr Product Manager - CS/Agentic AI | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274919886116) |
 | PayPal | Sr Product Manager, Venmo Commerce | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274917467216) |
 | PayPal | Lead Product Manager - Payment Platform | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274917222158) |
+| PayPal | Sr Product Manager - CS/Agentic AI | San Jose, CA, US | 2026-06-25 | [Apply](https://paypal.eightfold.ai/careers/job/274919886116) |
 | LangChain | Product Manager, Fleet | San Francisco, CA | 2026-06-25 | [Apply](https://jobs.ashbyhq.com/langchain/5ac59bcb-0245-4a82-bab0-0ebdeae07ccd) |
 | Rivian | Sr. Product Manager, Global Financial Systems | Atlanta, Georgia | 2026-06-24 | [Apply](https://us-careers-rivian.icims.com/jobs/31774/login) |
 | Kin Insurance | Director, Product Management - Platform & Customer Lifecycle | Remote | 2026-06-24 | [Apply](https://jobs.ashbyhq.com/kin/34551772-bf4b-47d8-afe9-d368b0a63ef9) |
@@ -38,8 +38,8 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | Strava | Staff Product Manager, AI/ML  | Strava SF | 2026-06-23 | [Apply](https://jobs.ashbyhq.com/strava/93c6fa97-8615-4713-af85-c74662a5cebe) |
 | Plaid | Product Manager, Fraud Data | San Francisco HQ | 2026-06-23 | [Apply](https://jobs.ashbyhq.com/plaid/bda0f40d-5ac5-4ea4-aaab-3e5e013c0a26) |
 | SanDisk | Sr. Product Manager – Product Innovation | Milpitas, CA, US | 2026-06-22 | [Apply](https://jobs.smartrecruiters.com/SanDisk/744000133346040) |
-| PayPal | Senior Lead Product Manager - Bank Payments | San Jose, CA, US | 2026-06-22 | [Apply](https://paypal.eightfold.ai/careers/job/274919723823) |
 | PayPal | Lead Product Manager | San Jose, CA, US | 2026-06-22 | [Apply](https://paypal.eightfold.ai/careers/job/274919387775) |
+| PayPal | Senior Lead Product Manager - Bank Payments | San Jose, CA, US | 2026-06-22 | [Apply](https://paypal.eightfold.ai/careers/job/274919723823) |
 | Kin Insurance | Sr. Insurance Product Manager | Remote (United States) | 2026-06-22 | [Apply](https://jobs.ashbyhq.com/kin/aeea0d94-5305-47fc-a832-ae15d990dcde) |
 | GitHub | Senior IT Product Manager CISO | United States | 2026-06-19 | [Apply](https://careers-githubinc.icims.com/jobs/5491/login) |
 | Kin Insurance | Product Manager - Platform | Remote | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/kin/6cdf79ba-fc47-4ef7-ae88-bfd6ade56162) |
@@ -47,8 +47,8 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | Snowflake | Senior Product Manager - Applied AI | US-CA-Menlo Park | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/snowflake/5b04d532-df08-4d10-af9b-3028037e7d8b) |
 | Sierra | Product Manager, Agent Development (Brazilian Portuguese speaking) | San Francisco, CA | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/sierra/4f0e65ba-b262-4d79-b926-3988f8eb0c00) |
 | Replit | Enterprise Product Manager | Foster City, CA | 2026-06-18 | [Apply](https://jobs.ashbyhq.com/replit/06cbc016-f931-431a-92cf-29fa74eedbf1) |
-| Novo | Senior Product Manager, Growth | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/46d9513e-f550-42eb-a133-09f07697a29b) |
 | Novo | Product Manager, Banking | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/43491a68-d17f-4a2e-81be-95c0d5e11221) |
+| Novo | Senior Product Manager, Growth | New York | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/novo/46d9513e-f550-42eb-a133-09f07697a29b) |
 | MoneyLion | Director of Product Management | USA - New York, NY | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/gen-digital/7263c750-2190-4721-808f-c79e86db871e) |
 | Snowflake | Senior Product Manager - AI Migrations | US-CA-Menlo Park | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/snowflake/8e88251e-e77e-428e-bccf-dc1ccadc22ef) |
 | Sierra | Product Manager, Agent Development - Flagship Deployment | San Francisco, CA | 2026-06-17 | [Apply](https://jobs.ashbyhq.com/sierra/758beaca-db59-4e46-9867-7a93989735a7) |
@@ -67,10 +67,10 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | MoneyLion | Sr Principal Product Manager | CZE - Prague | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/gen-digital/5ba7035b-d9b8-4a96-aefe-a09ec3b0afa3) |
 | DailyPay | Senior Product Manager | US-Remote | 2026-06-08 | [Apply](https://jobs.ashbyhq.com/dailypay/efbb4837-e4d9-4d37-aaf4-dac2f75e2c1a) |
 | MoneyLion | Senior Product Manager – Norton 360 | USA - New York, NY | 2026-06-06 | [Apply](https://jobs.ashbyhq.com/gen-digital/5b7e44d8-7686-4189-8654-05d9e7dccaec) |
-| Rogo | Product Manager – Security | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/cad7bdca-0b85-4425-a3a7-d8cdfb1b3b20) |
-| Rogo | Product Manager – Enterprise | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/a1855605-9084-4a4c-bc45-6ac77f3a92f4) |
-| Rogo | Product Manager – Agents | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/1d838efc-7c1d-45d1-b2c2-85e6cb4ab6df) |
 | Rogo | Product Manager – Core Product | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/0a237dd1-5fa6-4079-8a3b-cba5e704d05f) |
+| Rogo | Product Manager – Security | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/cad7bdca-0b85-4425-a3a7-d8cdfb1b3b20) |
+| Rogo | Product Manager – Agents | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/1d838efc-7c1d-45d1-b2c2-85e6cb4ab6df) |
+| Rogo | Product Manager – Enterprise | New York City | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/Rogo/a1855605-9084-4a4c-bc45-6ac77f3a92f4) |
 | Polymarket | Product Manager, Payments  | New York | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/polymarket/93d48812-9867-4eb0-98da-5606f395695d) |
 | Plaid | Senior Product Manager - Consumer | San Francisco HQ | 2026-06-05 | [Apply](https://jobs.ashbyhq.com/plaid/ecfa7ea5-8849-4666-9bed-8fe9f57f20cf) |
 | Steadily | Sr Insurance Product Manager | Overland Park, KS | 2026-06-04 | [Apply](https://jobs.ashbyhq.com/steadily/a1c8d633-9816-40c4-8a41-4aa6bb098463) |
@@ -82,8 +82,8 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | Harvey AI | Staff Product Manager, New Products | San Francisco | 2026-06-02 | [Apply](https://jobs.ashbyhq.com/harvey/e89103ca-765f-42f1-882a-80364f3c2321) |
 | Supabase | Product Manager - Infrastructure | Remote | 2026-06-01 | [Apply](https://jobs.ashbyhq.com/supabase/47bcfdb8-b954-423e-8a9e-85256434575c) |
 | Plaid | Senior Product Manager  | San Francisco HQ | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/plaid/aef4ef62-ea67-4c9c-98f4-6a81a4dc1f09) |
-| Harvey AI | Head of Product Operations | New York | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/cf370c84-a157-4ecb-ae57-9a84953e0d96) |
 | Harvey AI | Head of Product Operations | San Francisco | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/e646ca56-2122-4309-b2bb-0be7f26d42cb) |
+| Harvey AI | Head of Product Operations | New York | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/harvey/cf370c84-a157-4ecb-ae57-9a84953e0d96) |
 | Angi | Principal Product Manager, Product Platform | Remote - United States | 2026-05-29 | [Apply](https://jobs.ashbyhq.com/angi/39534c6e-ea6b-47ba-9798-07521c2ea394) |
 | Supabase | Product Manager - Interfaces | Remote | 2026-05-28 | [Apply](https://jobs.ashbyhq.com/supabase/184c3ad5-5d5f-44a1-98f7-65ff6f287b2f) |
 | Confluent | Senior Product Manager, Developer Experience | Remote, United States | 2026-05-28 | [Apply](https://jobs.ashbyhq.com/confluent/69b37f70-0978-472e-86a9-2d19ba70820f) |
@@ -108,6 +108,6 @@ Showing top 100 most recently posted Product Management jobs across 45 companies
 | Ramp | Product Manager – Agentic CX | New York, NY (HQ) | 2026-05-13 | [Apply](https://jobs.ashbyhq.com/ramp/a3afd259-ba6b-4eb0-a1b6-05d01dddacd8) |
 
 ---
-*1655 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*1875 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
