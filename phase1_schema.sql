@@ -235,3 +235,32 @@ CREATE TABLE IF NOT EXISTS ats_field_templates (
 
 CREATE INDEX IF NOT EXISTS idx_ats_field_templates_ats ON ats_field_templates(ats);
 ALTER TABLE ats_field_templates ENABLE ROW LEVEL SECURITY;
+
+-- -------------------------------------------------------
+-- Phase 5e: deterministic plan-then-execute pipeline.
+-- One LLM call builds a plan per job; a plain Playwright script
+-- executes it with no LLM in the loop, escalating inline (same
+-- browser/process) only when something doesn't match the plan.
+-- -------------------------------------------------------
+CREATE TABLE IF NOT EXISTS application_plans (
+    id          uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    job_id      uuid NOT NULL UNIQUE REFERENCES jobs(id) ON DELETE CASCADE,
+    ats         text NOT NULL,
+    fields      jsonb NOT NULL,   -- [{field_name, selector, field_type, value}]
+    resume_path text NOT NULL DEFAULT '/tmp/base_resume.pdf',
+    status      text NOT NULL DEFAULT 'ready' CHECK (status IN ('ready', 'executed', 'failed')),
+    created_at  timestamp without time zone DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_application_plans_job_id ON application_plans(job_id);
+ALTER TABLE application_plans ENABLE ROW LEVEL SECURITY;
+
+-- Added: blocked_on_captcha and blocked_on_technical_error statuses
+-- for the deterministic executor's escalation paths
+ALTER TABLE applications DROP CONSTRAINT IF EXISTS applications_status_check;
+ALTER TABLE applications ADD CONSTRAINT applications_status_check
+    CHECK (status IN (
+        'draft', 'pending_review', 'blocked_on_question', 'blocked_on_verification',
+        'blocked_on_captcha', 'blocked_on_technical_error',
+        'submitted', 'interviewing', 'rejected', 'offer', 'withdrawn'
+    ));
