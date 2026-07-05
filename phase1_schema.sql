@@ -168,3 +168,16 @@ ALTER TABLE resume_versions ENABLE ROW LEVEL SECURITY;
 ALTER TABLE job_matches ENABLE ROW LEVEL SECURITY;
 ALTER TABLE applications ENABLE ROW LEVEL SECURITY;
 ALTER TABLE ats_accounts ENABLE ROW LEVEL SECURITY;
+
+-- -------------------------------------------------------
+-- Added: applications gains 'blocked_on_verification' for the
+-- account-creation email-verification flow (agent creates an ATS
+-- account, needs the user to click the verification email link
+-- before it can continue filling the form)
+-- -------------------------------------------------------
+ALTER TABLE applications DROP CONSTRAINT IF EXISTS applications_status_check;
+ALTER TABLE applications ADD CONSTRAINT applications_status_check
+    CHECK (status IN (
+        'draft', 'pending_review', 'blocked_on_question', 'blocked_on_verification',
+        'submitted', 'interviewing', 'rejected', 'offer', 'withdrawn'
+    ));
