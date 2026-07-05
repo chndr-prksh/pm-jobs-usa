@@ -5,12 +5,13 @@ Last updated: 2026-07-04 (after commit `fad59a9`)
 ## Phase 5 — Autonomous Apply Agent (Managed Agents)
 
 - **Environment**: `env_01YVLywryRFCkcCn1ZKpDPvd` (`pm-jobs-apply-agent`, cloud, unrestricted networking — ATS/employer domains aren't enumerable in advance; tighten later once traffic patterns are known)
-- **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `TELEGRAM_BOT_TOKEN` (scoped to `api.telegram.org`) and `SUPABASE_SERVICE_KEY` (scoped to the Supabase host)
-- **Agent**: `agent_01LWxTmm4FhbUkdJasYGwoir` (`pm-jobs-apply-agent`, v1, Sonnet 5) — created, not yet tested end-to-end
+- **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `SUPABASE_SERVICE_KEY` (scoped to the Supabase host). Telegram token is NOT in the vault (see note below).
+- **Agent**: `agent_01LWxTmm4FhbUkdJasYGwoir` (`pm-jobs-apply-agent`, v2, Sonnet 5) — **end-to-end smoke test passed** (Telegram delivery + Supabase REST query both confirmed working)
 - **Scheduled Deployment**: not yet created
 - Target ATS rollout: Greenhouse, Lever, Ashby only
 - Submit mode: review-before-submit (Telegram approval required before final Submit click)
 - Note: local dev must use the `venv` (Python 3.14, in `pm-jobs-usa/venv/`), not conda `(base)` — conda's Python 3.8 caps `anthropic` SDK at 0.72.0, which predates Vaults/Managed Agents support
+- Note: `TELEGRAM_BOT_TOKEN` is a plain local `.env` var, not a Vault credential — Telegram's Bot API requires the token in the URL path, which Vault `environment_variable` substitution (header/body only) can't support. It's passed directly in each session's first user message instead. Bot: `@pm_jobs_us_bot`, chat ID saved as `TELEGRAM_CHAT_ID`.
 
 This file tracks which companies are actually scraping successfully vs. which
 need attention. Update it after each SQL batch and after reviewing workflow
