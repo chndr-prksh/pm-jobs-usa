@@ -72,8 +72,10 @@ def description_from_raw(ats: str, raw: dict) -> str | None:
 
 
 def fetch_workday_detail(company: dict, job: dict) -> dict | None:
-    cfg = company["ats_config"]
-    tenant, instance, site = cfg["tenant"], cfg["instance"], cfg["site"]
+    cfg = company["ats_config"] or {}
+    tenant, instance, site = cfg.get("tenant"), cfg.get("instance"), cfg.get("site")
+    if not (tenant and instance and site):
+        return None
     base = f"https://{tenant}.{instance}.myworkdayjobs.com/{site}"
     apply_url = job["apply_url"]
     if not apply_url.startswith(base):
@@ -173,37 +175,41 @@ def enrich_descriptions(conn):
     filled, skipped, failed = 0, 0, 0
     with conn.cursor() as cur:
         for row in rows:
-            ats = row["ats"]
-            raw = row["raw_api_response"] or {}
-            desc = description_from_raw(ats, raw)
-            detail = None
+            try:
+                ats = row["ats"]
+                raw = row["raw_api_response"] or {}
+                desc = description_from_raw(ats, raw)
+                detail = None
 
-            if ats == "workday":
-                company = {"ats_config": row["ats_config"]}
-                job = {"apply_url": row["apply_url"]}
-                detail = fetch_workday_detail(company, job)
-                if detail:
-                    desc = detail.get("jobDescription")
+                if ats == "workday":
+                    company = {"ats_config": row["ats_config"]}
+                    job = {"apply_url": row["apply_url"]}
+                    detail = fetch_workday_detail(company, job)
+                    if detail:
+                        desc = detail.get("jobDescription")
 
-            fields = structured_fields_from_raw(ats, raw, detail)
+                fields = structured_fields_from_raw(ats, raw, detail)
 
-            if desc:
-                set_clauses = ["description = %s"]
-                params = [desc]
-                for col in ("employment_type", "remote"):
-                    if col in fields:
-                        set_clauses.append(f"{col} = %s")
-                        params.append(fields[col])
-                params.append(row["id"])
-                cur.execute(
-                    f"UPDATE jobs SET {', '.join(set_clauses)}, updated_at = now() WHERE id = %s",
-                    params,
-                )
-                filled += 1
-            elif ats in ("greenhouse", "lever", "ashby", "workday"):
+                if desc:
+                    set_clauses = ["description = %s"]
+                    params = [desc]
+                    for col in ("employment_type", "remote"):
+                        if col in fields:
+                            set_clauses.append(f"{col} = %s")
+                            params.append(fields[col])
+                    params.append(row["id"])
+                    cur.execute(
+                        f"UPDATE jobs SET {', '.join(set_clauses)}, updated_at = now() WHERE id = %s",
+                        params,
+                    )
+                    filled += 1
+                elif ats in ("greenhouse", "lever", "ashby", "workday"):
+                    failed += 1
+                else:
+                    skipped += 1
+            except Exception as e:
+                print(f"  [job {row['id']}] enrichment error: {e}")
                 failed += 1
-            else:
-                skipped += 1
 
     conn.commit()
     print(f"Filled: {filled} | Failed (fetch/parse error): {failed} | Skipped (ATS not supported yet): {skipped}")
