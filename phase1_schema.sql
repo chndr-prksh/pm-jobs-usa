@@ -78,6 +78,7 @@ CREATE TABLE IF NOT EXISTS job_matches (
     id               uuid PRIMARY KEY DEFAULT gen_random_uuid(),
     job_id           uuid NOT NULL UNIQUE REFERENCES jobs(id) ON DELETE CASCADE,
     relevance_score  numeric,              -- e.g. 0-100
+    seniority_level  text,                 -- IC / Manager / Senior Manager / Director / VP, inferred from JD
     matched_skills   jsonb DEFAULT '[]'::jsonb,   -- overlap between JD and candidate_profile
     missing_skills   jsonb DEFAULT '[]'::jsonb,   -- gap: JD wants, resume lacks
     reasoning        text,                 -- Claude's explanation
@@ -85,6 +86,7 @@ CREATE TABLE IF NOT EXISTS job_matches (
 );
 
 CREATE INDEX IF NOT EXISTS idx_job_matches_score ON job_matches(relevance_score DESC);
+CREATE INDEX IF NOT EXISTS idx_job_matches_seniority ON job_matches(seniority_level);
 
 -- -------------------------------------------------------
 -- applications — tracks what you've actually applied to
@@ -109,3 +111,10 @@ CREATE INDEX IF NOT EXISTS idx_applications_status ON applications(status);
 -- (job postings specify "X years of PM experience", not total career)
 -- -------------------------------------------------------
 ALTER TABLE candidate_profile ADD COLUMN IF NOT EXISTS pm_years_experience numeric;
+
+-- -------------------------------------------------------
+-- Added: test-job flag, so Phase 3+ pipeline testing doesn't
+-- burn Claude API tokens against the full jobs table
+-- -------------------------------------------------------
+ALTER TABLE jobs ADD COLUMN IF NOT EXISTS is_test_job boolean DEFAULT false;
+CREATE INDEX IF NOT EXISTS idx_jobs_is_test_job ON jobs(is_test_job) WHERE is_test_job = true;

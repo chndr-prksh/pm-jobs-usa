@@ -154,8 +154,9 @@ def backfill_location_fields(conn):
 
 
 def enrich_descriptions(conn):
+    test_mode = os.environ.get("TEST_MODE", "").lower() == "true"
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute("""
+        cur.execute(f"""
             SELECT j.id, j.apply_url, j.raw_api_response,
                    c.ats, c.ats_config
             FROM jobs j
@@ -163,6 +164,7 @@ def enrich_descriptions(conn):
             WHERE j.is_pm_role = true
               AND j.is_active = true
               AND j.description IS NULL
+              {"AND j.is_test_job = true" if test_mode else ""}
         """)
         rows = cur.fetchall()
 

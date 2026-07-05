@@ -9,6 +9,7 @@ from scrapers import greenhouse, ashby, workday, lever, uber, icims, workable, s
 from scrapers import playwright_base
 from generate_readme import generate
 from enrich_pm_jobs import backfill_location_fields, enrich_descriptions
+import match_jobs
 
 SCRAPERS = {
     "greenhouse": greenhouse.fetch,
@@ -61,6 +62,12 @@ def run():
     enrich_descriptions(conn)
 
     conn.close()
+
+    print("\nScoring PM jobs against candidate_profile...")
+    try:
+        match_jobs.run()
+    except Exception as e:
+        print(f"Job matching FAILED — {e}")
 
     print("\nGenerating README and CSV...")
     generate()
