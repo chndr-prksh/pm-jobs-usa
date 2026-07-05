@@ -40,6 +40,10 @@ Relevant tables:
   - jobs                — job_title, description, apply_url, company_id
   - companies           — company_name, ats (greenhouse/lever/ashby only — ignore all others)
   - ats_accounts        — account_email, vault_secret_name for ATS accounts you've created
+  - ats_field_templates — cached selectors per ATS for standard fields (name/email/phone/resume/
+                           etc.), keyed by (ats, field_name). See "Using and maintaining field
+                           templates" below — this is what saves you from re-discovering the same
+                           Greenhouse/Lever/Ashby form structure from scratch every single run.
   - applications        — status (draft/blocked_on_question/blocked_on_verification/submitted/
                            interviewing/rejected/offer/withdrawn), notes, filled_data,
                            confirmation_screenshot_url, submitted_at
@@ -187,6 +191,34 @@ If account creation is required:
 5. On a LATER run, when you encounter an `applications` row with status = 'blocked_on_verification',
    try logging in / continuing the flow again — if it now works (verification completed), proceed;
    if still blocked, skip it silently (don't re-notify).
+
+## Using and maintaining field templates (do this BEFORE exploring the DOM)
+
+Greenhouse, Lever, and Ashby each render a highly consistent form structure across every company
+using that platform — the same standard fields (name, email, phone, resume upload, LinkedIn,
+etc.) live at the same kind of selector every time. Don't rediscover this from scratch each run:
+
+1. At the start of filling any job, query `ats_field_templates` for this job's `ats` value.
+2. For each cached field, try the stored `selector` directly first. If it works, use it — skip
+   any exploratory DOM inspection for that field entirely.
+3. If a cached selector FAILS (element not found, wrong element type), that platform's markup
+   has likely changed. Fall back to inspecting the live DOM to find the new correct selector,
+   then UPDATE that `ats_field_templates` row with the new selector and reset `verified_count = 1`.
+4. If a cached selector WORKS, UPDATE that row: `verified_count = verified_count + 1`,
+   `last_verified_at = now()`. This is a cheap confidence signal for later.
+5. For any standard field with NO existing template row for this `ats` (first time you've ever
+   filled this platform, or a field type not yet templated): discover its selector via normal DOM
+   inspection, then INSERT a new `ats_field_templates` row so future runs on this ATS skip the
+   discovery step for that field.
+6. Custom per-company questions (essay questions, company-specific EEO variants, anything that
+   isn't a standard identity/resume/links field) are NEVER templated — those always need fresh
+   handling per job via `question_bank`, exactly as described elsewhere in this prompt. Templates
+   are only for the ATS-standard scaffolding, not company-specific content.
+
+This means: on a fresh ATS you've never filled before, expect real DOM exploration (like your
+first Lever run). On the 2nd+ job on that same ATS, you should be able to skip straight to
+filling known-good selectors for every standard field, and spend your exploration budget only on
+whatever's actually new — the custom questions.
 
 ## Per-ATS notes
 

@@ -215,3 +215,23 @@ CREATE TABLE IF NOT EXISTS telegram_poll_state (
 );
 INSERT INTO telegram_poll_state (id, last_update_id) VALUES (1, 0) ON CONFLICT (id) DO NOTHING;
 ALTER TABLE telegram_poll_state ENABLE ROW LEVEL SECURITY;
+
+-- -------------------------------------------------------
+-- Phase 5c: per-ATS field templates, so the agent doesn't
+-- rediscover the same form structure from scratch every run
+-- -------------------------------------------------------
+CREATE TABLE IF NOT EXISTS ats_field_templates (
+    id              uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    ats             text NOT NULL,              -- greenhouse / lever / ashby
+    field_name      text NOT NULL,              -- e.g. "full_name", "email", "resume_upload"
+    selector        text NOT NULL,              -- CSS/XPath selector that worked
+    field_type      text NOT NULL,              -- text / file / select / checkbox / radio / textarea
+    notes           text,                       -- gotchas (e.g. "hidden input behind dropzone")
+    verified_count  int DEFAULT 1,              -- how many runs confirmed this selector still works
+    last_verified_at timestamp without time zone DEFAULT now(),
+    created_at      timestamp without time zone DEFAULT now(),
+    UNIQUE (ats, field_name)
+);
+
+CREATE INDEX IF NOT EXISTS idx_ats_field_templates_ats ON ats_field_templates(ats);
+ALTER TABLE ats_field_templates ENABLE ROW LEVEL SECURITY;
