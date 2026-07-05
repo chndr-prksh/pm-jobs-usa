@@ -7,9 +7,12 @@ Last updated: 2026-07-04 (after commit `fad59a9`)
 - **Environment**: `env_01YVLywryRFCkcCn1ZKpDPvd` (`pm-jobs-apply-agent`, cloud, unrestricted networking — ATS/employer domains aren't enumerable in advance; tighten later once traffic patterns are known)
 - **Agent**: not yet created
 - **Vaults**: not yet created (pending Telegram bot token + first ATS account credential)
+- **Vault**: `vlt_011CciPfaaLnYEUMF5tRzfRL` (`pm-jobs-apply-agent-secrets`) — holds `TELEGRAM_BOT_TOKEN`, scoped to `api.telegram.org`
+- **Agent**: not yet created
 - **Scheduled Deployment**: not yet created
 - Target ATS rollout: Greenhouse, Lever, Ashby only
 - Submit mode: review-before-submit (Telegram approval required before final Submit click)
+- Note: local dev must use the `venv` (Python 3.14, in `pm-jobs-usa/venv/`), not conda `(base)` — conda's Python 3.8 caps `anthropic` SDK at 0.72.0, which predates Vaults/Managed Agents support
 
 This file tracks which companies are actually scraping successfully vs. which
 need attention. Update it after each SQL batch and after reviewing workflow
