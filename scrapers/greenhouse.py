@@ -23,7 +23,7 @@ def fetch(company: dict) -> list[dict]:
             "department": job.get("departments", [{}])[0].get("name") if job.get("departments") else None,
             "location": job.get("location", {}).get("name"),
             "apply_url": job["absolute_url"],
-            "posted_date": None,
+            "posted_date": (job.get("first_published") or "")[:10] or None,
             "raw": job,
         })
 

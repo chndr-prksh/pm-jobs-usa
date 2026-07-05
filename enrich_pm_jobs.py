@@ -71,7 +71,7 @@ def description_from_raw(ats: str, raw: dict) -> str | None:
     return None
 
 
-def fetch_workday_description(company: dict, job: dict) -> str | None:
+def fetch_workday_detail(company: dict, job: dict) -> dict | None:
     cfg = company["ats_config"]
     tenant, instance, site = cfg["tenant"], cfg["instance"], cfg["site"]
     base = f"https://{tenant}.{instance}.myworkdayjobs.com/{site}"
@@ -83,9 +83,48 @@ def fetch_workday_description(company: dict, job: dict) -> str | None:
     try:
         r = requests.get(detail_url, headers=HEADERS, timeout=15)
         r.raise_for_status()
-        return r.json().get("jobPostingInfo", {}).get("jobDescription")
+        return r.json().get("jobPostingInfo", {})
     except requests.RequestException:
         return None
+
+
+def structured_fields_from_raw(ats: str, raw: dict, detail: dict | None = None) -> dict:
+    """Extract employment_type/remote from each ATS's own structured metadata
+    (no LLM, no JD parsing) where the field reliably exists."""
+    fields: dict = {}
+
+    if ats == "ashby":
+        if raw.get("employmentType"):
+            fields["employment_type"] = raw["employmentType"]
+        workplace = (raw.get("workplaceType") or "").lower()
+        if raw.get("isRemote") is True or "remote" in workplace:
+            fields["remote"] = True
+        elif workplace:
+            fields["remote"] = False
+
+    elif ats == "lever":
+        commitment = raw.get("categories", {}).get("commitment")
+        if commitment:
+            fields["employment_type"] = commitment
+        workplace = (raw.get("workplaceType") or "").lower()
+        if workplace:
+            fields["remote"] = "remote" in workplace
+
+    elif ats == "greenhouse":
+        # Custom per-company metadata field, name varies (e.g. "Workplace Type").
+        # Best-effort only — many companies don't configure this field at all.
+        for m in raw.get("metadata") or []:
+            name = (m.get("name") or "").lower()
+            if "workplace" in name or "remote" in name:
+                val = str(m.get("value") or "").lower()
+                fields["remote"] = "remote" in val
+                break
+
+    elif ats == "workday" and detail:
+        if detail.get("timeType"):
+            fields["employment_type"] = detail["timeType"]
+
+    return fields
 
 
 def backfill_location_fields(conn):
@@ -135,16 +174,28 @@ def enrich_descriptions(conn):
             ats = row["ats"]
             raw = row["raw_api_response"] or {}
             desc = description_from_raw(ats, raw)
+            detail = None
 
-            if desc is None and ats == "workday":
+            if ats == "workday":
                 company = {"ats_config": row["ats_config"]}
                 job = {"apply_url": row["apply_url"]}
-                desc = fetch_workday_description(company, job)
+                detail = fetch_workday_detail(company, job)
+                if detail:
+                    desc = detail.get("jobDescription")
+
+            fields = structured_fields_from_raw(ats, raw, detail)
 
             if desc:
+                set_clauses = ["description = %s"]
+                params = [desc]
+                for col in ("employment_type", "remote"):
+                    if col in fields:
+                        set_clauses.append(f"{col} = %s")
+                        params.append(fields[col])
+                params.append(row["id"])
                 cur.execute(
-                    "UPDATE jobs SET description = %s, updated_at = now() WHERE id = %s",
-                    (desc, row["id"]),
+                    f"UPDATE jobs SET {', '.join(set_clauses)}, updated_at = now() WHERE id = %s",
+                    params,
                 )
                 filled += 1
             elif ats in ("greenhouse", "lever", "ashby", "workday"):
