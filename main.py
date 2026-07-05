@@ -8,6 +8,7 @@ from db import get_conn, get_active_companies, upsert_jobs, log_scrape
 from scrapers import greenhouse, ashby, workday, lever, uber, icims, workable, smartrecruiters, bamboohr, eightfold, pinpoint, rippling
 from scrapers import playwright_base
 from generate_readme import generate
+from enrich_pm_jobs import backfill_location_fields, enrich_descriptions
 
 SCRAPERS = {
     "greenhouse": greenhouse.fetch,
@@ -53,6 +54,11 @@ def run():
 
     # Clean up Playwright browser if it was used
     playwright_base.close()
+
+    print("\nEnriching PM job descriptions...")
+    n = backfill_location_fields(conn)
+    print(f"Backfilled city/country/is_us_job/canonical_apply_url for {n} jobs")
+    enrich_descriptions(conn)
 
     conn.close()
 
