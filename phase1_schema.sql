@@ -153,3 +153,18 @@ ALTER TABLE applications ADD CONSTRAINT applications_status_check
         'offer',
         'withdrawn'
     ));
+
+-- -------------------------------------------------------
+-- Enable RLS on all Phase 1 tables. All access to this schema goes
+-- through SUPABASE_DB_URL (direct Postgres connection as the
+-- postgres role), which bypasses RLS entirely — this only blocks
+-- exposure via Supabase's public anon/authenticated REST API,
+-- which nothing in this project uses.
+-- -------------------------------------------------------
+ALTER TABLE candidate_profile ENABLE ROW LEVEL SECURITY;
+ALTER TABLE resumes ENABLE ROW LEVEL SECURITY;
+ALTER TABLE question_bank ENABLE ROW LEVEL SECURITY;
+ALTER TABLE resume_versions ENABLE ROW LEVEL SECURITY;
+ALTER TABLE job_matches ENABLE ROW LEVEL SECURITY;
+ALTER TABLE applications ENABLE ROW LEVEL SECURITY;
+ALTER TABLE ats_accounts ENABLE ROW LEVEL SECURITY;
