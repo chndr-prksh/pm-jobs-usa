@@ -118,3 +118,38 @@ ALTER TABLE candidate_profile ADD COLUMN IF NOT EXISTS pm_years_experience numer
 -- -------------------------------------------------------
 ALTER TABLE jobs ADD COLUMN IF NOT EXISTS is_test_job boolean DEFAULT false;
 CREATE INDEX IF NOT EXISTS idx_jobs_is_test_job ON jobs(is_test_job) WHERE is_test_job = true;
+
+-- -------------------------------------------------------
+-- Added: ats_accounts — non-sensitive metadata for ATS accounts
+-- the apply-agent creates. The actual password lives in an
+-- Anthropic Vault (environment_variable credential), referenced
+-- here by name only — never stored in this table.
+-- -------------------------------------------------------
+CREATE TABLE IF NOT EXISTS ats_accounts (
+    id                uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    company_id        uuid NOT NULL REFERENCES companies(id) ON DELETE CASCADE,
+    ats               text NOT NULL,           -- greenhouse / lever / ashby
+    account_email     text NOT NULL,           -- login username, not sensitive
+    vault_id          text NOT NULL,           -- which Vault holds the password
+    vault_secret_name text NOT NULL,           -- e.g. "GREENHOUSE_ACME_PASSWORD"
+    created_at        timestamp without time zone DEFAULT now()
+);
+
+CREATE INDEX IF NOT EXISTS idx_ats_accounts_company_id ON ats_accounts(company_id);
+
+-- -------------------------------------------------------
+-- Added: applications gains statuses for the review-before-submit
+-- flow and the question-answer loop
+-- -------------------------------------------------------
+ALTER TABLE applications DROP CONSTRAINT IF EXISTS applications_status_check;
+ALTER TABLE applications ADD CONSTRAINT applications_status_check
+    CHECK (status IN (
+        'draft',                 -- resume tailored, not yet started filling
+        'pending_review',        -- form filled, screenshot sent to Telegram, awaiting your go-ahead
+        'blocked_on_question',   -- hit a question not in question_bank, waiting on your answer
+        'submitted',
+        'interviewing',
+        'rejected',
+        'offer',
+        'withdrawn'
+    ));
