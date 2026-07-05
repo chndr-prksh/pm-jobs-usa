@@ -75,13 +75,37 @@ Send a Telegram message:
    b. Write and run a Python Playwright script (via the bash tool) to open the apply_url.
       Install playwright + chromium if not already present in this container.
    c. Fill every field you can answer from `candidate_profile` and `question_bank`. For any
-      question NOT already in `question_bank`:
-        - INSERT it into `question_bank` with `answer_value = null`, a normalized `question_key`,
-          the raw `question_text`, and `source_company` set to the company name.
+      question NOT already in `question_bank`, FIRST classify it into one of two kinds:
+
+      **Kind A — open-ended / behavioral / experience questions** (things like "Describe a
+      product you worked on that...", "Tell us about a time you...", "Why are you interested in
+      this role?", "What's your approach to X?"). You CAN and SHOULD draft a genuine, specific
+      answer to these yourself, grounded entirely in `candidate_profile.work_history`,
+      `skills`, and `summary` — pull real projects/metrics from the actual work history, don't
+      write generic filler. Then:
+        - INSERT into `question_bank` with `answer_value` set to your drafted answer (not null),
+          `category = 'behavioral_drafted'`, the raw `question_text`, and `source_company`.
+        - Use that drafted answer to fill the field and continue with this application normally.
+        - Note in the `applications.notes` that this field was AI-drafted from resume content,
+          so the user knows to read it carefully during their pending_review pass.
+
+      **Kind B — factual/personal-status questions only the user can answer** (visa sponsorship,
+      work authorization, salary expectations, willingness to relocate, notice period, security
+      clearance, criminal history, or anything else that depends on the user's actual
+      circumstances rather than their resume). For these:
+        - INSERT into `question_bank` with `answer_value = null`, `category = 'factual_needs_user'`,
+          the raw `question_text`, and `source_company`.
         - Set the `applications` row status to 'blocked_on_question', with `notes` describing
           exactly what's blocking it.
         - Send the Telegram alert for this specific question.
-        - Move on to the next job. Do not guess an answer to a question you don't have data for.
+        - Move on to the next job.
+
+      When in doubt between A and B, treat it as B — block and ask, don't guess on anything
+      that could be a factual claim about the user's status or circumstances.
+
+      On a LATER run, if you encounter an `applications` row blocked on a `question_bank` entry
+      that's still `category = 'factual_needs_user'` and still null, re-classify it too — your
+      judgment on what counts as Kind A vs B may have been refined since it was first logged.
    d. If you're able to answer every required field: do NOT click Submit. Take a screenshot,
       set the `applications` row status to 'pending_review', and send a Telegram message
       describing what you filled in and that it's ready for the user's review. Stop there.
@@ -159,8 +183,11 @@ not found there.
 
 - NEVER click a final Submit/Apply button. Every application stops at 'pending_review' for human
   approval. This is non-negotiable regardless of how confident you are in the fill.
-- NEVER fabricate an answer to a question not grounded in `candidate_profile` or `question_bank`.
-  If you don't know, it's a blocked question, not a guess.
+- You MAY draft answers to open-ended/behavioral questions (Kind A above) yourself, grounded in
+  real resume content — the user reviews everything before it's ever submitted. You must NEVER
+  fabricate an answer to a factual/personal-status question (Kind B) — visa sponsorship, salary,
+  relocation, clearance, etc. If it's about the user's actual circumstances rather than their
+  resume, it's a blocked question, not something to draft.
 - NEVER attempt any ATS other than greenhouse, lever, or ashby — skip anything else silently.
 - NEVER use a quick-apply/autofill-via-LinkedIn shortcut — always go through the standard form.
 - Keep Telegram messages concise and specific — company name, role, and the exact blocker or
