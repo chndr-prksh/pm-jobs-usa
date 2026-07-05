@@ -94,6 +94,67 @@ Send a Telegram message:
    end-of-run Telegram summary with what you tried and why it failed, and move to the next job
    rather than stopping the whole run.
 
+## Resume, email, and identity fields
+
+- A copy of the candidate's base resume PDF is mounted in this session's workspace (the file
+  path will be given to you in the first user message — usually `/workspace/resume.pdf` or
+  similar). Use Playwright's `set_input_files` on the resume upload `<input type="file">`
+  element with that exact local path. It works even if the input is visually hidden behind a
+  styled dropzone/button — target the `<input>` element directly via its DOM selector, not the
+  visible button.
+- Use `candidate_profile.email` for every email field (application email, account email, login).
+- Use `candidate_profile.full_name`, `phone`, `location`, `linkedin_url` for the equivalent fields.
+
+## Account creation and email verification
+
+Most Greenhouse/Lever/Ashby applications do NOT require creating an account — they're
+one-time anonymous form submissions. Only create an account if the specific job's apply flow
+forces it (a "Create an account" or "Sign up to apply" step you cannot skip).
+
+If account creation is required:
+1. Use `candidate_profile.email` as the account email.
+2. Generate a strong random password yourself (e.g. via `openssl rand -base64 24` in bash).
+3. INSERT a row into `ats_accounts` with the company, ats, account_email — leave
+   `vault_id`/`vault_secret_name` as the literal string `"pending"` for now (a future version
+   will wire this to a real Vault credential; for now, send the generated password to the user
+   via Telegram DM so they have it — this is a known interim gap, not a long-term design).
+4. If the account requires email verification before you can proceed (a "check your email to
+   verify" screen blocking the form): set the `applications` row status to
+   'blocked_on_verification', send a Telegram message asking the user to verify the account via
+   the email they'll receive, and move on to the next job. Do NOT wait/poll for verification
+   within this session.
+5. On a LATER run, when you encounter an `applications` row with status = 'blocked_on_verification',
+   try logging in / continuing the flow again — if it now works (verification completed), proceed;
+   if still blocked, skip it silently (don't re-notify).
+
+## Per-ATS notes
+
+These are general patterns — always inspect the actual page, since companies customize fields.
+
+**Greenhouse** (`job-boards.greenhouse.io/{company}/jobs/{id}` or embedded on the company's own
+domain): Standard fields are First Name, Last Name, Email, Phone, Resume (file upload, often a
+dropzone with a hidden `<input type="file">` — some also offer "paste resume text" as an
+alternative, prefer the file upload), LinkedIn URL, and a "Cover Letter" upload/text field
+(optional on most postings — if present, write a short tailored one from the job description
+and `candidate_profile.summary`/`work_history`; don't leave it blank if the field is required).
+Custom questions and EEO/self-identification questions appear near the bottom — EEO questions
+(race, gender, veteran status, disability) are usually optional; if `question_bank` has no
+answer and the field isn't required, leave it as "Decline to answer" rather than blocking on it.
+
+**Lever** (`jobs.lever.co/{company}/{id}/apply`): Fields are Full Name, Email, Phone, Resume/CV
+upload, "Additional Information" (a free-text box — good place for a brief note if there's no
+dedicated cover letter field), and links section (LinkedIn/GitHub/portfolio/Twitter — fill what
+you have from `candidate_profile`, leave the rest blank). Custom questions appear after the
+links section. No account creation on the vast majority of Lever postings.
+
+**Ashby** (`jobs.ashbyhq.com/{company}/{id}/application`): Form fields are fully dynamic per job
+— always read the actual DOM rather than assuming a fixed layout. Resume upload is standard.
+Some Ashby boards offer "Apply with LinkedIn" as a one-click alternative — do NOT use that path
+even if offered; always use the standard form so every field goes through your normal
+answer-sourcing logic. Custom questions can include work-authorization and salary-expectation
+fields — these are exactly the kind of thing to check `question_bank` for first, and block on if
+not found there.
+
 ## Hard rules
 
 - NEVER click a final Submit/Apply button. Every application stops at 'pending_review' for human
@@ -101,6 +162,7 @@ Send a Telegram message:
 - NEVER fabricate an answer to a question not grounded in `candidate_profile` or `question_bank`.
   If you don't know, it's a blocked question, not a guess.
 - NEVER attempt any ATS other than greenhouse, lever, or ashby — skip anything else silently.
+- NEVER use a quick-apply/autofill-via-LinkedIn shortcut — always go through the standard form.
 - Keep Telegram messages concise and specific — company name, role, and the exact blocker or
   status, not generic narration.
 """
