@@ -264,3 +264,21 @@ ALTER TABLE applications ADD CONSTRAINT applications_status_check
         'blocked_on_captcha', 'blocked_on_technical_error',
         'submitted', 'interviewing', 'rejected', 'offer', 'withdrawn'
     ));
+
+-- Phase 5f: CAPTCHA incident tracking, so job selection can favor companies/ATS
+-- configurations that haven't repeatedly hit a hard CAPTCHA wall
+CREATE TABLE IF NOT EXISTS captcha_incidents (
+    id          uuid PRIMARY KEY DEFAULT gen_random_uuid(),
+    company_id  uuid NOT NULL REFERENCES companies(id) ON DELETE CASCADE,
+    ats         text NOT NULL,
+    job_id      uuid REFERENCES jobs(id) ON DELETE SET NULL,
+    occurred_at timestamp without time zone DEFAULT now()
+);
+ALTER TABLE captcha_incidents ENABLE ROW LEVEL SECURITY;
+
+-- Phase 5g: normalized ontology for factual/personal-status answers, so ATS
+-- questions phrased differently ("need sponsorship?", "work authorization?",
+-- "eligible to work without restriction?") all resolve from the same facts
+-- instead of needing a new question_bank row per exact phrasing.
+ALTER TABLE candidate_profile ADD COLUMN IF NOT EXISTS work_authorization jsonb;
+ALTER TABLE candidate_profile ADD COLUMN IF NOT EXISTS demographics jsonb;

@@ -52,13 +52,36 @@ def canonicalize_url(url: str) -> str:
     return cleaned
 
 
+# Non-US markers seen in ATS location strings. Not exhaustive, but catches the
+# common cases (explicit country name/code, or a well-known non-US city with
+# no US state attached) rather than blindly assuming every posting is US-based.
+NON_US_MARKERS = [
+    "united kingdom", "uk", "england", "scotland", "wales", "ireland",
+    "canada", "india", "germany", "france", "spain", "netherlands",
+    "australia", "singapore", "japan", "mexico", "brazil", "poland",
+    "london", "toronto", "vancouver", "dublin", "berlin", "paris",
+    "amsterdam", "sydney", "bangalore", "mumbai", "delhi", "tokyo",
+]
+
+
 def parse_city_country(location: str) -> tuple[str | None, str | None]:
     if not location:
         return None, None
     parts = [p.strip() for p in location.split(",")]
+    lowered = location.lower()
+    if any(marker in lowered for marker in NON_US_MARKERS):
+        country = parts[-1] if len(parts) >= 2 else parts[0]
+        return (parts[0] if parts else None), country
     if len(parts) >= 2:
-        return parts[0], "US"  # scrapers already filter to US-only locations
+        return parts[0], "US"
     return None, "US"
+
+
+def is_us_location(location: str) -> bool:
+    if not location:
+        return True  # unknown location — don't wrongly exclude, but plan/execute will confirm from apply_url
+    lowered = location.lower()
+    return not any(marker in lowered for marker in NON_US_MARKERS)
 
 
 def description_from_raw(ats: str, raw: dict) -> str | None:
@@ -129,14 +152,20 @@ def structured_fields_from_raw(ats: str, raw: dict, detail: dict | None = None) 
     return fields
 
 
-def backfill_location_fields(conn):
-    """Cheap, no-network fixes for every job missing them."""
+def backfill_location_fields(conn, recheck_all: bool = False):
+    """Cheap, no-network fixes. By default only fills missing fields; pass
+    recheck_all=True to also re-classify rows already (possibly wrongly)
+    marked is_us_job, since the old parse_city_country() hardcoded every job
+    as US regardless of its actual location."""
     with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
-        cur.execute("""
-            SELECT id, location, apply_url FROM jobs
-            WHERE city IS NULL OR country IS NULL OR is_us_job IS NULL
-               OR canonical_apply_url IS NULL
-        """)
+        if recheck_all:
+            cur.execute("SELECT id, location, apply_url FROM jobs")
+        else:
+            cur.execute("""
+                SELECT id, location, apply_url FROM jobs
+                WHERE city IS NULL OR country IS NULL OR is_us_job IS NULL
+                   OR canonical_apply_url IS NULL
+            """)
         rows = cur.fetchall()
 
     if not rows:
@@ -145,12 +174,13 @@ def backfill_location_fields(conn):
     with conn.cursor() as cur:
         for row in rows:
             city, country = parse_city_country(row["location"])
+            is_us = is_us_location(row["location"])
             canonical = canonicalize_url(row["apply_url"])
             cur.execute("""
-                UPDATE jobs SET city = %s, country = %s, is_us_job = true,
+                UPDATE jobs SET city = %s, country = %s, is_us_job = %s,
                        canonical_apply_url = %s, updated_at = now()
                 WHERE id = %s
-            """, (city, country, canonical, row["id"]))
+            """, (city, country, is_us, canonical, row["id"]))
     conn.commit()
     return len(rows)
 
@@ -216,8 +246,9 @@ def enrich_descriptions(conn):
 
 
 def main():
+    recheck_all = os.environ.get("RECHECK_LOCATIONS", "").lower() == "true"
     conn = get_conn()
-    n = backfill_location_fields(conn)
+    n = backfill_location_fields(conn, recheck_all=recheck_all)
     print(f"Backfilled city/country/is_us_job/canonical_apply_url for {n} jobs")
     enrich_descriptions(conn)
     conn.close()
