@@ -108,6 +108,6 @@ Showing top 100 most recently posted Product Management jobs across 60 companies
 | Anthropic | Product Manager, Safeguards (Child Safety) | San Francisco, CA | 2026-07-07 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5164820008) |
 
 ---
-*2036 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+2036 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
