@@ -110,4 +110,4 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 ---
 *2084 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
-**Want to contribute a company?** Open an issue with the company name and their careers page URL.
+**Want to contribute a company?** Open an issue with the company name and their careers page URL
