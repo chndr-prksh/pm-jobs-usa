@@ -1,6 +1,6 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-08-01 09:25 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-08-02 09:57 UTC · [Full list →](jobs.csv)
 
 Showing top 100 most recently posted Product Management jobs across 56 companies.
 
@@ -16,25 +16,25 @@ Showing top 100 most recently posted Product Management jobs across 56 companies
 | Affirm | Senior Product Manager, Agent Enablement | Remote US | 2026-07-31 | [Apply](https://job-boards.greenhouse.io/affirm/jobs/7822254003) |
 | ZoomInfo | Senior Product Manager | Remote | 2026-07-30 | [Apply](https://www.zoominfo.com/careers?gh_jid=8561603002) |
 | Webflow | Senior Product Manager, AI | CA Remote (BC & ON only); U.S. Remote | 2026-07-30 | [Apply](https://job-boards.greenhouse.io/webflow/jobs/8097749) |
-| Stash | Product Manager, Checkout | Remote | 2026-07-30 | [Apply](https://jobs.ashbyhq.com/stash/2c110f49-2ed9-4a75-a4f4-d32422193caf) |
 | Stash | Product Manager, Webshop | Remote | 2026-07-30 | [Apply](https://jobs.ashbyhq.com/stash/f24b472e-b30e-4e53-93b9-d0300caf9448) |
 | Stash | Product Manager, Payments | United States/Remote | 2026-07-30 | [Apply](https://jobs.ashbyhq.com/stash/2ad34e68-8e30-4ae2-9ee2-c22d081b9e03) |
+| Stash | Product Manager, Checkout | Remote | 2026-07-30 | [Apply](https://jobs.ashbyhq.com/stash/2c110f49-2ed9-4a75-a4f4-d32422193caf) |
 | Smartsheet | Sr. Product Manager II (Remote Eligible) |  -REMOTE, USA- | 2026-07-30 | [Apply](https://job-boards.greenhouse.io/smartsheet/jobs/8097699) |
 | Robinhood | Senior Product Manager, Crypto Wallet | Menlo Park, CA; New York, NY | 2026-07-30 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8082718?t=gh_src=&gh_jid=8082718) |
 | Peloton | Lead Product Manager | New York, New York | 2026-07-30 | [Apply](https://careers.onepeloton.com/en/all-jobs/?gh_jid=8093029) |
 | GitHub | Senior Product Manager | United States | 2026-07-30 | [Apply](https://careers-githubinc.icims.com/jobs/5633/login) |
 | DocuSign | Senior Product Manager | San Francisco, California | 2026-07-30 | [Apply](https://uscareers-docusign.icims.com/jobs/30007/login) |
 | ClickHouse | Director of Product, ClickHouse Cloud | United States (remote) | 2026-07-30 | [Apply](https://job-boards.greenhouse.io/clickhouse/jobs/6131356004) |
-| Brex | Staff Product Manager, Card | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659220002?gh_jid=8659220002) |
+| Brex | Staff Product Manager,  Embedded | New York, New York, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659211002?gh_jid=8659211002) |
+| Brex | Staff Product Manager, Embedded | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659204002?gh_jid=8659204002) |
 | Brex | Staff Product Manager, Expenses | New York, New York, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659242002?gh_jid=8659242002) |
-| Brex | Senior Product Manager, Travel | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659250002?gh_jid=8659250002) |
+| Brex | Staff Product Manager, Card | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659221002?gh_jid=8659221002) |
 | Brex | Staff Product Manager, Embedded | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659210002?gh_jid=8659210002) |
 | Brex | Senior Product Manager, Travel | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659249002?gh_jid=8659249002) |
-| Brex | Staff Product Manager, Expenses | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659239002?gh_jid=8659239002) |
-| Brex | Staff Product Manager, Card | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659221002?gh_jid=8659221002) |
-| Brex | Staff Product Manager,  Embedded | New York, New York, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659211002?gh_jid=8659211002) |
+| Brex | Staff Product Manager, Card | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659220002?gh_jid=8659220002) |
+| Brex | Senior Product Manager, Travel | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659250002?gh_jid=8659250002) |
 | Brex | Staff Product Manager, Card | New York, New York, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659237002?gh_jid=8659237002) |
-| Brex | Staff Product Manager, Embedded | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659204002?gh_jid=8659204002) |
+| Brex | Staff Product Manager, Expenses | San Francisco, California, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659239002?gh_jid=8659239002) |
 | Brex | Senior Product Manager, Travel | New York, New York, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659251002?gh_jid=8659251002) |
 | Brex | Staff Product Manager, Expenses | Seattle, Washington, United States | 2026-07-30 | [Apply](https://www.brex.com/careers/8659241002?gh_jid=8659241002) |
 | Airfocus | Sr. Product Manager | Salt Lake City, Utah, United States | 2026-07-30 | [Apply](https://job-boards.greenhouse.io/lucidsoftware/jobs/6130668004) |
@@ -56,9 +56,9 @@ Showing top 100 most recently posted Product Management jobs across 56 companies
 | Klaviyo | Senior Product Manager, ML Modeling & Platform | Palo Alto, CA | 2026-07-28 | [Apply](https://www.klaviyo.com/careers/jobs/7809609003?gh_jid=7809609003) |
 | ZoomInfo | Senior Product Manager - Provisioning | Waltham, Massachusetts, United States | 2026-07-28 | [Apply](https://www.zoominfo.com/careers?gh_jid=8649152002) |
 | PayPal | Sr Lead Product Manager – ML Foundation Models | San Jose, CA, US | 2026-07-28 | [Apply](https://paypal.eightfold.ai/careers/job/274920379990) |
-| Oscar Health | Group Product Manager, Member Coverage & Support Platform | Boston, Massachusetts, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8092128?gh_jid=8092128) |
-| Oscar Health | Group Product Manager, Member Coverage & Support Platform | Los Angeles, California, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8092115?gh_jid=8092115) |
 | Oscar Health | Group Product Manager, Member Coverage & Support Platform | San Francisco, California, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8092125?gh_jid=8092125) |
+| Oscar Health | Group Product Manager, Member Coverage & Support Platform | Los Angeles, California, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8092115?gh_jid=8092115) |
+| Oscar Health | Group Product Manager, Member Coverage & Support Platform | Boston, Massachusetts, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8092128?gh_jid=8092128) |
 | Oscar Health | Group Product Manager, Member Coverage & Support Platform | New York, New York, United States | 2026-07-28 | [Apply](http://www.hioscar.com/careers/8073838?gh_jid=8073838) |
 | MoneyLion | Senior Principal Product Manager - Partner API & SDK Platform | CZE - Prague | 2026-07-28 | [Apply](https://jobs.ashbyhq.com/gen-digital/c201396e-b338-4f99-beab-eba8675a63d7) |
 | Klaviyo | Senior Product Manager, AI Analytics | Boston, MA | 2026-07-28 | [Apply](https://www.klaviyo.com/careers/jobs/7806008003?gh_jid=7806008003) |
@@ -98,9 +98,9 @@ Showing top 100 most recently posted Product Management jobs across 56 companies
 | Robinhood | Staff PM, International Growth & Expansion | Menlo Park, CA; New York, NY | 2026-07-23 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8060585?t=gh_src=&gh_jid=8060585) |
 | Postman | Staff Product Manager | San Francisco, California, United States | 2026-07-23 | [Apply](https://job-boards.greenhouse.io/postman/jobs/7814508003) |
 | Kikoff | Senior Product Manager, Grant (Cash Advance) | San Francisco  | 2026-07-23 | [Apply](https://job-boards.greenhouse.io/kikoff/jobs/4329727009) |
-| Anduril | Senior Product Manager, WMS - Timekeeping | Costa Mesa, California, United States | 2026-07-23 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5195210007?gh_jid=5195210007) |
 | Anduril | Senior Product Manager, Corporate OS | Costa Mesa, California, United States | 2026-07-23 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5159254007?gh_jid=5159254007) |
 | Anduril | Staff Product Manager, Manufacturing Software | Costa Mesa, California, United States | 2026-07-23 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5194547007?gh_jid=5194547007) |
+| Anduril | Senior Product Manager, WMS - Timekeeping | Costa Mesa, California, United States | 2026-07-23 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5195210007?gh_jid=5195210007) |
 | Airfocus | Sr. Product Manager, AI | Raleigh, NC | 2026-07-23 | [Apply](https://job-boards.greenhouse.io/lucidsoftware/jobs/6122863004) |
 | Airfocus | Sr. Product Manager, AI | Salt Lake City, UT | 2026-07-23 | [Apply](https://job-boards.greenhouse.io/lucidsoftware/jobs/6122862004) |
 | Airbnb | Product Manager, Services | San Francisco, CA, Seattle WA, New York, NY | 2026-07-23 | [Apply](https://careers.airbnb.com/positions/8081925?gh_jid=8081925) |
@@ -108,6 +108,6 @@ Showing top 100 most recently posted Product Management jobs across 56 companies
 | Lemonade | Staff Growth Product Manager | TLV | 2026-07-23 | [Apply](https://jobs.ashbyhq.com/lemonade/ac767918-3137-4abb-a277-892f157c6898) |
 
 ---
-*2036 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*2059 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
