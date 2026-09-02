@@ -1,11 +1,20 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-09-01 13:20 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-09-02 12:22 UTC · [Full list →](jobs.csv)
 
-Showing top 100 most recently posted Product Management jobs across 53 companies.
+Showing top 100 most recently posted Product Management jobs across 52 companies.
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Self Financial | Principal Product Manager | Austin, TX | 2026-09-01 | [Apply](https://job-boards.greenhouse.io/selffinancial/jobs/6177696004) |
+| Reddit | Product Manager, Developer Ecosystem | Remote - United States | 2026-09-01 | [Apply](https://job-boards.greenhouse.io/reddit/jobs/8088720) |
+| Noom | Director of Product Design (Noom Med)  | Princeton, New Jersey, United States | 2026-09-01 | [Apply](https://www.noom.com/careers/job-listings/?gh_jid=8102910) |
+| MongoDB | Staff Product Manager – IT Go-to-Market (Partner Management) | Palo Alto | 2026-09-01 | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8119628) |
+| Lyft | Director of Product, Customer Care | New York, NY; San Francisco, CA | 2026-09-01 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8735399002?gh_jid=8735399002) |
+| Hippo Insurance | Senior Product Manager - Underwriting | Austin, Texas, United States; Dallas, Texas, United States; Morristown, New Jersey, United States; San Jose, California, United States | 2026-09-01 | [Apply](https://boards.greenhouse.io/hippo70/jobs/8769878002?gh_jid=8769878002) |
+| Hippo | Senior Product Manager - Underwriting | Austin, Texas, United States; Dallas, Texas, United States; Morristown, New Jersey, United States; San Jose, California, United States | 2026-09-01 | [Apply](https://boards.greenhouse.io/hippo70/jobs/8769878002?gh_jid=8769878002) |
+| GitHub | Principal Product Manager | United States | 2026-09-01 | [Apply](https://careers-githubinc.icims.com/jobs/5718/login) |
+| Garmin | Software Application Product Manager | Olathe, Kansas | 2026-09-01 | [Apply](https://careers-garmin.icims.com/jobs/19865/login) |
 | MongoDB | Senior Product Manager | Gurugram | 2026-09-01 | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8094528) |
 | Cloudflare | Senior Product Manager, Enterprise | Hybrid | 2026-09-01 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8158527?gh_jid=8158527) |
 | SpotOn | Product Manager (Payments) | Chicago, IL | 2026-08-31 | [Apply](https://jobs.ashbyhq.com/spoton/64934f19-1138-48f5-ab84-dc5906ea9328) |
@@ -38,13 +47,13 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | Anthropic | Product Manager, Beneficial Deployments (Labs) | San Francisco, CA | New York City, NY | 2026-08-27 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5407337008) |
 | Vanta | Director of Product, G&C | Remote U.S. | 2026-08-27 | [Apply](https://jobs.ashbyhq.com/vanta/20d2c9aa-19da-4370-9378-491312f6f98a) |
 | Remote.com | Senior Product Manager, Benefits | Remote-EMEA | 2026-08-27 | [Apply](https://job-boards.greenhouse.io/remotecom/jobs/7977952003) |
-| Cloudflare | Product Manager, Spectrum | Hybrid | 2026-08-27 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8156040?gh_jid=8156040) |
 | Cloudflare | Product Manager, Cloudflare Network Interconnect | Hybrid | 2026-08-27 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8156124?gh_jid=8156124) |
+| Cloudflare | Product Manager, Spectrum | Hybrid | 2026-08-27 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8156040?gh_jid=8156040) |
 | Anthropic | Product Manager, Growth | San Francisco, CA | New York City, NY | Seattle, WA | 2026-08-27 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5406106008) |
 | Kin Insurance | Director, Product Management - Platform & Customer Lifecycle | Remote | 2026-08-27 | [Apply](https://jobs.ashbyhq.com/kin/34551772-bf4b-47d8-afe9-d368b0a63ef9) |
 | DailyPay | Senior Product Manager (MarTech) | NYC Headquarters | 2026-08-27 | [Apply](https://jobs.ashbyhq.com/dailypay/efbb4837-e4d9-4d37-aaf4-dac2f75e2c1a) |
-| Upstart | Principal Product Manager, Capital Platform | United States | Remote | 2026-08-26 | [Apply](https://careers.upstart.com/jobs?gh_jid=8159588) |
 | Upstart | Principal Product Manager, Experimentation Platform | United States | Remote | 2026-08-26 | [Apply](https://careers.upstart.com/jobs?gh_jid=8159664) |
+| Upstart | Principal Product Manager, Capital Platform | United States | Remote | 2026-08-26 | [Apply](https://careers.upstart.com/jobs?gh_jid=8159588) |
 | Twilio | Staff Product Manager | Remote - US | 2026-08-26 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/8131091) |
 | SpotOn | Product Manager (Dashboard) | Austin, TX | 2026-08-26 | [Apply](https://jobs.ashbyhq.com/spoton/df69b773-51e0-457e-8b6b-986a4003f72b) |
 | OpenAI | Product Manager, Multimodal Safety | San Francisco | 2026-08-26 | [Apply](https://jobs.ashbyhq.com/openai/70d5259a-f18c-4595-bf52-ec03eeeeac4c) |
@@ -63,32 +72,32 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | OpenAI | Product Manager, Learning | San Francisco | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/openai/5953fed7-1466-4e90-94c9-43716a55e032) |
 | MongoDB | Senior Product Manager - Quote to Cash | Palo Alto | 2026-08-25 | [Apply](https://www.mongodb.com/careers/job/?gh_jid=8082623) |
 | MoneyLion | Sr Principal Product Manager – Norton Point Solutions | USA - New York, NY | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/gen-digital/32214a04-367e-4f9b-a2be-348a8e1b7726) |
+| Flexport | Staff Product Manager, Visibility | Bellevue, Washington, United States; San Francisco, California, United States | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/flexport/jobs/8158012) |
 | Flexport | Staff Product Manager, Commerce | Bellevue, Washington, United States; San Francisco, California, United States | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/flexport/jobs/8158001) |
 | Flexport | Senior Product Manager, Visibility | Bellevue, Washington, United States; San Francisco, California, United States | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/flexport/jobs/8158027) |
-| Flexport | Staff Product Manager, Visibility | Bellevue, Washington, United States; San Francisco, California, United States | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/flexport/jobs/8158012) |
 | Flexport | Senior Product Manager, Commerce | Bellevue, Washington, United States; San Francisco, California, United States | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/flexport/jobs/8158023) |
 | Fivetran |  Staff Product Manager - dbt v2 | Oakland, California, United States | 2026-08-25 | [Apply](https://www.fivetran.com/careers/job?gh_jid=7975436003) |
-| Duolingo | Senior Product Manager, Growth | New York, NY | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747275002?gh_jid=8747275002) |
-| Duolingo | VP of Product, Growth and Monetization | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747077002?gh_jid=8747077002) |
-| Duolingo | Senior Product Manager, Growth | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747171002?gh_jid=8747171002) |
-| Duolingo | Senior Product Manager, Notifications | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747099002?gh_jid=8747099002) |
 | Duolingo | Senior Product Manager, Notifications | New York, NY | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747131002?gh_jid=8747131002) |
+| Duolingo | Senior Product Manager, Notifications | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747099002?gh_jid=8747099002) |
+| Duolingo | Senior Product Manager, Growth | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747171002?gh_jid=8747171002) |
+| Duolingo | VP of Product, Growth and Monetization | Pittsburgh, PA | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747077002?gh_jid=8747077002) |
 | Duolingo | VP of Product, Growth and Monetization | New York, NY | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747060002?gh_jid=8747060002) |
+| Duolingo | Senior Product Manager, Growth | New York, NY | 2026-08-25 | [Apply](https://careers.duolingo.com/jobs/8747275002?gh_jid=8747275002) |
 | Bill.com | Senior Lead Product Manager -  International AP Expansion | Draper, Utah, United States; San Jose, California, United States | 2026-08-25 | [Apply](https://www.bill.com/job?6112155004&gh_jid=6112155004) |
 | Anduril | Deputy Head of Production, Altius | Ashville, Ohio, United States | 2026-08-25 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5220654007?gh_jid=5220654007) |
 | Amplitude | Principal Product Manager, AI Agents & MCP | San Francisco, CA | 2026-08-25 | [Apply](https://job-boards.greenhouse.io/amplitude/jobs/8746352002) |
 | MoneyLion | Principal Product Manager - MoneyLion Marketplace  | USA - New York, NY | 2026-08-25 | [Apply](https://jobs.ashbyhq.com/gen-digital/a3ac1eba-3ecb-4be5-be57-b719ce78055a) |
 | Sierra | Product Manager, Agent Development - Public Sector | San Francisco, CA | 2026-08-24 | [Apply](https://jobs.ashbyhq.com/sierra/cb841dfe-5d21-44ae-8496-fca6b5587ae6) |
 | Roblox | Senior Product Manager, Content Sharing | San Mateo, CA, United States | 2026-08-24 | [Apply](https://careers.roblox.com/jobs/8127058?gh_jid=8127058) |
-| Elastic | Principal Product Manager (XDR & Exposure Management) - Security Solutions | United States | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8130124&gh_jid=8130124) |
-| Elastic | Principal Product Manager (XDR & Exposure Management) - Security Solutions | Portugal | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8155329&gh_jid=8155329) |
 | Elastic | Principal Product Manager (Strategic Account Interactions) - Security Solutions | Greece | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8155418&gh_jid=8155418) |
 | Elastic | Principal Product Manager (Strategic Account Interactions) - Security Solutions | United States | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8130127&gh_jid=8130127) |
 | Elastic | Principal Product Manager (XDR & Exposure Management) - Security Solutions | Greece | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8155348&gh_jid=8155348) |
+| Elastic | Principal Product Manager (XDR & Exposure Management) - Security Solutions | Portugal | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8155329&gh_jid=8155329) |
 | Elastic | Principal Product Manager (Strategic Account Interactions) - Security Solutions | Portugal | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8155423&gh_jid=8155423) |
+| Elastic | Principal Product Manager (XDR & Exposure Management) - Security Solutions | United States | 2026-08-24 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8130124&gh_jid=8130124) |
 | DocuSign | Lead Product Manager | San Francisco, California | 2026-08-24 | [Apply](https://uscareers-docusign.icims.com/jobs/30150/login) |
-| Anduril | Mission Operations Product Manager, Group 5 Mission Autonomy | Costa Mesa, California, United States | 2026-08-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5197631007?gh_jid=5197631007) |
 | Anduril | Mission Operations Product Manager, Group 5 Mission Autonomy | Washington, District of Columbia, United States | 2026-08-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5217951007?gh_jid=5217951007) |
+| Anduril | Mission Operations Product Manager, Group 5 Mission Autonomy | Costa Mesa, California, United States | 2026-08-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5197631007?gh_jid=5197631007) |
 | Supabase | Product Manager - Strategic Partner Integrations | Remote, Bay Area, CA | 2026-08-21 | [Apply](https://jobs.ashbyhq.com/supabase/68a397e7-8a1a-4566-ae41-e8c61dd6ed93) |
 | Supabase | Product Manager - Branching | Remote, Global | 2026-08-21 | [Apply](https://jobs.ashbyhq.com/supabase/9773ea1b-e25b-437c-bdbd-3fce0c69101e) |
 | Stripe | Staff Product Manager, Billing  | SF, NY, SEA, Remote-US | 2026-08-21 | [Apply](https://stripe.com/jobs/search?gh_jid=7983725) |
@@ -97,17 +106,8 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | OpenAI | Product Manager, Youth | San Francisco | 2026-08-21 | [Apply](https://jobs.ashbyhq.com/openai/cc0d0d86-eb9d-44a0-a6a4-42bbb6066b4b) |
 | Duolingo | Senior Product Manager, DET | New York, NY | 2026-08-21 | [Apply](https://careers.duolingo.com/jobs/8737859002?gh_jid=8737859002) |
 | Coinbase | Product Manager II, Workspace and Multi-User | Remote - USA | 2026-08-21 | [Apply](https://www.coinbase.com/careers/positions/8148171?gh_jid=8148171) |
-| Anthropic | Product Manager, Business Technology | Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY | 2026-08-21 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5397737008) |
-| Axon Enterprise | Product Manager II, Axon Mobile | Ho Chi Minh City, Ho Chi Minh City, Vietnam | 2026-08-21 | [Apply](https://job-boards.greenhouse.io/axon/jobs/7923354003) |
-| Axon Enterprise | Principal Product Manager, DEMS Mobile | Ho Chi Minh City, Ho Chi Minh City, Vietnam | 2026-08-21 | [Apply](https://job-boards.greenhouse.io/axon/jobs/7923356003) |
-| Zscaler | Principal Product Manager-Sovereign Cloud | San Jose, California, USA | 2026-08-20 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5215309007) |
-| Tastytrade | Technical Product Manager, Infrastructure and Dev Ops | Chicago, IL | 2026-08-20 | [Apply](https://job-boards.greenhouse.io/tastytrade/jobs/6148628004) |
-| Sweetgreen | Sr. Product Manager, Menu & 3P | Los Angeles, CA | 2026-08-20 | [Apply](https://careers.sweetgreen.com/jobs/8146331?gh_jid=8146331) |
-| Smartsheet | VP, Product Management (Remote Eligible) | Bellevue, WA, USA | 2026-08-20 | [Apply](https://job-boards.greenhouse.io/smartsheet/jobs/8143304) |
-| Robinhood | Staff Product Manager, Banking | Menlo Park, CA; New York, NY; Washington, DC | 2026-08-20 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8044746?t=gh_src=&gh_jid=8044746) |
-| Nextdoor | Staff Product Manager, Search | US Remote | 2026-08-20 | [Apply](https://about.nextdoor.com/careers-list/?gh_jid=8142001) |
 
 ---
-*2079 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*2105 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
