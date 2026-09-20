@@ -1,6 +1,6 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-09-19 11:50 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-09-20 12:50 UTC · [Full list →](jobs.csv)
 
 Showing top 100 most recently posted Product Management jobs across 53 companies.
 
@@ -33,35 +33,34 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | Twilio | Senior Product Manager | Remote - US | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/twilio/jobs/8204150) |
 | Polymarket | Staff Product Manager, Crypto | New York | 2026-09-16 | [Apply](https://jobs.ashbyhq.com/polymarket/15446487-1397-4d4a-90da-5143a48a7d42) |
 | Nebius Group | Senior Product Manager, Enterprise | United States | 2026-09-16 | [Apply](https://careers.nebius.com/?gh_jid=4973737101) |
-| Navan | Senior Product Manager, ERP | Palo Alto, CA or San Francisco, CA | 2026-09-16 | [Apply](https://navan.com/careers/openings?gh_jid=8170883) |
 | Navan | Senior Product Manager, ERP | New York, NY | 2026-09-16 | [Apply](https://navan.com/careers/openings?gh_jid=8208181) |
+| Navan | Senior Product Manager, ERP | Palo Alto, CA or San Francisco, CA | 2026-09-16 | [Apply](https://navan.com/careers/openings?gh_jid=8170883) |
 | Lyft | Product Manager, Driver Experience - Driver Quality | New York, NY; San Francisco, CA | 2026-09-16 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8811733002?gh_jid=8811733002) |
 | Instacart | Senior Product Manager, AI Control Studio | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8198159) |
 | Instacart | Director of Product, Logistics | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8198282) |
 | Instacart |  Senior Product Manager, Order Quality | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8203107) |
 | Clear | Lead Product Manager, Mobile | New York, New York, United States | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/clear/jobs/8201083) |
+| Braze | Lead Product Manager, Banners & Content Cards | Austin | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209238) |
 | Braze | Lead Product Manager, Banners & Content Cards | New York City | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8193400) |
 | Braze | Lead Product Manager, Banners & Content Cards | Chicago | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209240) |
-| Braze | Lead Product Manager, Banners & Content Cards | Austin | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209238) |
 | Braze | Lead Product Manager, Banners & Content Cards | San Francisco | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209242) |
-| Anduril | Senior Software Product Manager, ArsenalOS Quality | Costa Mesa, California, United States | 2026-09-16 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5240451007?gh_jid=5240451007) |
 | Anduril | Senior Product Manager, Growth Platform | Costa Mesa, California, United States | 2026-09-16 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5240272007?gh_jid=5240272007) |
+| Anduril | Senior Software Product Manager, ArsenalOS Quality | Costa Mesa, California, United States | 2026-09-16 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5240451007?gh_jid=5240451007) |
 | Anduril | Staff Product Manager, Growth Platform | Costa Mesa, California, United States | 2026-09-16 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5240271007?gh_jid=5240271007) |
 | MoneyLion | LifeLock Lead Product Manager, Core Experiences & AI Assistant  | USA - Mountain View, CA | 2026-09-16 | [Apply](https://jobs.ashbyhq.com/gen-digital/689fcffc-4ee6-43f6-a9df-eeb2fe53c2ad) |
 | Kin Insurance | Director, Product Management - Platform & Customer Lifecycle | Remote | 2026-09-16 | [Apply](https://jobs.ashbyhq.com/kin/34551772-bf4b-47d8-afe9-d368b0a63ef9) |
-| PayPal | Sr. Manager, Product Management | New York, NY, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421580) |
 | ZipRecruiter | Sr. Product Manager, Messaging | Santa Monica, CA/Remote | 2026-09-15 | [Apply](https://job-boards.greenhouse.io/ziprecruiter/jobs/8205549) |
 | ZipRecruiter | Lead Product Manager, Messaging | Santa Monica, CA/Remote | 2026-09-15 | [Apply](https://job-boards.greenhouse.io/ziprecruiter/jobs/8205669) |
-| Stripe | Product Manager, Employee Experiences | N/A | 2026-09-15 | [Apply](https://stripe.com/jobs/search?gh_jid=8203423) |
 | Stripe | Product Manager - Developer Experience, Bridge | San Francisco Or New York | 2026-09-15 | [Apply](https://stripe.com/jobs/search?gh_jid=8204227) |
+| Stripe | Product Manager, Employee Experiences | N/A | 2026-09-15 | [Apply](https://stripe.com/jobs/search?gh_jid=8203423) |
 | Robinhood | Senior Product Manager, Capital Markets | Menlo Park, CA; New York, NY | 2026-09-15 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8204521?t=gh_src=&gh_jid=8204521) |
-| PayPal | Technical Product Manager Lead | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421757) |
 | PayPal | Senior Lead Product Manager | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421922) |
-| PayPal | Product Manager | New York, NY, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421650) |
 | PayPal | Sr. Lead Product Manager, Enterprise AI Accelerations | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922258164) |
-| PayPal | Sr Lead Product Manager | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421910) |
 | PayPal | Sr. Lead Product Manager, Enterprise AI Accelerations | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922258310) |
+| PayPal | Technical Product Manager Lead | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421757) |
+| PayPal | Sr Lead Product Manager | San Jose, CA, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421910) |
 | PayPal | Sr Product Manager | New York, NY, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421854) |
+| PayPal | Product Manager | New York, NY, US | 2026-09-15 | [Apply](https://paypal.eightfold.ai/careers/job/274922421650) |
 | Duolingo | Associate Product Manager, Intern | Pittsburgh, PA | 2026-09-15 | [Apply](https://careers.duolingo.com/jobs/8806187002?gh_jid=8806187002) |
 | DocuSign | Lead Product Manager - Commerce Applications | San Francisco, California | 2026-09-15 | [Apply](https://uscareers-docusign.icims.com/jobs/30343/login) |
 | Coinbase | Product Manager II, Growth - Notifications  | Remote - USA | 2026-09-15 | [Apply](https://www.coinbase.com/careers/positions/8204571?gh_jid=8204571) |
@@ -93,11 +92,11 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | MoneyLion | Principal Product Manager - MoneyLion Marketplace  | USA - New York, NY | 2026-09-11 | [Apply](https://jobs.ashbyhq.com/gen-digital/a3ac1eba-3ecb-4be5-be57-b719ce78055a) |
 | Samsara | Principal Business Technology Product Manager | Remote - US | 2026-09-10 | [Apply](https://www.samsara.com/company/careers/roles/8179538?gh_jid=8179538) |
 | Noom | Senior Product Manager, Noom Health (B2B) | New York, New York, United States; Princeton, New Jersey, United States | 2026-09-10 | [Apply](https://www.noom.com/careers/job-listings/?gh_jid=8160104) |
-| MoneyLion | Director of Product, Personalization  | USA - New York, NY | 2026-09-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/56d79925-6052-4b26-8c5e-ca6c9510f4bc) |
 | MoneyLion | Lead Product Manager, Family Safety | USA - New York, NY | 2026-09-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/7e7de18a-a983-48f7-b921-e78042412ad2) |
+| MoneyLion | Director of Product, Personalization  | USA - New York, NY | 2026-09-10 | [Apply](https://jobs.ashbyhq.com/gen-digital/56d79925-6052-4b26-8c5e-ca6c9510f4bc) |
+| Elastic | Senior Product Manager (XDR) - Security Solutions | Greece | 2026-09-10 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8194216&gh_jid=8194216) |
 | Elastic | Senior Product Manager (XDR) - Security Solutions | United States | 2026-09-10 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8167771&gh_jid=8167771) |
 | Elastic | Senior Product Manager (XDR) - Security Solutions | Greece | 2026-09-10 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8194148&gh_jid=8194148) |
-| Elastic | Senior Product Manager (XDR) - Security Solutions | Greece | 2026-09-10 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8194216&gh_jid=8194216) |
 | Elastic | Senior Product Manager (XDR) - Security Solutions | Portugal | 2026-09-10 | [Apply](https://jobs.elastic.co/jobs?gh_jid=8194128&gh_jid=8194128) |
 | Asana | Senior Product Manager, AI Agents Experience | San Francisco | 2026-09-10 | [Apply](https://www.asana.com/jobs/apply/8178264?gh_jid=8178264) |
 | Alpaca | Product Manager - Brokerage - Middle East | Remote - Global Anywhere | 2026-09-10 | [Apply](https://job-boards.greenhouse.io/alpaca/jobs/6187211004) |
@@ -106,8 +105,9 @@ Showing top 100 most recently posted Product Management jobs across 53 companies
 | Stripe | Product Manager, Connected Account Onboarding Experiences | San Francisco, New-York, Seattle | 2026-09-09 | [Apply](https://stripe.com/jobs/search?gh_jid=8186541) |
 | SpotOn | Product Manager (Owner Experiences) | Austin, TX | 2026-09-09 | [Apply](https://jobs.ashbyhq.com/spoton/acd89b4f-bef1-4219-8f6f-3461c4fce3f3) |
 | project44 | Staff Platform Product Manager, Movement | Chicago, IL  | 2026-09-09 | [Apply](https://job-boards.greenhouse.io/project44/jobs/8180327) |
+| Navan | Senior Product Manager, Payments | New York, NY | 2026-09-09 | [Apply](https://navan.com/careers/openings?gh_jid=8170880) |
 
 ---
-*2142 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*2126 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
