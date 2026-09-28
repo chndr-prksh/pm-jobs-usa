@@ -1,11 +1,12 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-09-27 12:44 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-09-28 15:30 UTC · [Full list →](jobs.csv)
 
-Showing top 100 most recently posted Product Management jobs across 60 companies.
+Showing top 100 most recently posted Product Management jobs across 61 companies.
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Thrive Market | Senior Product Manager, Enterprise Accounting Systems | Playa Vista, CA or Remote | 2026-09-27 | [Apply](https://thrivemarketjobs.com/job_posting.html?id=4422059009&gh_jid=4422059009) |
 | Squarespace | Senior Product Manager, Acuity Scheduling, Payments | New York City | 2026-09-25 | [Apply](http://www.squarespace.com/about/careers?gh_jid=8205239) |
 | Smartsheet | Group Product Manager – Corporate Systems | -REMOTE, USA- | 2026-09-25 | [Apply](https://job-boards.greenhouse.io/smartsheet/jobs/8233818) |
 | Roblox | Director of Product, Payments and Wallet | San Mateo, CA, United States | 2026-09-25 | [Apply](https://careers.roblox.com/jobs/8231864?gh_jid=8231864) |
@@ -18,15 +19,15 @@ Showing top 100 most recently posted Product Management jobs across 60 companies
 | Wealthfront | Director of Product Management, Growth | Palo Alto, CA | 2026-09-24 | [Apply](https://jobs.lever.co/wealthfront/a577f609-b61b-4c26-b0a5-e74f2004d669) |
 | Strava | Senior Product Manager, Subscription | Strava SF | 2026-09-24 | [Apply](https://jobs.ashbyhq.com/strava/e05740a1-ddc4-4241-88ec-2a36a7544f5e) |
 | Plaid | Product Manager, Sales-Assisted Growth | San Francisco HQ | 2026-09-24 | [Apply](https://jobs.ashbyhq.com/plaid/35ab341f-7831-4260-b42a-b300a46b61db) |
-| PayPal | Senior Lead Product Manager, Developer Platform | New York, NY, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526858) |
 | PayPal | Lead Technical Product Manager, PayPal Ads | San Jose, CA, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526453) |
 | PayPal | Senior Product Manager, Developer Tools & Platform | San Jose, CA, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922421537) |
+| PayPal | Senior Lead Product Manager, Developer Platform | New York, NY, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526858) |
 | Oscar Health | Staff Product Manager | Los Angeles, California, United States | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/oscar/jobs/8224082) |
 | Karat | Principal Product Manager - Interview Innovation (United States) | Remote (United States - Select States) | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/karat/jobs/8842934002) |
 | Calm | Growth Product Manager  | Remote, United States | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/calm/jobs/8815441002) |
 | Anduril | Senior DTB ERP Product Manager | Costa Mesa, California, United States | 2026-09-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5247427007?gh_jid=5247427007) |
 | Anduril | Head of Production, Maritime | Santa Ana, California, United States | 2026-09-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5248269007?gh_jid=5248269007) |
-| HelloFresh | Staff Product Manager, Growth Alliance (all genders) | New York, NY, United States | 2026-09-24 | [Apply](https://careers.hellofresh.com/global/en/job/8210452?gh_jid=8210452) |
+| HelloFresh | Staff Product Manager, Growth Onboarding(all genders) | New York, NY, United States | 2026-09-24 | [Apply](https://careers.hellofresh.com/global/en/job/8210452?gh_jid=8210452) |
 | Stripe | Staff Product Manager, Agentic Commerce | Seattle, San Francisco, New York | 2026-09-23 | [Apply](https://stripe.com/jobs/search?gh_jid=8226893) |
 | Spotify | Senior Product Manager - User Platform | London | 2026-09-23 | [Apply](https://jobs.lever.co/spotify/ee45924c-894c-4ea0-9c93-c5221894063f) |
 | Roblox | Principal Product Manager, Subscriptions | San Mateo, CA, United States | 2026-09-23 | [Apply](https://careers.roblox.com/jobs/8219433?gh_jid=8219433) |
@@ -63,8 +64,8 @@ Showing top 100 most recently posted Product Management jobs across 60 companies
 | Duolingo | Senior Product Manager, Learning | New York, NY; Pittsburgh, PA | 2026-09-21 | [Apply](https://careers.duolingo.com/jobs/8827944002?gh_jid=8827944002) |
 | Clair | Product Manager | New York | 2026-09-21 | [Apply](https://jobs.ashbyhq.com/clair/f500b0e5-5af5-4c85-98f9-516df754dcc2) |
 | Anthropic | Product Manager, Safeguards (Generalist)  | San Francisco, CA | New York City, NY | 2026-09-21 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5400720008) |
-| Anduril | Senior Software Product Manager, Strategic Defense | Washington, District of Columbia, United States | 2026-09-21 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5243820007?gh_jid=5243820007) |
 | Anduril | Senior Software Product Manager, Strategic Defense | Seattle, Washington, United States | 2026-09-21 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5243970007?gh_jid=5243970007) |
+| Anduril | Senior Software Product Manager, Strategic Defense | Washington, District of Columbia, United States | 2026-09-21 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5243820007?gh_jid=5243820007) |
 | Stripe | Staff Product Manager, Payments Intelligence | NYC, SF, Seattle, US - Remote | 2026-09-21 | [Apply](https://stripe.com/jobs/search?gh_jid=8209996) |
 | PayPal | Technical Product Manager Lead | San Jose, CA, US | 2026-09-21 | [Apply](https://paypal.eightfold.ai/careers/job/274922421757) |
 | PayPal | Senior Lead Product Manager | San Jose, CA, US | 2026-09-21 | [Apply](https://paypal.eightfold.ai/careers/job/274922421910) |
@@ -99,15 +100,14 @@ Showing top 100 most recently posted Product Management jobs across 60 companies
 | Nebius Group | Senior Product Manager, Enterprise | New York, United States | 2026-09-16 | [Apply](https://careers.nebius.com/?gh_jid=4973737101) |
 | Navan | Senior Product Manager, ERP | New York, NY | 2026-09-16 | [Apply](https://navan.com/careers/openings?gh_jid=8208181) |
 | Navan | Senior Product Manager, ERP | Palo Alto, CA or San Francisco, CA | 2026-09-16 | [Apply](https://navan.com/careers/openings?gh_jid=8170883) |
-| Instacart | Director of Product, Logistics | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8198282) |
 | Instacart |  Senior Product Manager, Order Quality | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8203107) |
+| Instacart | Director of Product, Logistics | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8198282) |
 | Instacart | Senior Product Manager, AI Control Studio | United States - Remote | 2026-09-16 | [Apply](https://instacart.careers/job/?gh_jid=8198159) |
 | Clear | Lead Product Manager, Mobile | New York, New York, United States | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/clear/jobs/8201083) |
-| Braze | Lead Product Manager, Banners & Content Cards | New York City | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8193400) |
-| Braze | Lead Product Manager, Banners & Content Cards | Austin | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209238) |
 | Braze | Lead Product Manager, Banners & Content Cards | San Francisco | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8209242) |
+| Braze | Lead Product Manager, Banners & Content Cards | New York City | 2026-09-16 | [Apply](https://job-boards.greenhouse.io/braze/jobs/8193400) |
 
 ---
-*2138 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*2121 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
