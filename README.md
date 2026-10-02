@@ -1,13 +1,30 @@
 # PM Jobs USA 🇺🇸
 
-> Auto-updated every 24h · Last refresh: 2026-10-01 14:31 UTC · [Full list →](jobs.csv)
+> Auto-updated every 24h · Last refresh: 2026-10-02 13:44 UTC · [Full list →](jobs.csv)
 
-Showing top 100 most recently posted Product Management jobs across 58 companies.
+Showing top 100 most recently posted Product Management jobs across 60 companies.
 
 | Company | Role | Location | Posted | Apply |
 |---------|------|----------|--------|-------|
+| Lemonade | Associate Insurance Product Manager, Car  | Remote | 2026-10-02 | [Apply](https://jobs.ashbyhq.com/lemonade/70be3cf8-107a-4352-bdbe-648de1040e33) |
+| Lemonade | Senior Insurance Product Manager, Car  | Remote | 2026-10-02 | [Apply](https://jobs.ashbyhq.com/lemonade/6e579892-c0f2-43a8-b80e-5411ece5e0bb) |
+| Lemonade | Insurance Product Manager, Car | Remote | 2026-10-02 | [Apply](https://jobs.ashbyhq.com/lemonade/8e911c39-caae-43d2-8908-d579a2739a0e) |
+| DolarApp | Senior Product Manager  | New York | 2026-10-02 | [Apply](https://jobs.ashbyhq.com/ARQ/b0393c4d-af0b-49ad-8ecc-8aaa579d3db0) |
+| Verkada | Director of Business Systems Product Management | San Mateo, CA United States | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/verkada/jobs/5238205007) |
+| SimpliSafe | Sr. Product Manager, Competitive Intelligence | Boston, MA | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/simplisafe/jobs/8237889) |
+| Reddit | Senior Product Manager, Notifications | Remote - United States | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/reddit/jobs/8237639) |
+| Plaid | Product Manager - Data Supply Health and Traffic | New York City Office | 2026-10-01 | [Apply](https://jobs.ashbyhq.com/plaid/058c0896-18fb-47a5-8b34-2f1a78623312) |
+| Okta | Senior Product Manager - Okta Identity Governance | Bellevue, Washington; Chicago, Illinois; New York, New York; San Francisco, California; Seattle, Washington; Washington, DC | 2026-10-01 | [Apply](https://www.okta.com/company/careers/opportunity/8213755?gh_jid=8213755) |
+| Maven Clinic | Product Manager, Care Delivery | San Francisco, CA; Remote, US | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/mavenclinic/jobs/8860743002) |
+| Lyft | Senior Product Manager, Verticals | San Francisco, CA | 2026-10-01 | [Apply](https://app.careerpuck.com/job-board/lyft/job/8860904002?gh_jid=8860904002) |
+| Hims & Hers | Product Manager, Platform | US Remote | 2026-10-01 | [Apply](https://jobs.ashbyhq.com/hims-and-hers/5059c6a4-0c1b-4937-bc7e-cf2f91d9990a) |
+| Coinbase | Group Product Manager, Customer Engagement & Experience | Remote - USA | 2026-10-01 | [Apply](https://www.coinbase.com/careers/positions/8247881?gh_jid=8247881) |
+| Attentive | Product Management Intern, Agentic Integrations | United States | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/attentive/jobs/4429880009) |
+| Affirm | Staff Product Manager, Credit & Pricing | Remote US | 2026-10-01 | [Apply](https://job-boards.greenhouse.io/affirm/jobs/8006357003) |
 | Fivetran | Sr. Staff Technical Product Manager – Customer Support | Novi Sad, South Bačka, Serbia, EMEA | 2026-10-01 | [Apply](https://www.fivetran.com/careers/job?gh_jid=7818224003) |
-| Cloudflare | Senior Product Manager, Product Design | Hybrid | 2026-10-01 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8239323?gh_jid=8239323) |
+| Cloudflare | Senior Product Manager, Integrity & Trust Experience | Hybrid | 2026-10-01 | [Apply](https://boards.greenhouse.io/cloudflare/jobs/8239323?gh_jid=8239323) |
+| PayPal | Senior Lead Product Manager, Identity | San Jose, CA, US | 2026-10-01 | [Apply](https://paypal.eightfold.ai/careers/job/274922421910) |
+| LangChain | Product Manager, LangSmith | San Francisco, CA | 2026-10-01 | [Apply](https://jobs.ashbyhq.com/langchain/27af5f96-b287-4bcc-8679-f96686dc7c8d) |
 | Zscaler | Staff Product Manager - Data Protection | Remote - USA; San Jose, California, USA | 2026-09-30 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5253726007) |
 | Toast | Principal Product Manager, Enterprise | Remote, US | 2026-09-30 | [Apply](https://careers.toasttab.com/jobs?gh_jid=8134382) |
 | Toast | Principal Product Manager, Vision AI | Costa Mesa, California | 2026-09-30 | [Apply](https://careers.toasttab.com/jobs?gh_jid=8223698) |
@@ -20,8 +37,8 @@ Showing top 100 most recently posted Product Management jobs across 58 companies
 | Anduril | Product Manager, Electromagnetic Warfare | Costa Mesa, California, United States | 2026-09-30 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5252418007?gh_jid=5252418007) |
 | Iterable | Product Manager | Hybrid - Lisbon, Portugal | 2026-09-30 | [Apply](https://job-boards.greenhouse.io/iterable/jobs/8209793) |
 | Upstart | Principal Product Manager, Cash Line | United States | Remote | 2026-09-29 | [Apply](https://careers.upstart.com/jobs?gh_jid=8240708) |
-| SoFi | Principal Product Manager | CA - San Francisco; NY - New York City; WA - Seattle | 2026-09-29 | [Apply](https://sofi.com/careers/job/8008432003?gh_jid=8008432003) |
 | SoFi | Senior Product Manager | CA - San Francisco; NY - New York City; WA- Seattle | 2026-09-29 | [Apply](https://sofi.com/careers/job/8008387003?gh_jid=8008387003) |
+| SoFi | Principal Product Manager | CA - San Francisco; NY - New York City; WA - Seattle | 2026-09-29 | [Apply](https://sofi.com/careers/job/8008432003?gh_jid=8008432003) |
 | Samsara | Principal Product Manager, Monetization Platform | Remote - US | 2026-09-29 | [Apply](https://www.samsara.com/company/careers/roles/8239916?gh_jid=8239916) |
 | project44 | Senior Staff Product Manager | Chicago, IL  | 2026-09-29 | [Apply](https://job-boards.greenhouse.io/project44/jobs/8236845) |
 | Plaid | Product Manager, Privacy & Data Governance | San Francisco HQ | 2026-09-29 | [Apply](https://jobs.ashbyhq.com/plaid/60597a34-79d5-45ac-a0c8-b3340fa88b95) |
@@ -53,8 +70,8 @@ Showing top 100 most recently posted Product Management jobs across 58 companies
 | Strava | Senior Product Manager, Subscription | Strava SF | 2026-09-24 | [Apply](https://jobs.ashbyhq.com/strava/e05740a1-ddc4-4241-88ec-2a36a7544f5e) |
 | Plaid | Product Manager, Sales-Assisted Growth | San Francisco HQ | 2026-09-24 | [Apply](https://jobs.ashbyhq.com/plaid/35ab341f-7831-4260-b42a-b300a46b61db) |
 | PayPal | Senior Product Manager, Developer Tools & Platform | San Jose, CA, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922421537) |
-| PayPal | Lead Technical Product Manager, PayPal Ads | San Jose, CA, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526453) |
 | PayPal | Senior Lead Product Manager, Developer Platform | New York, NY, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526858) |
+| PayPal | Lead Technical Product Manager, PayPal Ads | San Jose, CA, US | 2026-09-24 | [Apply](https://paypal.eightfold.ai/careers/job/274922526453) |
 | Oscar Health | Staff Product Manager | Los Angeles, California, United States | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/oscar/jobs/8224082) |
 | Karat | Principal Product Manager - Interview Innovation (United States) | Remote (United States - Select States) | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/karat/jobs/8842934002) |
 | Calm | Growth Product Manager  | Remote, United States | 2026-09-24 | [Apply](https://job-boards.greenhouse.io/calm/jobs/8815441002) |
@@ -62,7 +79,7 @@ Showing top 100 most recently posted Product Management jobs across 58 companies
 | Anduril | Senior DTB ERP Product Manager | Costa Mesa, California, United States | 2026-09-24 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5247427007?gh_jid=5247427007) |
 | HelloFresh | Staff Product Manager, Growth Onboarding | New York, NY, United States | 2026-09-24 | [Apply](https://careers.hellofresh.com/global/en/job/8210452?gh_jid=8210452) |
 | Stripe | Staff Product Manager, Agentic Commerce | Seattle, San Francisco, New York | 2026-09-23 | [Apply](https://stripe.com/jobs/search?gh_jid=8226893) |
-| Roblox | Principal Product Manager, Subscriptions | San Mateo, CA, United States | 2026-09-23 | [Apply](https://careers.roblox.com/jobs/8219433?gh_jid=8219433) |
+| Roblox | Principal Product Manager, Subscriptions and Revenue Growth | San Mateo, CA, United States | 2026-09-23 | [Apply](https://careers.roblox.com/jobs/8219433?gh_jid=8219433) |
 | Gusto | Principal Product Manager, AI Assistant | Denver, CO - Hybrid; New York, NY - Hybrid; San Francisco, CA - Hybrid | 2026-09-23 | [Apply](https://job-boards.greenhouse.io/gusto/jobs/8167750) |
 | Grow Therapy | Staff Product Manager, New Models & Markets | New York City | 2026-09-23 | [Apply](https://jobs.ashbyhq.com/grow-therapy/422e745c-8f62-4c64-b493-d6e334338cca) |
 | Dropbox | Product Manager | Remote - US: Select locations | 2026-09-23 | [Apply](https://jobs.dropbox.com/listing/8220575?gh_jid=8220575) |
@@ -83,31 +100,14 @@ Showing top 100 most recently posted Product Management jobs across 58 companies
 | OpenAI | Rosalind Life Sciences Product Manager | San Francisco | 2026-09-22 | [Apply](https://jobs.ashbyhq.com/openai/2b5c3a30-8e8b-4845-be40-0617b0c9fd43) |
 | MoneyLion | Principal Product Manager - MoneyLion Marketplace  | USA - New York, NY | 2026-09-22 | [Apply](https://jobs.ashbyhq.com/gen-digital/863d1612-718a-4431-8417-e794ed5db6df) |
 | Mixpanel | Product Manager | San Francisco, US (Hybrid) | 2026-09-22 | [Apply](https://job-boards.greenhouse.io/mixpanel/jobs/8223567) |
-| Chime | Product Manager ,Trust and Safety | Chicago, IL, USA; San Francisco, CA, USA | 2026-09-22 | [Apply](https://boards.greenhouse.io/chime/jobs/8831472002?gh_jid=8831472002) |
+| Chime | Product Manager, Trust and Safety | Chicago, IL, USA; San Francisco, CA, USA | 2026-09-22 | [Apply](https://boards.greenhouse.io/chime/jobs/8831472002?gh_jid=8831472002) |
 | Anduril | Software Product Manager | Costa Mesa, California, United States | 2026-09-22 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5236529007?gh_jid=5236529007) |
-| Plaid | Product Manager, Link Growth [Consumer] | San Francisco HQ | 2026-09-22 | [Apply](https://jobs.ashbyhq.com/plaid/34c110d6-61f0-4f51-bbd0-06eb74af00f7) |
 | Plaid | Product Manager, Plaid Account [Consumer] | San Francisco HQ | 2026-09-22 | [Apply](https://jobs.ashbyhq.com/plaid/039c0c35-7244-470c-9b49-5ecfcf150f40) |
+| Plaid | Product Manager, Link Growth [Consumer] | San Francisco HQ | 2026-09-22 | [Apply](https://jobs.ashbyhq.com/plaid/34c110d6-61f0-4f51-bbd0-06eb74af00f7) |
 | Roblox | Senior/Principal Product Manager, Video Generation (Roblox Reality)  | San Mateo, CA, United States | 2026-09-21 | [Apply](https://careers.roblox.com/jobs/8180420?gh_jid=8180420) |
 | Rivian | MBA Intern - Product Management Product Development (Spring 2027 Co-Op) | Palo Alto, California | 2026-09-21 | [Apply](https://us-careers-rivian.icims.com/jobs/33793/login) |
-| OpenAI | Product Manager, Enterprise Identity  | San Francisco | 2026-09-21 | [Apply](https://jobs.ashbyhq.com/openai/83f6d415-9462-4afc-a539-ca8d996e011a) |
-| Faire | Staff Product Manager, Search Ranking | New York City, NY; San Francisco, CA | 2026-09-21 | [Apply](https://boards.greenhouse.io/faire/jobs/8829614002?gh_jid=8829614002) |
-| Duolingo | Senior Product Manager, Learning | New York, NY; Pittsburgh, PA | 2026-09-21 | [Apply](https://careers.duolingo.com/jobs/8827944002?gh_jid=8827944002) |
-| Clair | Product Manager | New York | 2026-09-21 | [Apply](https://jobs.ashbyhq.com/clair/f500b0e5-5af5-4c85-98f9-516df754dcc2) |
-| Anthropic | Product Manager, Safeguards (Generalist)  | San Francisco, CA | New York City, NY | 2026-09-21 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5400720008) |
-| Anduril | Senior Software Product Manager, Strategic Defense | Washington, District of Columbia, United States | 2026-09-21 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5243820007?gh_jid=5243820007) |
-| Anduril | Senior Software Product Manager, Strategic Defense | Seattle, Washington, United States | 2026-09-21 | [Apply](https://boards.greenhouse.io/andurilindustries/jobs/5243970007?gh_jid=5243970007) |
-| Stripe | Staff Product Manager, Payments Intelligence | NYC, SF, Seattle, US - Remote | 2026-09-21 | [Apply](https://stripe.com/jobs/search?gh_jid=8209996) |
-| PayPal | Technical Product Manager Lead | San Jose, CA, US | 2026-09-21 | [Apply](https://paypal.eightfold.ai/careers/job/274922421757) |
-| PayPal | Senior Lead Product Manager | San Jose, CA, US | 2026-09-21 | [Apply](https://paypal.eightfold.ai/careers/job/274922421910) |
-| Plaid | Product Manager, Growth | New York City Office | 2026-09-21 | [Apply](https://jobs.ashbyhq.com/plaid/542d46b1-1032-49c8-b96f-806ace7b3a8b) |
-| Plaid | Product Manager, Financial Management | New York City Office | 2026-09-21 | [Apply](https://jobs.ashbyhq.com/plaid/8b5aa324-bbb5-472b-8536-76b705c80829) |
-| Anthropic | Product Manager, Safeguards (Account Integrity & Abuse)  | San Francisco, CA | New York City, NY | 2026-09-19 | [Apply](https://job-boards.greenhouse.io/anthropic/jobs/5413576008) |
-| Zscaler | Principal Product Manager | Remote - USA | 2026-09-18 | [Apply](https://job-boards.greenhouse.io/zscaler/jobs/5236312007) |
-| Robinhood | Staff Product Manager - Prediction Markets | Menlo Park, CA; New York, NY | 2026-09-18 | [Apply](https://boards.greenhouse.io/robinhood/jobs/8164459?t=gh_src=&gh_jid=8164459) |
-| Reddit | Senior Product Manager, Go-To-Market Systems  | Chicago, IL; Los Angeles, CA; New York City, NY; San Francisco, CA | 2026-09-18 | [Apply](https://job-boards.greenhouse.io/reddit/jobs/8212175) |
-| Neue Health (Bright Health) | Senior AI Product Manager | Remote | 2026-09-18 | [Apply](https://job-boards.greenhouse.io/neuehealth/jobs/6190730004) |
 
 ---
-*2120 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
+*2146 total active PM jobs tracked. Download [jobs.csv](jobs.csv) for the full dataset.*
 
 **Want to contribute a company?** Open an issue with the company name and their careers page URL.
